@@ -1,0 +1,273 @@
+/* blue = rgb(40, 77, 146) */
+/* red = rgb(178, 8, 55) */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/college-hall.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+.wrapper {
+    min-height: calc(100vh - 155px);
+}
+
+/*Top Navbar*/
+
+#top-nav {
+    background-color: #efefef;
+    border-bottom: 3px solid rgb(40, 77, 146);
+    box-shadow: 3px 3px 6px black;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.navbar-toggler {
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: rgb(40, 77, 146);
+}
+
+.nav-link:hover {
+    color: rgb(40, 123, 146);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dropdown-menu {
+    font-size: 14px;
+    background-color: #efefef;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        border-bottom: 3px solid rgb(40, 77, 146);
+        border-left: 3px solid rgb(40, 77, 146);
+        border-right: 3px solid rgb(40, 77, 146);
+        border-top: 0;
+        box-shadow: 3px 3px 4px black;
+        margin-top: 10.5px;
+        margin-left: -18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu {
+        border: 0;
+    }
+
+    .dropdown-item {
+        margin-bottom: 10px;
+    }
+}
+
+.dropdown-item {
+    color: rgb(40, 77, 146);
+}
+
+.dropdown-item:hover {
+    background-color: #efefef;
+    color: rgb(40, 123, 146);
+}
+
+/* Page Title */
+
+.jumbotron {
+    margin-top: 60px;
+    background-color: transparent;
+}
+
+h1 {
+    color: white;
+    margin-left: -10px;
+    text-shadow: 3px 3px 6px black;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* Main Page Content */
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    font-family: 'Oswald', sans-serif;
+    color: rgb(40, 77, 146);
+}
+
+hr {
+    color: rgb(40, 77, 146);
+    background: rgb(40, 77, 146);
+    height: 3px;
+    border-radius: 1px;
+    margin-right: 30px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    margin-left: 100%;
+}
+
+.main-content {
+    background-color: rgba(245, 245, 245, 0.9);
+
+    border: 3px solid rgba(40,76,146,1);
+    border-radius: 3px;
+
+    -moz-border-image: -moz-linear-gradient(top, rgba(40,76,146,1) 0%, rgba(178,8,55,1) 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, rgba(40,76,146,1) 0%, rgba(178,8,55,1) 100%);
+    border-image: linear-gradient(to bottom, rgba(40,76,146,1) 0%, rgba(178,8,55,1) 100%);
+
+    border-image-slice: 1;
+
+    box-shadow: 3px 3px 6px black;
+
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-content a {
+    color: rgb(178, 8, 55);
+}
+
+.plain-content-box {
+    border-image: none;
+    border-color: rgb(40, 77, 146);
+}
+
+.announcement {
+    padding-top: 20px;
+}
+
+/* Bottom Navbar */
+
+#bottom-nav {
+    z-index: 100;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-top: 3px solid rgb(178, 8, 55);
+    margin-top: 30px;
+    min-height: 120px;
+}
+
+#bottom-nav > * > * > * {
+    padding-top: 10px;
+}
+
+.navbar-bottom {
+    text-align: center;
+    color: #787878;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media .fa {
+    color: rgb(178, 8, 55);
+}
+
+.about-soup a {
+    color: rgb(178, 8, 55);
+    text-decoration: none;
+}
+
+.about-soup a:hover,.about-soup a:focus {
+    color: rgb(246, 60, 113);
+}
+
+#penn-eng {
+    height: 70px;
+}
+
+/*Announcements*/
+h3 {
+    color: rgb(40, 77, 146);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+    display: block;
+}
+
+h5 {
+    color: rgb(178, 8, 55);
+    padding-top: 5px;
+    font-size: 18px;
+    display: block;
+}
+
+.announce {
+    margin-top: 10px;
+}
+
+/*Gridder shit*/
+
+.gridder-list {
+    margin-right: 100px;
+}
+
+.inner-jawn {
+    width: 300px;
+}
+
+/* Tournament Details */
+
+.alt-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.uncreative-class-name {
+    max-width: 160px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(178, 8, 55);
+    margin-bottom: 20px;
+}
+
+.jawn {
+    text-align: center;
+}
+
+.second-header {
+    margin-top: 40px;
+}
+
+/* Lists */
+
+.bullets li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.bullets li:hover {
+  background: #eee;
+}
+
+ul {
+  list-style-type: none;  padding: 0;
+}
