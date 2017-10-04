@@ -106,11 +106,17 @@ h1 {
 /* Main Page Content */
 
 h2 {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 25px;
 
     font-family: 'Oswald', sans-serif;
     color: $blue;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.7rem;
 }
 
 hr {
@@ -138,16 +144,20 @@ hr {
 
     box-shadow: 3px 3px 6px black;
 
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
     margin-bottom: 70px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.main-content a {
+p a {
+    color: $red;
+}
+
+ul a {
     color: $red;
 }
 
@@ -272,5 +282,26 @@ h4 {
 }
 
 ul {
-  list-style-type: none;  padding: 0;
+  list-style-type: none;  
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn, .btn:focus {
+    background: $blue;
+    color: white;
+    border-radius: 0;
+    margin: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.btn:hover {
+    background: $alt-blue;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+}
+
+.italics {
+    font-style: italic;
 }

@@ -5,3 +5,4 @@ baseurl: /soup-website
 
 sass: 
   sass_dir: css
+  style: compressed
