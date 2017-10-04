@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
+	<head>
+		{% include head.html %}
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    </head>
     <body>
-        {% include header.html %}
-        {{ content }}
+    	<div class='wrapper'>
+    		{% include header.html %}
+    		<p> {{ page.title }} </p>
+        	{{ content }}
+    	</div>
         {% include footer.html %}
         {% include foot.html %}
     </body>

@@ -4,38 +4,38 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fa fa-bars fa-lg"></i></span>
     </button>
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/img/logo-long.png" height="30" width="85" alt="">
     </a>
 
     <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/announcements">Announcements</a>
+                <a class="nav-link" href="{{ site.baseurl }}/announcements">Announcements</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/register">Register</a>
+                <a class="nav-link" href="{{ site.baseurl }}/register">Register</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarArchivesToggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tournament</a>
                 <div class="dropdown-menu" aria-labelledby="navbarArchivesToggle">
-                    <a class="dropdown-item" href="/details">Tournament Features</a>
-                    <a class="dropdown-item" href="/policies">Tournament Policies</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/details">Tournament Features</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/policies">Tournament Policies</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/hotels">Planning Your Stay</a>
+                <a class="nav-link" href="{{ site.baseurl }}/accommodations">Planning Your Stay</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/archive">Archive</a>
+                <a class="nav-link" href="{{ site.baseurl }}/archive">Archive</a>
             </li>
         </ul>
         <ul class="nav navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/other">Other Initiatives</a>
+                <a class="nav-link" href="{{ site.baseurl }}/other">Other Initiatives</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
+                <a class="nav-link" href="{{ site.baseurl }}/contact">Contact</a>
             </li>
         </ul>
     </div>
