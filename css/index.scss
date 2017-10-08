@@ -65,21 +65,15 @@ p {
     text-align: center;
 }
 
-.navbar {
-    background-color: rgba(0, 0, 0, .5);
-}
 
 .nav-link {
     color: white;
-}
-
-.dropdown-menu {
-    background-color: rgba(0, 0, 0, .5);
-
+    text-shadow: 2px 2px 4px black;
 }
 
 .dropdown-item {
     color: white;
+
 }
 
 @media (min-width: 992px) {
