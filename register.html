@@ -23,7 +23,7 @@ permalink: /register/
         <script type="text/javascript">var submitted=false;</script>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {removeForm();}"></iframe>
         <form action="https://docs.google.com/a/seas.upenn.edu/forms/d/e/1FAIpQLSeogXcyqdZqAsd8SoKPmKhH2TP7csEz6mlygO1Ymnl4gT_DpQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
-            <ul class="form-style-1">
+            <ul class="form-style">
                 <li>
                     <label for="team-name">School Name <span class="required">*</span></label>
                     <input name="entry.562135128" type="text" class="field-long" id="team-name" required>
@@ -59,22 +59,28 @@ permalink: /register/
         Payment must be received within 6 weeks of registration date to secure your spot. For teams that preregistered, you have six weeks from the start of registration. If your team is on the waitlist, there is no need to submit payment until we've informed you that we'll be able to grant you a spot in the competition. Registration fees are $60 for first team, and $50 for each additional team.
     </p>
     <p>
-        To pay via credit card, begin by selecting the appropriate number of teams, filling out your team name, and clicking the Buy Now button. This will take you to our PayPal portal, where you can pay either using a credit card or a PayPal account.
+        To pay via credit card, begin by selecting the appropriate number of teams, filling out your team name, and clicking the Pay Now button. This will take you to our PayPal portal, where you can pay either using a credit card or a PayPal account.
     </p>
     <div class="form">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="P27DXRK5UQ39C">
-            <table>
-            <tr><td><input type="hidden" name="on0" value="Number of Teams">Number of Teams</td></tr><tr><td><select name="os0">
-                <option value="1 Team">1 Team $60.00 USD</option>
-                <option value="2 Teams">2 Teams $110.00 USD</option>
-                <option value="3 Teams">3 Teams $160.00 USD</option>
-            </select> </td></tr>
-            <tr><td><input type="hidden" name="on1" value="School Name">School Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-            </table>
+            <ul class="form-style">
+                <li>
+                    <input type="hidden" name="on0" value="Number of Teams"><label>Number of Teams</label>
+                    <select name="os0" class="field-select">
+                        <option value="1 Team">1 Team $60.00 USD</option>
+                        <option value="2 Teams">2 Teams $110.00 USD</option>
+                        <option value="3 Teams">3 Teams $160.00 USD</option>
+                    </select>
+                </li>
+                <li>
+                    <input type="hidden" name="on1" value="School Name"><label>School Name</label>
+                    <input type="text" name="os1" class="field-long" maxlength="200">
+                </li>
+            </ul>
             <input type="hidden" name="currency_code" value="USD">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" id="pay-now" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
     </div>

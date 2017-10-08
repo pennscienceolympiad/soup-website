@@ -9,7 +9,7 @@
         $('.mini-header').each(function() {
             var $header = $(this).find('span');
             console.log($(this).width())
-            if ($(this).width() - $header.width() > 100) {
+            if ($(this).width() - $header.width() > 200) {
                 $(this).find('hr').css('margin-left', $header.width() + 10);
             }
         });
