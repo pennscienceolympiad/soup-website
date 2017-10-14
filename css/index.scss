@@ -65,15 +65,21 @@ p {
     text-align: center;
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 .nav-link {
     color: white;
     text-shadow: 2px 2px 4px black;
 }
 
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
 .dropdown-item {
     color: white;
-
 }
 
 @media (min-width: 992px) {
@@ -132,14 +138,14 @@ a:focus {
 }
 
 .main-content {
-    background-color: rgba(245, 245, 245, 0.9);
+    background-color: $trans-off-white;
 
     border: 3px solid $blue;
     border-radius: 3px;
 
-    -moz-border-image: -moz-linear-gradient(top, rgba(40,76,146,1) 0%, rgba(178,8,55,1) 100%);
-    -webkit-border-image: -webkit-linear-gradient(top, rgba(40,76,146,1) 0%, rgba(178,8,55,1) 100%);
-    border-image: linear-gradient(to bottom, rgba(40,76,146,1) 0%, rgba(178,8,55,1) 100%);
+    -moz-border-image: -moz-linear-gradient(top, $blue 0%, $red 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, $blue 0%, $red 100%);
+    border-image: linear-gradient(to bottom, $blue 0%, $red 100%);
 
     border-image-slice: 1;
 
