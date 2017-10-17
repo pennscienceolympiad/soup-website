@@ -1,7 +1,9 @@
 title: Science Olympiad at the University of Pennsylvania
 
-url: https://jpoweseas.github.io
-baseurl: /soup-website
+github_username:  jpoweseas
+
+url: ""
+baseurl: ""
 
 sass: 
   sass_dir: css
