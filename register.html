@@ -1,0 +1,105 @@
+---
+title: Registration
+layout: pagecontent
+permalink: /register/
+---
+
+<div class="main-content">
+    <div class="mini-header">
+        <h2><span>Register for our Waitlist</span></h2>
+        <hr>
+    </div>
+    <p>
+        Registration is officially over: 52 teams have signed up for our tournament! If you'd like to be on the waitlist, fill out the form below. If a team drops their spot, we will then offer spots in the order of the list.
+    </p>
+    <div id="pre-registration-form">
+        <script type="text/javascript">
+            function removeForm() {
+                var $formdiv = $('#pre-registration-form');
+                $formdiv.empty();
+                $formdiv.append('<h4>Thanks for registering! We will contact you via email shortly.</h4>');
+            }
+        </script>
+        <script type="text/javascript">var submitted=false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {removeForm();}"></iframe>
+        <form action="https://docs.google.com/a/seas.upenn.edu/forms/d/e/1FAIpQLSeogXcyqdZqAsd8SoKPmKhH2TP7csEz6mlygO1Ymnl4gT_DpQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+            <ul class="form-style">
+                <li>
+                    <label for="team-name">School Name <span class="required">*</span></label>
+                    <input name="entry.562135128" type="text" class="field-long" id="team-name" required>
+                </li>
+                <li>
+                    <label for="contact-email">Coach Name <span class="required">*</span></label>
+                    <input name="entry.1768451892" type="text" class="field-long" id="contact-email" required>
+                </li>
+                <li>
+                    <label for="contact-email">Contact Email <span class="required">*</span></label>
+                    <input name="entry.999500240" type="text" class="field-long" id="contact-email" required>
+                </li>
+                <li>
+                    <label>How many teams would you like to register? <span class="required">*</span></label>
+                    <select name="entry.409798835" class="field-select" required>
+                        <option selected disabled>Choose</option>
+                        <option value="1 Team">1 Team</option>
+                        <option value="2 Teams">2 Teams</option>
+                        <option value="3 Teams">3 Teams</option>
+                    </select>
+                </li>
+                <li id="register-submit">
+                    <input class="btn" type="submit" value="SUBMIT">
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="mini-header">
+        <h2><span>Payment</span></h2>
+        <hr>
+    </div>
+    <p>
+        Payment must be received within 6 weeks of registration date to secure your spot. For teams that preregistered, you have six weeks from the start of registration. If your team is on the waitlist, there is no need to submit payment until we've informed you that we'll be able to grant you a spot in the competition. Registration fees are $60 for first team, and $50 for each additional team.
+    </p>
+    <p>
+        To pay via credit card, begin by selecting the appropriate number of teams, filling out your team name, and clicking the Pay Now button. This will take you to our PayPal portal, where you can pay either using a credit card or a PayPal account.
+    </p>
+    <div class="form">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="P27DXRK5UQ39C">
+            <ul class="form-style">
+                <li>
+                    <input type="hidden" name="on0" value="Number of Teams"><label>Number of Teams</label>
+                    <select name="os0" class="field-select">
+                        <option value="1 Team">1 Team $60.00 USD</option>
+                        <option value="2 Teams">2 Teams $110.00 USD</option>
+                        <option value="3 Teams">3 Teams $160.00 USD</option>
+                    </select>
+                </li>
+                <li>
+                    <input type="hidden" name="on1" value="School Name"><label>School Name</label>
+                    <input type="text" name="os1" class="field-long" maxlength="200">
+                </li>
+            </ul>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" id="pay-now" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>
+    <p>
+        Alternatively, you can pay by check with the following information:
+    </p>
+    <blockquote>
+        <strong>Made out to:</strong> Trustees of the University of Pennsylvania<br>
+        <strong>Memo:</strong> Science Olympiad<br>
+        <strong>Mailing To:</strong> Kai Wang<br>
+        <strong>Mailing Address:</strong> 101 S 39th Street; Apartment E302; Philadelphia, PA; 19104<br>
+    </blockquote>
+    <p>
+        If you would like an invoice for your registration, you can download one of the following invoice templates:
+    </p>
+    <div style="text-align:center">
+        <a class="btn" href="{{ site.baseurl }}/docs/SOUP2018+Invoice-Template-1Team.docx" role="button">1 TEAM</a>
+        <a class="btn" href="{{ site.baseurl }}/docs/SOUP2018+Invoice-Template-2Teams.docx" role="button">2 TEAMS</a>
+        <a class="btn" href="{{ site.baseurl }}/docs/SOUP2018+Invoice-Template-3Teams.docx" role="button">3 TEAMS</a>
+    </div>
+</div>
+</div>

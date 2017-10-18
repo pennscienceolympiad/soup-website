@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+<title>Science Olympiad at Penn</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<meta name="keywords" content="Science,Olympiad,Invitational,Penn,University,of,Pennsylvania,SOUP,Invite">
+<meta name="author" content="John Powell">
+
+<!-- Import Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:300,500,600,700' rel='stylesheet' type='text/css'>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+<link rel="icon" type="image/png" href="/soup-website/img/logo-square-shadow.png"/>
+		<link rel="stylesheet" href="/soup-website/css/index.css">
+    </head>
+    <body>
+        <!-- Responsive Top Navbar -->
+<div class="navbar navbar-toggleable-md fixed-top" id="top-nav">
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars fa-lg"></i></span>
+    </button>
+    <a class="navbar-brand" href="/soup-website/">
+        <img src="/soup-website/img/soup-logo-long.png" height="30" width="85" alt="">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/soup-website/register">Register</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarArchivesToggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tournament</a>
+                <div class="dropdown-menu" aria-labelledby="navbarArchivesToggle">
+                    <a class="dropdown-item" href="/soup-website/details">Tournament Features</a>
+                    <a class="dropdown-item" href="/soup-website/policies">Tournament Policies</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/soup-website/accommodations">Planning Your Stay</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/soup-website/archive">Archive</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/soup-website/mentoring">Mentoring</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/soup-website/sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/soup-website/contact">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</div>
+        <div id="floater"></div>
+
+<div id="front-media">
+    <h5 class="front-text">Science Olympiad at Penn is proud to announce...</h5>
+    <h1 class="front-text">The 2nd Penn Invitational</h1>
+    <h3 class="front-text">Coming February 17, 2018</h3>
+    <p>
+        <a class="btn" href="/soup-website/details/" role="button">LEARN MORE</a>
+        <a class="btn" href="/soup-website/register/" role="button">REGISTER</a>
+    </p>
+</div>
+        <!-- jQuery, Tether, Bootstrap js, Font Awesome -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/64209e1097.js"></script>
+<script>
+    // Sets the hr margins to begin just after the section headers end
+    $(document).ready(function(){
+        $('.mini-header').each(function() {
+            var $header = $(this).find('span');
+            console.log($(this).width())
+            if ($(this).width() - $header.width() > 200) {
+                $(this).find('hr').css('margin-left', $header.width() + 10);
+            }
+        });
+    });
+</script>
+    </body>
+</html>
