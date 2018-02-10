@@ -1,0 +1,56 @@
+---
+title: Event Information
+layout: pagecontent
+permalink: /events/
+---
+
+<div class="main-content plain-content-box">
+    <div class="mini-header">
+        <h2><span>Event Information</span></h2>
+        <hr>
+    </div>
+    <p>
+        You can find all event-related information here, including room locations, event supervisor details, and any specific event related announcements. Click on an event name to view its details.
+    </p>
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+        {% for event_obj in site.data.events %}
+        {% assign title = event_obj[0] %}
+        {% assign event = event_obj[1] %}
+            <div class="card">
+                <div class="card-header" role="tab" id="heading{{ forloop.index }}">
+                    <h5>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}" class="event-name" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+                            {{ title }}
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse{{ forloop.index }}" class="collapse" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+                    <div class="event-desc">
+                        {% if event.image %}
+                            <img src="{{ site.baseurl }}/img/{{ event.image }}" class="prof-pic img-thumbnail">
+                        {% endif %}
+
+                        <p><strong>Event Supervisor:</strong> {{ event.name }}</p>
+                        {% if event.bio %}
+                            <p><i>{{ event.bio }}</i></p>
+                        {% endif %}
+
+                        <p>
+                            <strong>Event Room:</strong> 
+                            {% if event.room %}
+                                {{ event.room }}
+                            {% else %}
+                                TBD
+                            {% endif %}
+                        </p>
+                        {% if event.info %}
+                            <p>
+                                <strong>Additional Information:</strong> {{ event.info }}
+                            </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

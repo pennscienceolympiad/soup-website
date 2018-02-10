@@ -1,0 +1,140 @@
+{
+	"Anatomy" : {
+		"name" : "Eric Liu",
+		"bio" : "Eric Liu (SEAS ’21) is a freshman from West Windsor, New Jersey pursuing a major in CBE. In addition to SOUP, Eric is a Rachleff Research Scholar, member of Penn BioTech Society, and on the Engineering Dean's Advisory Board. In his free time, he enjoys playing the ukulele, going on walks along Schuylkill River, and power napping.",
+		"room" : "Towne 337"
+	},
+
+	"Astronomy" : {
+		"name" : "John Powell",
+		"bio" : "Hi all! I'm a sophomore studing mathematics and computer science. I competed in Division C with Harriton High School for four years, where I loved working on Astronomy, physics events, and loved to hate on Game On. Now that I've graduated, I am the physics chair for SOUP as well as an event assistant with NSO Astronomy. Looking forward to seeing you all in February!",
+		"image" : "prof-john.jpg",
+		"room" : "Towne 337"
+	},
+
+	"Chemistry Lab" : {
+		"name" : "Gideon Haber",
+		"bio" : "My name is Gideon Haber, and I am a senior in the Vagelos MLS program majoring in biochemistry and physics. Before coming to Penn, I competed on the Harriton Science Olympiad team; some of my favorite events included anatomy and physiology, forensics, rocks and minerals, and chemistry lab. Outside of Science Olympiad I am involved in the West Philly Tutoring Program and I work in a quantum chemistry lab. I also serve on the executive board of APO, a community service based fraternity. I enjoy watching TV, playing tennis, and sleeping.",
+		"image" : "prof-gideon.jpeg",
+		"room" : "Chem 053"
+	},
+
+	"Disease Detectives" : {
+		"name" : "Jamie Song",
+		"room" : "Towne 100"
+	},
+
+	"Dynamic Planet" : {
+		"name" : "Alexander Belanger",
+		"image" : "prof-alex.jpg",
+		"room" : "DRLB A2"
+	},
+
+	"Ecology" : {
+		"name" : "David Yang",
+		"room" : "DRLB A1"
+	},
+
+	"Experimental Design" : {
+		"name" : "Jessica Wang",
+		"room" : "DRLB A1"
+	},
+
+	"Fermi Questions" : {
+		"name" : "Drew Briskin",
+		"room" : "DRLB A2"
+	},
+
+	"Forensics" : {
+		"name" : "Manlu Liu",
+		"room" : "Chem 054"
+	},
+
+	"Game On" : {
+		"name" : "Emily Augustine",
+		"room" : "DRLB BS1"
+	},
+
+	"Helicopters" : {
+		"name" : "Violet Tu",
+		"room" : "Annenberg Lobby",
+	},
+
+	"Herpetology" : {
+		"name" : "Varun Sudunagunta",
+		"bio" : "I’m a freshman from Austin, Texas majoring in the Biological Basis of Behavior and Geology. I competed with the Liberal Arts and Science Academy for three years (and in Division B for four) and I was the captain of LASA’s team in 2017. I’ve competed at Nationals three times during which I won 7 medals in Fossils, Green Generation, Invasive Species, and Rocks and Minerals. Fossils was by far my favorite event of all time and I’m pumped that it’s coming back next year. Science Olympiad was a big part of my high school experience and I look forward to improving the experiences of current competitors at various competitions on the East Coast. In my free time you can find me reading random articles on Wikipedia or tagging my friends in memes.",
+		"image" : "prof-varun.jpg",
+		"room" : "DRLB A4"
+	},
+
+	"Hovercraft" : {
+		"name" : "Peter Ma",
+		"bio" : "Peter Ma is a freshman in the College of Arts and Sciences. He is currently planning on majoring in chemistry on a premed track. His favorite Science Olympiad events are Astronomy, Air Trajectory, and Hovercraft.",
+		"image" : "prof-peter.png",
+		"room" : "Levine Foyer"
+	},
+
+	"Materials Science" : {
+		"name" : "Lucia Korpas",
+		"room" : "Cohen 402"
+	},
+
+	"Microbe Mission" : {
+		"name" : "Kirti Nath",
+		"image" : "prof-kirti.jpeg",
+		"room" : "DRLB A1"
+	},
+
+	"Mission Possible" : {
+		"name" : "Bharath Jaladi",
+		"room" : "Levine Foyer"
+	},
+
+	"Mousetrap Vehicle" : {
+		"name" : "Jake Welde",
+		"bio" : "I am a junior studying Mechanical Engineering with minors in Computer Science, Mathematics, and French. My primary academic interest is in robotics, and I work as a research assistant in the GRASP lab. In high school, I competed in Science Olympiad on the Ward Melville High School varsity team. I largely have SciO to thank for laying the foundations of my love for engineering, my interest in robotics, and some of my closest friendships. Outside the classroom I am excited about cooking, music, animals, and the outdoors.",
+		"image" : "prof-jake.jpg",
+		"room" : "Levine Foyer"
+	},
+
+	"Optics" : {
+		"name" : "Kevin Chen",
+		"bio" : "Kevin Chen is a freshman from Cherry Hill, New Jersey studying Computer Engineering. His favorite events include Optics, Material Science and Chemistry Lab, and he will be supervising Optics this year.",
+		"image" : "prof-kevin.jpg",
+		"room" : "DRLB A8"
+	},
+
+	"Remote Sensing" : {
+		"name" : "Richard Ling",
+		"bio" : "Richard is a sophomore from Clarks Summit, PA, majoring in Systems Engineering and Environmental Science in VIPER. He is the event director for Remote Sensing this year, and he's very excited to be a part of the 2nd SOUP invitational.",
+		"image" : "prof-richard.jpg",
+		"room" : "DRLB A4"
+	},
+
+	"Rocks & Minerals" : {
+		"name" : "Rakesh Ravi",
+		"room" : "Cohen 402"
+	},
+
+	"Thermodynamics" : {
+		"name" : "Jasmine Wang",
+		"room" : "DRLB A8"
+	},
+
+	"Towers" : {
+		"name" : "Mimi Lu",
+		"image" : "prof-mimi.jpg",
+		"bio" : "Mimi Lu is a freshman studying computer science and cognitive science. She competed in
+Science Olympiad for six years, and two of her favorite events were Experimental Design and
+Forensics. Science Olympiad was one of the most rewarding activities of her high school career, and
+she’s looking forward to continuing it in college! Mimi is excited to be the Event Supervisor for
+Towers and hopes to use her experience as a former competitor to help make this year’s invitational
+a fun and worthwhile competition.",
+		"room" : "Levine Foyer"
+	},
+
+	"Write It Do It" : {
+		"name" : "Kevin Wu",
+		"room" : "DRLB A4"
+	},
+}
