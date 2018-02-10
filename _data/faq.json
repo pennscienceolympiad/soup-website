@@ -6,10 +6,38 @@
 		},
 
 		{
-			"q" : "What time is it?",
-			"a" : "sjfn apsoasdfasdfdddif ia;lsd"
+			"q" : "Where can I find all of the necessary tournament information?",
+			"a" : "Our official information document is located on the “Tournament Information” page under the “Tournament” tab. All critical information is in that document. It has also been sent out to coaches several times, the last email being dated February 8th. "
+		},
+
+		{
+			"q" : "Where can I find the forms that my students need to sign?",
+			"a" : "They are also located on the “Tournament Information” page under the “Tournament” tab. "
+		},
+
+		{
+			"q" : "Where do I go in the morning?",
+			"a" : "You should arrive in your team bus along 33rd street outside of Franklin Field next to the flag (209 South 33rd Street, Philadelphia, PA 19104). Upon arrival, volunteers will help unload buses and guides will direct each team to their respective home base. Each team will register at the desk of the building with their team room. Please be sure to pick up an information package, wristbands for your participants, and t-shirts, if your team ordered them, before leaving."
+		},
+
+		{
+			"q" : "When should I arrive in the morning?",
+			"a" : "Registration will occur from 7:00 - 7:50 am. We cannot guarantee we can take you to your event room before 7:00, since the building may not be open yet."
+		},
+
+		{
+			"q" : "Where is my event room?",
+			"a" : "You can find that information on the page 1 of our official information document is located on the “Tournament Information” page under the “Tournament” tab."
+		},
+
+		{
+			"q" : "When will the tournament end?",
+			"a" : "We are currently targeting an end time of 6:00 pm for our awards ceremony."
+		},
+
+		{
+			"q" : "Can I park my bus on campus?",
+			"a" : "Yes! We have arranged for subsidized parking for buses again this year. More details will be available at the registration desk. A lounge will be available for bus drivers during the competition day."
 		}
 	]
 }
-
-parking

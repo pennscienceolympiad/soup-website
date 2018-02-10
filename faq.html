@@ -1,0 +1,23 @@
+---
+title: Frequently Asked Questions
+layout: pagecontent
+permalink: /faq/
+---
+
+
+<div class="main-content plain-content-box">
+    <div class="mini-header">
+        <h2><span>Frequently Asked Questions</span></h2>
+        <hr>
+    </div>
+
+    <p>Answers to the most commonly asked questions we've recieved leading up to the tournament. Note that most of the answers to these questions can also be found in the <a href="{{ site.baseurl }}/info">official information document</a>.
+       
+    {% assign faqs = site.data.faq["questions"] %}
+    {% for question in faqs %}
+        {% if question.a and question.q %}
+        	<h5 style="font-weight: bold">{{question.q}}</h5>
+        	<p>{{question.a}}</p>
+        {% endif %}
+    {% endfor %}
+</div>
