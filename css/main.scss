@@ -16,7 +16,7 @@ body {
     background-attachment: fixed;
     width: 100%;
 
-    font-family: 'Roboto', sans-serif;
+    font: 'open sans', 'helvetica';
     font-weight: 400;
 
     /*display: flex;*/
@@ -29,12 +29,14 @@ body {
 
 /*Top Navbar*/
 
+.nav-item {
+    margin-left: 10px
+}
+
 #top-nav {
     background-color: #efefef;
     border-bottom: 3px solid $blue;
-    box-shadow: 3px 3px 6px black;
     font-weight: 400;
-    font-size: 14px;
 }
 
 .navbar-toggler {
@@ -63,7 +65,6 @@ body {
         border-left: 3px solid $blue;
         border-right: 3px solid $blue;
         border-top: 0;
-        box-shadow: 3px 3px 4px black;
         margin-top: 10.5px;
         margin-left: -18px;
     }
@@ -98,7 +99,6 @@ body {
 h1 {
     color: white;
     margin-left: -10px;
-    text-shadow: 3px 3px 6px black;
     font-weight: 700;
     display: inline-block;
 }
@@ -131,7 +131,7 @@ hr {
 }
 
 .main-content {
-    background-color: $trans-off-white;
+    background-color: rgba(238, 237, 234, 0.9);
 
     border: 3px solid $blue;
     border-radius: 3px;
@@ -142,7 +142,6 @@ hr {
 
     border-image-slice: 1;
 
-    box-shadow: 3px 3px 6px black;
 
     padding-top: 20px;
     padding-left: 40px;
@@ -278,9 +277,7 @@ h4 {
   overflow: auto;
 }
 
-.bullets li:hover {
-  background: #eee;
-}
+
 
 ul {
   list-style-type: none;  
@@ -294,13 +291,11 @@ ul {
     color: white;
     border-radius: 0;
     margin: 10px;
-    box-shadow: 2px 2px 4px black;
 }
 
 .btn:hover {
     background: $alt-blue;
     color: white;
-    box-shadow: 2px 2px 4px black;
 }
 
 .italics {
@@ -373,9 +368,6 @@ select{
 .form-style input[type=text]:focus, 
 .form-style textarea:focus, 
 .form-style select:focus{
-    -moz-box-shadow: 0 0 8px $alt-blue;
-    -webkit-box-shadow: 0 0 8px $alt-blue;
-    box-shadow: 0 0 8px $alt-blue;
     border: 1px solid $alt-blue;
 }
 .form-style .field-long{
@@ -452,6 +444,12 @@ select{
         max-width: 200px;
         margin-left: 30px;
         margin-bottom: 20px;
+    }
+    #top-nav {
+        z-index: 1;
+    }
+    #front-media {
+        position: relative;
     }
 }
 

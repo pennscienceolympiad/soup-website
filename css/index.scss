@@ -11,34 +11,34 @@ html, body {
 }
 
 body {
-    background: url({{ site.baseurl }}/img/locust-walk-darken.jpg) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
     width: 100%;
-
-    font-family: 'Roboto', sans-serif;
+    background: url({{ site.baseurl }}/img/s7.jpg) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: 'open sans';
     font-weight: 400;
 }
 
 #floater {
     float: left;
-    height: 30%;
+    height: 25%;
     width: 100%;
     margin-bottom: -50px;
 }
 
 #front-media {
-    max-width: 80%;
+    max-width: 100%;
     min-height: 300px;
     margin: auto;
     clear: both;
+    font-weight: 500;
 }
 
 .front-text {
-    color: white;
-    text-shadow: 2px 2px 4px black;
+    color: #EEEDEA;
     text-align: center;
     font-weight: 400;
+    margin-bottom: -5px;
 }
 
 .front-image {
@@ -49,15 +49,17 @@ body {
 .btn {
     background: $blue;
     color: white;
-    border-radius: 0;
+    border-radius: 1.5;
     margin: 10px;
-    box-shadow: 2px 2px 4px black;
+}
+
+.navbar-toggler {
+    color: white;
 }
 
 .btn:hover {
     background: $alt-blue;
-    color: white;
-    box-shadow: 2px 2px 4px black;
+    color: black;
 }
 
 p {
@@ -65,17 +67,16 @@ p {
     text-align: center;
 }
 
-.navbar {
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
 .nav-link {
     color: white;
-    text-shadow: 2px 2px 4px black;
 }
 
+.nav-item {
+    margin-left: 10px
+}
 .dropdown-menu {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .dropdown-item {
@@ -88,7 +89,7 @@ p {
     }
 
     h3 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     h5 {
@@ -104,19 +105,19 @@ p {
 }
 
 a {
-
+    color: white;
 }
 
 a:hover {
-    color: white;
+    color: whitesmoke;
 }
 
 a:focus {
-    color: white;
+    color: whitesmoke;
 }
 
 .dropdown-item:hover {
-    color: white;
+    color: whitesmoke;
     box-shadow: none;
     background-color: transparent;
 }
@@ -163,4 +164,53 @@ a:focus {
 .plain-content-box {
     border-image: none;
     border-color: $blue;
+}
+
+/* Bottom Navbar */
+
+#bottom-nav {
+    z-index: 100;
+    //background-color: rgba(255, 255, 255, .5);
+    margin-top: 30px;
+
+    position: fixed;
+    bottom: -10px;
+    width: 100%;
+}
+
+#bottom-nav > * > * > * {
+    padding-top: 10px;
+}
+
+.navbar-bottom {
+    text-align: center;
+    color: #787878;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media .fa {
+    color: white;
+}
+
+.about-soup a {
+    color: $red;
+    text-decoration: none;
+}
+
+.about-soup a:hover,.about-soup a:focus {
+    color: #alt-red;
+}
+
+#penn-eng {
+    margin-top: -5px;
+    height: 100px;
+}
+
+@media (max-width:767px) {
+    #bottom-nav{
+        display: none;
+    }
 }
