@@ -1,0 +1,30 @@
+[
+    {
+        "Name" : "The Study",
+        "Address": "20 S 33rd Street, Philadelphia 19104",
+        "Contact" : "Kristen Eichengreen, Director of Sales",
+        "Contact_Email" : "keichengreen@studyhotels.com",
+        "Contact_Number" : "215-398-1867"
+    },
+    {
+        "Name": "Sheraton University",
+        "Address": "3549 Chestnut St, Philadelphia, PA 19104",
+        "Contact" : "Lauren Ilgenfritz, Sales Manager",
+        "Contact_Email" : "lilgenfritz@sheruniv.com",
+        "Contact_Number" : "215-349-6315"
+    },
+    {
+        "Name" : "The Inn at Penn",
+        "Address": "3600 Sansom St, Philadelphia, PA 19104",
+        "Contact" : "Kaitlyn Devlin, Sales Manager",
+        "Contact_Email" : "kaitlyn.devlin@hilton.com",
+        "Contact_Number" : "215-823-6202"
+    },
+    {
+        "Name" : "Homewood Suites University City",
+        "Address": "4109 Walnut St, Philadelphia, PA 19104",
+        "Contact" : "Amanda Laoye",
+        "Contact_Email" : "Amanda.layoe@hilton.com",
+        "Contact_Number" : "267-298-2289"
+    }
+]

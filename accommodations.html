@@ -10,7 +10,19 @@ permalink: /accommodations/
         <hr>
     </div>
     <p>
-        Information regarding hotel accomodations will be released closer to the tournament date.
+        The following hotels are all options within Philadelphia. Please reach out directly to them to make reservations.
+        <ul class="bullets">
+            {% for hotel in site.data.hotels%}
+            <li>
+                <strong>{{hotel.Name}}</strong> <br/>
+                {{hotel.Address}} <br/>
+                Please contact: {{hotel.Contact}} <br/>
+                {{hotel.Contact_Email}}, {{hotel.Contact_Number}}
+            </li>
+            {% endfor %}
+        </ul>
+        
+        
     </p>
     <div class="">
         <h2><span>Food</span></h2>
