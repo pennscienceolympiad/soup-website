@@ -7,7 +7,7 @@
 
 		{
 			"q" : "Where can I find all of the necessary tournament information?",
-			"a" : "Our official information document is located on the “Tournament Information” page under the “Tournament” tab. All critical information is in that document, which will be added closer to the tournament date. "
+			"a" : "Our official information document is located on the “Tournament Information” page under the “Tournament” tab."
 		},
 
 		{
@@ -27,7 +27,7 @@
 
 		{
 			"q" : "Where is my event room?",
-			"a" : "You can find that information on the page 1 of our official information document is located on the “Tournament Information” page under the “Tournament” tab."
+			"a" : "You can find that information on page 9 of our official information document on our Tournament Information page."
 		},
 
 		{
@@ -37,7 +37,7 @@
 
 		{
 			"q" : "Can I park my bus on campus?",
-			"a" : "Yes! We have arranged for subsidized parking for buses again this year. More details will be available at the registration desk. A lounge will be available for bus drivers during the competition day."
+			"a" : "Yes! We have arranged for subsidized parking for buses again this year. More details will be available at the registration desk."
 		}
 	]
 }
