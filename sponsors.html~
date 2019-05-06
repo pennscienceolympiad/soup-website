@@ -26,14 +26,14 @@ permalink: /sponsors/
         <a class="btn" href="{{ site.baseurl }}/docs/SOUP%20Sponsorship%20Sheet%202019.pdf" role="button">SPONSORSHIP GUIDE</a>
     </div>
     <div class="">
-          <h2><span>2018 Partners</span></h2>
+          <h2><span>2019 Partners</span></h2>
           <hr>
       </div>
-        <h4>Dr. and Mrs. P. Roy Vagelos</h4>
-        <img src="{{ site.baseurl }}/img/sponsor-blackfynn.png" class="sponsor">
-      <img src="{{ site.baseurl }}/MT-logo.jpg" class="sponsor">
-      <img src="{{ site.baseurl }}/CIS-logo.png" class="sponsor">
-      <img src="{{ site.baseurl }}/MLS-logo.png" class="sponsor" style="background-color: grey">
-      <img src="{{ site.baseurl }}/soylent-logo.png" class="sponsor">
-      <img src="{{ site.baseurl }}/wcai-logo.png" class="sponsor">
+      <img src="{{ site.baseurl }}/sponsors_2019/cfc.png" class="sponsor">
+      <img src="{{ site.baseurl }}/sponsors_2019/blackfynn.jpg" class="sponsor" width="500" height="600">
+      <img src="{{ site.baseurl }}/sponsors_2019/mandt.png" class="sponsor" width="500" height="600">
+      <img src="{{ site.baseurl }}/sponsors_2019/wcai.png" class="sponsor" width="500" height="600">
+      <img src="{{ site.baseurl }}/sponsors_2019/physastro.png" class="sponsor" width="500" height="600">
+      <img src="{{ site.baseurl }}/sponsors_2019/engineering.png" class="sponsor" width="500" height="600">
+      <img src="{{ site.baseurl }}/sponsors_2019/yearofwhy.png" class="sponsor" width="500" height="600">
 </div>
