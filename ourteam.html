@@ -12,20 +12,30 @@ permalink: /ourTeam/
                 {% if member.photoName %}
                     <div class="col-sm-6 col-md-4">
                         <figure class="figure">
-                            <img src="{{ site.baseurl }}/img/team/{{ member.photoName }}.jpg" class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
+                            <div class="img-hover">
+                                <img src="{{ site.baseurl }}/img/team/{{ member.photoName }}.jpg" class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
+                                <div class="img-text">
+                                    {{ member.Bio }}
+                                    <br />
+                                    <br />
+                                    <b>Year:</b> {{ member.Year }}<br />
+                                    <b>Studies:</b> {{ member.Studies }}<br />
+                                    <b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}
+                                </div>
+                            </div>
                             <figcaption class="figure-caption"><p>Name: {{ member.Name }}</p><p>Position: {{ member.Position }}</p></figcaption>
-                          </figure>
+                        </figure>
                     </div>
                 {% endif %}
             {% endfor %}
         </div>
         <h3>Not Pictured</h3>
         <div class="col-md-8 offset-md-2 text-center not-pic">
-            John Powell
+            None
         </div>
         <hr>
     </div>
-    
+
     <div class="">
         <h2><span>Event Directors</span></h2>
         <div class="row">
@@ -43,7 +53,7 @@ permalink: /ourTeam/
         </div>
         <h3>Not Pictured</h3>
         <div class="col-md-8 offset-md-2 text-center not-pic">
-                Natalie Chao, Ali Mohammad, Matthew Kim, Anushree Aneja, Sarah Root, Drew Briskin, Julia Schaff, Yuting Jin, Bharath Jaladi, Jake Welde, Tibby Mihaila, Jasmine Wang, Tony Wen, David Yang, Alan Ismaiel, Grace Jiang, Tosin Odufalu, Xavier Lee, Chandni Shah
+            None
         </div>
         <hr>
     </div>

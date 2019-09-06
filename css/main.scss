@@ -481,3 +481,30 @@ select{
 .event-name:focus, .event-name:hover, {
     color: $alt-blue;
 }
+
+.img-hover {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.img-hover .figure-img {
+    margin-bottom: 0;
+}
+
+.img-hover .img-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(220, 220, 234, 0.9);
+    color: #555;
+    padding: 20px;
+    transition: opacity .2s ease-in-out;
+    opacity: 0;
+    overflow-y: auto;
+}
+
+.img-hover:hover .img-text {
+    opacity: 1;
+}
