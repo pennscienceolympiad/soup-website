@@ -23,15 +23,16 @@ permalink: /ourTeam/
                                     <b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}
                                 </div>
                             </div>
-                            <figcaption class="figure-caption"><p>Name: {{ member.Name }}</p><p>Position: {{ member.Position }}</p></figcaption>
+                            <figcaption class="figure-caption">
+                                <p>
+                                    <b>Name:</b> {{ member.Name }}<br />
+                                    <b>Position:</b> {{ member.Position }}
+                                </p>
+                            </figcaption>
                         </figure>
                     </div>
                 {% endif %}
             {% endfor %}
-        </div>
-        <h3>Not Pictured</h3>
-        <div class="col-md-8 offset-md-2 text-center not-pic">
-            None
         </div>
         <hr>
     </div>
