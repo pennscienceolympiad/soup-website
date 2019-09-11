@@ -1,6 +1,16 @@
 {
 	"questions" : [
 		{
+			"q": "Will teams be allowed to write on tests?",
+			"a": "Based on competitor feedback from last year, we will allow writing on tests for specific events on a case by case basis. If you have concerns about a specific event, please contact us at pennscienceolympiad@gmail.com."
+		},
+
+		{
+			"q": "What are the registration fees?",
+			"a": "Registration fees are $70 for each team. Philadelphia school district schools have their registration fees waived."
+		},
+
+		{
 			"q" : "Will coaches be responsible for writing tests?",
 			"a" : "Nope! All tests will be written, reviewed, and proctored by Science Olympiad alumni."
 		},
@@ -38,11 +48,6 @@
 		{
 			"q" : "Can I park my bus on campus?",
 			"a" : "Yes! We have arranged for subsidized parking for buses again this year. More details will be available at the registration desk."
-		},
-
-		{
-			"q": "Will teams be allowed to write on tests?",
-			"a": "Based on competitor feedback from last year, we will allow writing on tests for specific events on a case by case basis. If you have concerns about a specific event, please contact us at pennscienceolympiad@gmail.com."
 		}
 	]
 }
