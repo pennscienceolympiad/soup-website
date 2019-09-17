@@ -1,6 +1,10 @@
 {
 	"questions" : [
 		{
+			"q": "When will registration open?",
+			"a": "Due to unforeseen circumstances, registration for our 2020 Invitational has been postponed to Thursday, September 26th at 3 pm Eastern Time. We apologize for the inconvenience, and thank you for your patience and understanding."
+		},
+		{
 			"q": "Will teams be allowed to write on tests?",
 			"a": "Based on competitor feedback from last year, we will allow writing on tests for specific events on a case by case basis. If you have concerns about a specific event, please contact us at pennscienceolympiad@gmail.com."
 		},
