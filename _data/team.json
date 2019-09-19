@@ -12,6 +12,17 @@
         "Bio": "Jason started competing in Science Olympiad when he was in the seventh grade, then continued as captain of his high school team. During a high school summer program at Penn, Jason researched CRISPR before it became widely studied, due to his interests from Protein Modeling. Now, Jason is a student in the Jerome Fisher Program in Management & Technology. He hopes everyone enjoys the fourth annual Penn Science Olympiad Invitational and the Urban Initiative!"
     },
     {
+        "Email Address": "ieric@seas.upenn.edu",
+        "Name": "Eric Liu",
+        "Position": "VP of Finance",
+        "Year": "Junior (Class of 2021)",
+        "Studies": "M&T - CIS / BEPP",
+        "High School": "West Windsor Plainsboro High School South",
+        "Favorite SOUP": "Anything with the word Cream in it",
+        "photoName": "eric",
+        "Bio": "Eric is a Junior in M&T studying Computer Science and Business Economics."
+    },
+    {
         "Email Address": "caroldotli@gmail.com",
         "Name": "Carol Li",
         "Position": "VP of Operations",
@@ -34,6 +45,17 @@
         "Bio": "Mimi is a junior from Syracuse, New York studying Cognitive Science and Philosophy. In addition to SOUP, she is involved in clubs like Penn Neuroscience Society and Penn Undergraduate Law Journal. In her free time, Mimi enjoys reading, finding new brunch spots, and taking care of cute little plants. \u200b"
     },
     {
+        "Email Address": "zihanx@wharton.upenn.edu",
+        "Name": "Zihan Xiong",
+        "Position": "VP of Marketing",
+        "Year": "Senior (Class of 2020)",
+        "Studies": "Finance, Business Economics & Public Policy, Political Science",
+        "High School": "New Trier High School",
+        "Favorite SOUP": "Veggie chili, tomato & egg soup",
+        "photoName": "zihan",
+        "Bio": "Zihan is a senior in Wharton and the College. She is always looking for a cup of caffeine and good music to jam out to. Recently, she has been aspiring to create new bubble tea concoctions."
+    },
+    {
         "Email Address": "yitaotu@sas.upenn.edu",
         "Name": "Violet Tu",
         "Position": "Social Chair, Urban Initative Director",
@@ -54,6 +76,17 @@
         "Favorite SOUP": "Hot and sour soup ",
         "photoName": "jonathan",
         "Bio": "Jonathan is a senior studying biochemistry with plans to attend medical school after graduation. When he's not studying for his classes or working on SOUP, he can likely be found in his clinical research lab where he examines non-invasive methods of assessing cardiovascular structure and function using MRI and echocardiograms. For leisure, he enjoys swimming and watching basketball and Netflix, where his favorite shows are Stranger Things, Parks and Recreation, and The Office (in no particular order). "
+    },
+    {
+        "Email Address": "emilyaug@sas.upenn.edu",
+        "Name": "Emily Augustine",
+        "Position": "Earth and Space Science Director",
+        "Year": "Senior (Class of 2020)",
+        "Studies": "Chemistry and Materials Science",
+        "High School": "Bethel Park",
+        "Favorite SOUP": "Clam Chowder",
+        "photoName": "emily",
+        "Bio": "Emily is a senior and has been involved with SOUP all 4 years of college. While at Penn, she has also enjoyed doing research in the lab and volunteering with Penn for Youth Debate. She’s excited to learn about the topics of this year’s earth and space events and is looking forward to another great tournament!"
     },
     {
         "Email Address": "knath@sas.upenn.edu",
