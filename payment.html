@@ -20,7 +20,7 @@ permalink: /payment/
                     e.preventDefault();
                     $.post($(this).attr("action"), $(this).serialize(), function(data) {
                         if (data.done) {
-                            $("#pre-registration-form").html();
+                            $("#pre-registration-form").html("");
                         }
                         else {
                             $("#pre-registration-form").children("h4").remove();
