@@ -1,5 +1,5 @@
 ---
-title: Payment
+title: Registration
 layout: pagecontent
 permalink: /payment/
 ---
@@ -15,34 +15,41 @@ permalink: /payment/
     </p>
     <div id="pre-registration-form">
         <script type="text/javascript">
-            function removeForm() {
-                var $formdiv = $('#pre-registration-form');
-                $formdiv.empty();
-                $formdiv.append('<h4>Thanks for registering! We will contact you via email shortly.</h4>');
-            }
+            window.addEventListener("load", function() {
+                $("#register").submit(function(e) {
+                    e.preventDefault();
+                    $.post($(this).attr("action"), $(this).serialize(), function(data) {
+                        if (data.done) {
+                            $("#pre-registration-form").html();
+                        }
+                        else {
+                            $("#pre-registration-form").children("h4").remove();
+                        }
+                        $("#pre-registration-form").append($("<h4 />").text(data.message));
+                    });
+                });
+            });
         </script>
-        <script type="text/javascript">var submitted=false;</script>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {removeForm();}"></iframe>
-        <form action="https://docs.google.com/a/seas.upenn.edu/forms/d/e/1FAIpQLSeogXcyqdZqAsd8SoKPmKhH2TP7csEz6mlygO1Ymnl4gT_DpQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+        <form id="register" action="https://soup-form.herokuapp.com/submit/" method="post">
             <ul class="form-style">
                 <li>
                     <label for="team-name">School Name <span class="required">*</span></label>
-                    <input name="entry.562135128" type="text" class="field-long" id="team-name" required>
+                    <input name="school_name" type="text" class="field-long" id="team-name" required>
                 </li>
                 <li>
-                    <label for="contact-email">Coach Name <span class="required">*</span></label>
-                    <input name="entry.1768451892" type="text" class="field-long" id="contact-email" required>
+                    <label for="coach-name">Coach Name <span class="required">*</span></label>
+                    <input name="coach_name" type="text" class="field-long" id="contact-email" required>
                 </li>
                 <li>
                     <label for="contact-email">Contact Email <span class="required">*</span></label>
-                    <input name="entry.999500240" type="text" class="field-long" id="contact-email" required>
+                    <input name="contact_email" type="text" class="field-long" id="contact-email" required>
                 </li>
                 <li>
                     <label>How many teams would you like to register? <span class="required">*</span></label>
-                    <select name="entry.409798835" class="field-select" required>
+                    <select name="num_teams" class="field-select" required>
                         <option selected disabled>Choose</option>
-                        <option value="1 Team">1 Team</option>
-                        <option value="2 Teams">2 Teams</option>
+                        <option value="1">1 Team</option>
+                        <option value="2">2 Teams</option>
                     </select>
                 </li>
                 <li id="register-submit">
