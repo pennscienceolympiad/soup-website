@@ -2,7 +2,7 @@
 	"questions" : [
 		{
 			"q": "When will registration open?",
-			"a": "Due to unforeseen circumstances, registration for our 2020 Invitational has been postponed to Thursday, September 26th at 3 pm Eastern Time. We apologize for the inconvenience, and thank you for your patience and understanding."
+			"a": "Registration for the 2020 invitational opened on Thursday, September 26th at 3 pm Eastern Time. Registration has since closed. If you would like to join our waitlist for the 2020 invitational, please contact us at pennscienceolympiad@gmail.com with the following information: school name, the number of teams to register (maximum of 2), coach's name, and coach's email address."
 		},
 		{
 			"q": "Will teams be allowed to write on tests?",
@@ -10,23 +10,31 @@
 		},
 
 		{
-			"q": "What are the registration fees?",
-			"a": "Registration fees are $70 for each team. Philadelphia school district schools have their registration fees waived."
+			"q": "What is the registration fee?",
+			"a": "The registration fee is $70 per team. Philadelphia school district schools have their registration fees waived."
 		},
 
 		{
 			"q" : "Will coaches be responsible for writing tests?",
-			"a" : "Nope! All tests will be written, reviewed, and proctored by Science Olympiad alumni."
+			"a" : "All tests will be written, reviewed, and proctored by Science Olympiad alumni."
 		},
 
 		{
 			"q" : "Where can I find all of the necessary tournament information?",
 			"a" : "Our official information document is located on the “Tournament Information” page under the “Tournament” tab."
 		},
+		{
+			"q" : "When will the information document be released?",
+			"a" : "Our unofficial information document will be released sometime in November. Revised versions will appear periodically and will be posted about under the “Updates” tab."
+		},
+		{
+			"q" : "Where is my event room?",
+			"a" : "You can find information about event rooms in our information document."
+		},
 
 		{
 			"q" : "Where can I find the forms that my students need to sign?",
-			"a" : "They are also located on the “Tournament Information” page under the “Tournament” tab. "
+			"a" : "They are also located on the “Tournament Information” page under the “Tournament” tab."
 		},
 
 		{
@@ -40,18 +48,13 @@
 		},
 
 		{
-			"q" : "Where is my event room?",
-			"a" : "You can find that information on page 9 of our official information document on our Tournament Information page."
-		},
-
-		{
 			"q" : "When will the tournament end?",
 			"a" : "Competitors should be expected to be finished with testing around 3 PM. We are currently targeting a start time of 5 PM for our awards ceremony."
 		},
 
 		{
 			"q" : "Can I park my bus on campus?",
-			"a" : "Yes! We have arranged for subsidized parking for buses again this year. More details will be available at the registration desk."
+			"a" : "Yes! We have arranged for subsidized parking for buses again this year. More details will be available in the following months."
 		}
 	]
 }
