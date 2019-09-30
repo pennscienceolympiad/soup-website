@@ -18,9 +18,20 @@
         "Year": "Junior (Class of 2021)",
         "Studies": "M&T - CIS / BEPP",
         "High School": "West Windsor Plainsboro High School South",
-        "Favorite SOUP": "Anything with the word Cream in it",
+        "Favorite SOUP": "Anything with the word \"cream\" in it",
         "photoName": "eric",
-        "Bio": "Eric is a Junior in M&T studying Computer Science and Business Economics."
+        "Bio": "Eric is a junior in M&T studying Computer Science and Business Economics. Eric does not like writing bios."
+    },
+    {
+        "Email Address": "ymlu@sas.upenn.edu",
+        "Name": "Mimi Lu",
+        "Position": "VP of Operations, VP of Communications",
+        "Year": "Junior (Class of 2021)",
+        "Studies": "Cognitive Science and Philosophy",
+        "High School": "Fayetteville-Manlius High School",
+        "Favorite SOUP": "Minestrone",
+        "photoName": "mimi",
+        "Bio": "Mimi is a junior from Syracuse, New York studying Cognitive Science and Philosophy. In addition to SOUP, she is involved in clubs like Penn Neuroscience Society and Penn Undergraduate Law Journal. In her free time, Mimi enjoys reading, finding new brunch spots, and taking care of cute little plants. \u200b"
     },
     {
         "Email Address": "caroldotli@gmail.com",
@@ -32,17 +43,6 @@
         "Favorite SOUP": "Corn chowder",
         "photoName": "carol",
         "Bio": "Carol is from the foreign lands of Vancouver, Canada, and is still trying to adjust to the moody climate of the east coast. When she isn't missing the west coast, you can find her exploring the nooks and crannies of Philly, trying out different restaurants, or sitting in the F floor of Huntsman scrambling to finish a problem set before the deadline. "
-    },
-    {
-        "Email Address": "ymlu@sas.upenn.edu",
-        "Name": "Mimi Lu",
-        "Position": "VP of Communication, VP of Operations",
-        "Year": "Junior (Class of 2021)",
-        "Studies": "Cognitive Science and Philosophy",
-        "High School": "Fayetteville-Manlius High School",
-        "Favorite SOUP": "Minestrone",
-        "photoName": "mimi",
-        "Bio": "Mimi is a junior from Syracuse, New York studying Cognitive Science and Philosophy. In addition to SOUP, she is involved in clubs like Penn Neuroscience Society and Penn Undergraduate Law Journal. In her free time, Mimi enjoys reading, finding new brunch spots, and taking care of cute little plants. \u200b"
     },
     {
         "Email Address": "zihanx@wharton.upenn.edu",
