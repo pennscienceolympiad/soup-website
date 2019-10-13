@@ -38,25 +38,42 @@ permalink: /ourTeam/
     </div>
 
     <div class="">
-        <h2><span>Event Supervisors</span></h2>
+        <h2><span>Committee Members</span></h2>
         <div class="row">
             {% assign team = site.data.team["team"] %}
             {% for member in team %}
                 {% if member.photoName %}
                     <div class="col-sm-6 col-md-4">
                         <figure class="figure">
-                            <img src="{{ site.baseurl }}/img/team/{{ member.photoName }}.jpg" class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
-                            <figcaption class="figure-caption"><p>Name: {{ member.Name }}</p><p>Position: {{ member.Position }}</p></figcaption>
-                          </figure>
+                            <div class="img-hover">
+                                <img src="{{ site.baseurl }}/img/team/2019/event/small/{{ member.photoName }}.jpg" class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
+                                <div class="img-text">
+                                    {{ member.Bio }}
+                                    <br />
+                                    <br />
+                                    <b>Year:</b> {{ member.Year }}<br />
+                                    <b>Studies:</b> {{ member.Studies }}<br />
+                                    <b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}
+                                </div>
+                            </div>
+                            <figcaption class="figure-caption">
+                                <p>
+                                    <b>Name:</b> {{ member.Name }}<br />
+                                    <b>Position:</b> {{ member.Position }}
+                                </p>
+                            </figcaption>
+                        </figure>
                     </div>
                 {% endif %}
             {% endfor %}
         </div>
-        <!-- <h3>Not Pictured</h3> -->
-        <div class="col-md-8 offset-md-2 text-center not-pic">
-            <!-- None -->
-        </div>
-        <hr>
     </div>
-    
+    <h3>Not Pictured</h3>
+    <ul>
+        {% for member in team %}
+            {% unless member.photoName %}
+                <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
+            {% endunless %}
+        {% endfor %}
+    </ul>
 </div>
