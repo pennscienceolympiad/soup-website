@@ -5,22 +5,37 @@ permalink: /updates/
 ---
 
 <style>
-    #widget{
-       max-width: 100%;
-       margin: auto;
-       /*max-width: 600px;*/
-    }
-    
-  
- 
+#widget {
+   max-width: 100%;
+   margin: auto;
+}
 </style>
+
+<style id='inside-css'>
+.timeline-Widget {
+   max-width: none;
+}
+
+.timeline-Tweet-text {
+   font-size: 1.5em !important;
+   white-space: normal;
+}
+</style>
+
+<script>
+   window.addEventListener('load', () => {
+      window.twttr.events.bind('loaded', () => {
+         const innerDoc = document.querySelector('#widget iframe').contentDocument;
+         innerDoc.head.appendChild($('#inside-css').get()[0]);
+      });
+   });
+</script>
 
 <div class="main-content">
     <p>
         <div id="widget">
-            <a class="twitter-timeline" data-tweet-limit="2"  href="https://twitter.com/pennscioly">Tweets by SOUP</a> 
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
+            <a class="twitter-timeline" data-tweet-limit="2"  href="https://twitter.com/pennscioly">Tweets by SOUP</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-        
     </p>
 </div>
