@@ -18,9 +18,9 @@ permalink: /ourTeam/
                                     {{ member.Bio }}
                                     <br />
                                     <br />
-                                    <b>Year:</b> {{ member.Year }}<br />
-                                    <b>Studies:</b> {{ member.Studies }}<br />
-                                    <b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}
+                                    {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
+                                    {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
+                                    {% if member['Favorite SOUP'] %}<b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}{% endif %}
                                 </div>
                             </div>
                             <figcaption class="figure-caption">
@@ -51,9 +51,9 @@ permalink: /ourTeam/
                                     {{ member.Bio }}
                                     <br />
                                     <br />
-                                    <b>Year:</b> {{ member.Year }}<br />
-                                    <b>Studies:</b> {{ member.Studies }}<br />
-                                    <b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}
+                                    {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
+                                    {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
+                                    {% if member['Favorite SOUP'] %}<b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}{% endif %}
                                 </div>
                             </div>
                             <figcaption class="figure-caption">

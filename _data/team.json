@@ -186,7 +186,8 @@
       "Studies": "Physics",
       "High School": "Bayard Rustin",
       "Favorite SOUP": "Sicilian chicken soup",
-      "Bio": "Yonny is a freshman at Penn studying physics, who loves astronomy. Prior to being a part of SOUP, Yonny was a Science Olympiad competitor for six years. In high school, Yonny competed for Bayard Rustin HS and went to the Penn Invitational every year since it started."
+      "Bio": "Yonny is a freshman at Penn studying physics, who loves astronomy. Prior to being a part of SOUP, Yonny was a Science Olympiad competitor for six years. In high school, Yonny competed for Bayard Rustin HS and went to the Penn Invitational every year since it started.",
+      "photoName": "Yonny_Sklansky"
     },
     {
       "Email Address": "jiojeong@sas.upenn.edu",
@@ -526,7 +527,8 @@
     },
     {
       "Name": "Neehal Hussain",
-      "Position": "Urban Initiative Fellow"
+      "Position": "Urban Initiative Fellow",
+      "photoName": "Neehal_Hussain"
     },
     {
       "Name": "Nisha Krishnan",
