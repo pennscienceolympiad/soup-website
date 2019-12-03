@@ -4,13 +4,51 @@ layout: pagecontent
 permalink: /accommodations/
 ---
 
+<style>
+.hotel
+{
+    padding-left: 15px;
+    border-left: 5px solid #bbb;
+}
+
+.hotel ul
+{
+    list-style-type: circle;
+    margin-left: 2em;
+}
+
+.hotel b
+{
+    color: #444;
+}
+
+.hotel h3 a {
+    text-decoration: underline;
+}
+</style>
+
 <div class="main-content">
     <div class="">
         <h2><span>Hotels</span></h2>
         <hr>
     </div>
     <p>
-        We will release an information document on nearby accomodations closer to the tournament date!
+        {% for hotel in site.data.hotels %}
+        <div class="hotel">
+            <h3>{% if hotel.URL %}<a href="{{ hotel.URL }}">{{ hotel.Name }}</a>{% else %}{{ hotel.Name }}{% endif %}</h3>
+            <div><b>Address:</b> <a target="_blank" href="https://www.google.com/maps/search/{{ hotel.Address|uri_escape }}">{{ hotel.Address }}</a></div>
+            <div><b>Contact:</b> {{ hotel.Contact }}, <a href="mailto:{{ hotel.Contact_Email }}">{{ hotel.Contact_Email }}</a>{% if hotel.Contact_Number %}, <a href="tel:{{ hotel.Contact_Number }}">{{ hotel.Contact_Number }}</a>{% endif %}</div>
+            <div><b>Price:</b> {{ hotel.Rate }}</div>
+            {% if hotel.List %}
+                <ul>
+                    {% for item in hotel.List %}
+                    <li><b>{{ item[0] }}:</b> {{ item[1] }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            <p>{{ hotel.Note }}</p>
+        </div>
+        {% endfor %}
     </p>
     <div class="">
         <h2><span>Food</span></h2>
