@@ -40,5 +40,14 @@
             "Check-out": "2/23/2020"
         },
         "Note": "Block of rooms reserved for Science Olympiad, use information above to register"
+    },
+    {
+        "Name": "Pod Philly",
+        "Address": "31 South 19th Street, Philadelphia, PA 19103",
+        "Contact": "Sasha Bharrat",
+        "Contact_Email": "sbharrat@podhotelphilly.com",
+        "Contact_Number": "267-930-5605",
+        "Rate": "Starting at $155",
+        "URL": "https://www.thepodhotel.com/pod-philly"
     }
 ]
