@@ -9,29 +9,33 @@ permalink: /ourTeam/
         <div class="row">
             {% assign exec = site.data.team["exec"] %}
             {% for member in exec %}
-                {% if member.photoName %}
-                    <div class="col-sm-6 col-md-4">
-                        <figure class="figure">
-                            <div class="img-hover">
-                                <img src="{{ site.baseurl }}/img/team/2019/small/{{ member.photoName }}.jpg" class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
-                                <div class="img-text">
-                                    {{ member.Bio }}
-                                    <br />
-                                    <br />
-                                    {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
-                                    {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
-                                    {% if member['Favorite SOUP'] %}<b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}{% endif %}
-                                </div>
-                            </div>
-                            <figcaption class="figure-caption">
-                                <p>
-                                    <b>Name:</b> {{ member.Name }}<br />
-                                    <b>Position:</b> {{ member.Position }}
-                                </p>
-                            </figcaption>
-                        </figure>
+            <div class="col-sm-6 col-md-4">
+                <figure class="figure">
+                    <div class="img-hover">
+                        {% if member.photoName %}
+                        <img src="{{ site.baseurl }}/img/team/2019/small/{{ member.photoName }}.jpg"
+                            class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
+                        {% else %}
+                        <div class="figure-placeholder rounded"></div>
+                        {% endif %}
+                        <div class="img-text">
+                            {{ member.Bio }}
+                            <br />
+                            <br />
+                            {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
+                            {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
+                            {% if member['Favorite SOUP'] %}<b>Favorite Soup:</b>
+                            {{ member['Favorite SOUP'] }}{% endif %}
+                        </div>
                     </div>
-                {% endif %}
+                    <figcaption class="figure-caption">
+                        <p>
+                            <b>Name:</b> {{ member.Name }}<br />
+                            <b>Position:</b> {{ member.Position }}
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
             {% endfor %}
         </div>
         <hr>
@@ -42,38 +46,40 @@ permalink: /ourTeam/
         <div class="row">
             {% assign team = site.data.team["team"] %}
             {% for member in team %}
-                {% if member.photoName %}
-                    <div class="col-sm-6 col-md-4">
-                        <figure class="figure">
-                            <div class="img-hover">
-                                <img src="{{ site.baseurl }}/img/team/2019/event/small/{{ member.photoName }}.jpg" class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
-                                <div class="img-text">
-                                    {{ member.Bio }}
-                                    <br />
-                                    <br />
-                                    {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
-                                    {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
-                                    {% if member['Favorite SOUP'] %}<b>Favorite Soup:</b> {{ member['Favorite SOUP'] }}{% endif %}
-                                </div>
-                            </div>
-                            <figcaption class="figure-caption">
-                                <p>
-                                    <b>Name:</b> {{ member.Name }}<br />
-                                    <b>Position:</b> {{ member.Position }}
-                                </p>
-                            </figcaption>
-                        </figure>
+            {% if member.photoName %}
+            <div class="col-sm-6 col-md-4">
+                <figure class="figure">
+                    <div class="img-hover">
+                        <img src="{{ site.baseurl }}/img/team/2019/event/small/{{ member.photoName }}.jpg"
+                            class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
+                        <div class="img-text">
+                            {{ member.Bio }}
+                            <br />
+                            <br />
+                            {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
+                            {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
+                            {% if member['Favorite SOUP'] %}<b>Favorite Soup:</b>
+                            {{ member['Favorite SOUP'] }}{% endif %}
+                        </div>
                     </div>
-                {% endif %}
+                    <figcaption class="figure-caption">
+                        <p>
+                            <b>Name:</b> {{ member.Name }}<br />
+                            <b>Position:</b> {{ member.Position }}
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
     <h3>Not Pictured</h3>
     <ul>
         {% for member in team %}
-            {% unless member.photoName %}
-                <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
-            {% endunless %}
+        {% unless member.photoName %}
+        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
+        {% endunless %}
         {% endfor %}
     </ul>
 </div>

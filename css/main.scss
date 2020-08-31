@@ -478,13 +478,24 @@ select{
     color: $blue;
 }
 
-.event-name:focus, .event-name:hover, {
+.event-name:focus, .event-name:hover {
     color: $alt-blue;
+}
+
+.figure {
+    width: 100%;
 }
 
 .img-hover {
     position: relative;
+    width: 100%;
     margin-bottom: 0.5rem;
+}
+
+.figure-placeholder {
+    width: 100%;
+    padding-top: 66%;
+    background-color: #ccc;
 }
 
 .img-hover .figure-img {
