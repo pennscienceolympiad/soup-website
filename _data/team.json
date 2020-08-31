@@ -52,7 +52,8 @@
       "Name": "Yi-An Hsieh",
       "Position": "VP of Finance",
       "Studies": "Bioengineering",
-      "Year": "Sophomore (Class of 2021)"
+      "Year": "Sophomore (Class of 2021)",
+      "photoName": "yi-an"
     },
     {
       "Bio": "Savan is a sophomore at the University of Pennsylvania majoring in bioengineering and management and minoring in computer science. In his free time, you can find him studying in Van Pelt, taking yet another nap, or playing tennis occasionally. He's looking forward to helping organize SOUP and make it a great experience for all the teams across the country.",
@@ -62,7 +63,8 @@
       "Name": "Savan Patel",
       "Position": "VP of Operations",
       "Studies": "Bioengineering + Management",
-      "Year": "Sophomore (Class of 2021)"
+      "Year": "Sophomore (Class of 2021)",
+      "photoName": "savan"
     },
     {
       "Bio": "Science Olympiad is a gift that keeps on giving. The least Nick can do is give back to an organization that has meant so much to him over the years. \nNick also loves to write sometimes. He wrote this bio all by himself. ",
@@ -105,7 +107,8 @@
       "Name": "Richard Duan",
       "Position": "Chemistry Director",
       "Studies": "Biochemistry",
-      "Year": "Senior (Class of 2021)"
+      "Year": "Senior (Class of 2021)",
+      "photoName": "richard"
     },
     {
       "Bio": "Christina is a junior in Engineering; prior to coming to Penn she competed in Science Olympiad for 7 years. Her favorite pastimes are baking, drinking tea, and crochet, because she is secretly a little old lady. She has been an event supervisor and Urban Initiative volunteer for SOUP since freshman year and is excited to be a member of e-board this year!",
@@ -115,7 +118,8 @@
       "Name": "Christina Kim",
       "Position": "Urban Initiative Coordinator, Event Supervisor for Ornithology",
       "Studies": "Chemical & Biomolecular Engineering",
-      "Year": "Junior (Class of 2022)"
+      "Year": "Junior (Class of 2022)",
+      "photoName": "christina"
     },
     {
       "Bio": "John is a senior on the pre-med track studying biomathematics. In addition to SOUP, he enjoys reading fantastic poetry and prose for the Penn Review. He's always searching for new music to chill with as he works on his own writing.",
@@ -125,7 +129,8 @@
       "Name": "Jong Suk Lee",
       "Position": "Nature of Science Director, Codebusters Event Supervisor",
       "Studies": "Biomathematics",
-      "Year": "Senior (Class of 2021)"
+      "Year": "Senior (Class of 2021)",
+      "photoName": "jong"
     }
   ],
   "team": [
