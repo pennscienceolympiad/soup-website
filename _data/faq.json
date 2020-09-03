@@ -5,20 +5,21 @@
 			"a": "Registration for the 2021 invitational will begin in late fall. As we monitor the changing COVID-19 situation, we will release more information about the size and cost of the 2021 tournament. Please stayed tuned and look out for updates on our website, social media, and mailing list."
 		},
 		{
+			"q": "What is the registration fee?",
+			"a": "The registration fee for this year is $30 per team. Philadelphia school district schools have their registration fees waived."
+		},
+		{
+			"q": "What will the tournament format be?",
+			"a": "All of our events will be run using National-level rules, with minor modifications to the event structure to accommodate the virtual environment. A detailed list of changes will be announced to registered teams. Events will be scheduled on the Scilympiad platform following the 2019-2020 National schedule. A detailed schedule with team numbers will be sent to registered teams. Tests will be administered electronically through the Scilympiad platform, which will allow partners to collaborate on events. Build events will not count toward teams’ final scores. To compete in build events, students must submit their videos by 10 am ET on Saturday, February 27, 2021. These videos will be graded on a rolling basis on the day of the tournament. More details on build events will be announced to registered teams. We expect students to give their best effort while displaying honesty, integrity, and good sportsmanship. All teams are expected to follow our tournament rules and abide by the Science Olympiad Code of Ethics."
+		},
+		{
 			"q": "Will teams be allowed to write on tests?",
 			"a": "Based on competitor feedback from last year, we will allow writing on tests for specific events on a case by case basis. If you have concerns about a specific event, please contact us at pennscienceolympiad@gmail.com."
 		},
-
-		{
-			"q": "What is the registration fee?",
-			"a": "The registration fees will be determined at a later date. Philadelphia school district schools have their registration fees waived."
-		},
-
 		{
 			"q" : "Will coaches be responsible for writing tests?",
 			"a" : "All tests will be written, reviewed, and proctored by Science Olympiad alumni."
 		},
-
 		{
 			"q" : "Where can I find all of the necessary tournament information?",
 			"a" : "Our official information document is located on the “Tournament Information” page under the “Tournament” tab."
