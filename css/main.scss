@@ -575,3 +575,25 @@ select{
         margin-left: 1em;
     }
 }
+
+.sponsor-bullets li ul {
+    list-style-type: circle;
+    margin-left: 1em;
+}
+
+.sponsor-list {
+    list-style-type: circle;
+    margin-left: 2em;
+}
+    
+.sponsor-container {
+    text-align: center;
+
+    .sponsor {
+        display: inline-block;
+        margin-bottom: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 50px;
+    }
+}
