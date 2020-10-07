@@ -424,20 +424,6 @@ select{
     max-width: 250px;
 }
 
-.sponsor {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    margin-bottom: 2em;
-}
-
-@media(min-width: 650px) {
-    .sponsor {
-        max-width: 500px;
-    }
-}
-
 .asdf2 {
     font-size: .8em;
     text-align: center;
@@ -518,4 +504,74 @@ select{
 
 .img-hover:hover .img-text {
     opacity: 1;
+}
+
+.grid {
+    display: flex;
+}
+.col {
+    flex: 1;
+}
+.col b {
+    display: block;
+    color: $blue;
+}
+.col p {
+    padding: 0;
+}
+
+@media (max-width: 640px) {
+    .grid {
+        display: block;
+    }
+    .col {
+        margin-bottom: 1em;
+    }
+}
+
+.tabs {
+    margin-bottom: 1em;
+}
+
+.tabs .tab {
+    display: inline-block;
+    color: white;
+    background-color: #aaa;
+    padding: 8px 15px;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.tabs .tab.active {
+    background-color: #888;
+}
+
+.tab-contents .tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.packages {
+    margin: 0 auto;
+
+    td {
+        vertical-align: top;
+    }
+
+    .tier {
+        font-weight: bold;
+    }
+
+    .price {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    ul {
+        list-style-type: circle;
+        margin-left: 1em;
+    }
 }
