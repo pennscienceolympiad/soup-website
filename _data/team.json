@@ -135,265 +135,6 @@
   ],
   "team": [
     {
-      "Bio": "Jessica is a freshman from the Philly suburbs majoring in biology in the 7 year bio-dental program and minoring in visual arts. She can be found running along the Schuylkill, shopping at the mall, cranking out homework in Van Pelt, trying out new restaurants, or binging SNL. This is Jessica's first year as a part of SOUP, and she cannot wait for this year's tournament.",
-      "Email Address": "haozjessica@gmail.com",
-      "Favorite SOUP": "Tomato, cream of mushroom",
-      "High School": "Episcopal Academy",
-      "Name": "Jessica Hao",
-      "Position": "Anatomy and Physiology Event Shadow",
-      "Studies": "Biology in the 7 year bio-dental program.",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Jessica_Hao"
-    },
-    {
-      "Bio": "Yonny is a freshman at Penn studying physics, who loves astronomy. Prior to being a part of SOUP, Yonny was a Science Olympiad competitor for six years. In high school, Yonny competed for Bayard Rustin HS and went to the Penn Invitational every year since it started.",
-      "Email Address": "yonny@sas.upenn.edu",
-      "Favorite SOUP": "Sicilian chicken soup",
-      "High School": "Bayard Rustin",
-      "Name": "Yonny Sklansky",
-      "Position": "Astronomy Event Supervisor",
-      "Studies": "Physics",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Yonny_Sklansky"
-    },
-    {
-      "Bio": "Jio is a freshman in the College planning to major in chemistry. Born and raised in Seoul, Korea, she has a love-hate relationship with K-pop. Her favorite foods on campus are SoBol and the t.b.a. sandwich from Franklin's Table. She is excited and grateful to be a part of SOUP this year.",
-      "Email Address": "jiojeong@sas.upenn.edu",
-      "Favorite SOUP": "Clam chowder and chicken noodle soup",
-      "High School": "Seoul International School",
-      "Name": "Jio Jeong",
-      "Position": "Chemistry Lab Test Event Supervisor",
-      "Studies": "Chemistry",
-      "Year": "Freshman (Class of 2023)"
-    },
-    {
-      "Bio": "Richard is a junior studying biochemistry at the University of Pennsylvania as a Vagelos Molecular Life Sciences scholar, hoping to graduate with an additional masters in chemistry. He likes teaching and mentoring, is involved with a few such groups on campus, and is an active peer advisor although he doesn't even have his next semester planned out. He's been involved with SciOly test writing since freshman year.",
-      "Email Address": "rduan@sas.upenn.edu",
-      "Favorite SOUP": "Cheddar broccoli soup",
-      "High School": "Mira Loma High School",
-      "Name": "Richard Duan",
-      "Position": "Chemistry Lab Test Event Supervisor",
-      "Studies": "Biochemistry",
-      "Year": "Junior (Class of 2021)",
-      "photoName": "Richard_Duan"
-    },
-    {
-      "Bio": "Adi is a freshman at the University of Pennsylvania majoring in Computer Science. In his limited free time, you can find him losing to his friends in Super Smash, 'playing' soccer and basketball, thinking about going to the gym, and wishing that he brought his PS4 to college. Being from Minnesota, he is very excited to see all the amazing schools that come to SOUP, and he hopes to help provide a fun and enriching experience.",
-      "Email Address": "adibhati@seas.upenn.edu",
-      "Favorite SOUP": "Dal makhani",
-      "High School": "Wayzata High School ",
-      "Name": "Adi Bhati",
-      "Position": "Circuit Lab Event Supervisor",
-      "Studies": "Computer Science ",
-      "Year": "Freshman (Class of 2023)"
-    },
-    {
-      "Bio": "John is a junior majoring in biological mathematics. In his free time, he enjoys reading, writing, and finding new music to listen to while relaxing. He is excited to be a part of SOUP this year to build a fantastic SciOly experience!",
-      "Email Address": "jongslee@sas.upenn.edu",
-      "Favorite SOUP": "Ginseng chicken soup",
-      "High School": "Ann Arbor Huron High School",
-      "Name": "John Lee",
-      "Position": "Codebusters for Event Supervisor",
-      "Studies": "Biological mathematics",
-      "Year": "Junior (Class of 2021)"
-    },
-    {
-      "Bio": "Richard is a freshman studying biology. When not attentively grinding out trophies in brawl stars, he can be found listening to thought-provoking Korean pop.",
-      "Email Address": "richchai@sas.upenn.edu",
-      "Favorite SOUP": "Boneless soup",
-      "High School": "West Windsor-Plainsboro High School South",
-      "Name": "Richard Chai",
-      "Position": "Designer Genes Event Supervisor",
-      "Studies": "Biology",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Richard_Chai"
-    },
-    {
-      "Bio": "Clarisa is a freshman at the University of Pennsylvania studying in the School of Nursing. When she is not studying, she is usually watching her latest episode of a K-drama in her room or at the gym while working out to de-stress. She loves food and thrives off of snacks, bubble tea, and dessert - which can be quite unhealthy sometimes. Clarisa has been involved with Science Olympiad in high school, and she is excited to continue her involvement through the SOUP community! ",
-      "Email Address": "clarisay@nursing.upenn.edu",
-      "Favorite SOUP": "Clam chowder",
-      "High School": "Staten Island Technical High School",
-      "Name": "Clarisa Yee",
-      "Position": "Dynamic Planet Event Supervisor",
-      "Studies": "Nursing",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Clarisa_Yee"
-    },
-    {
-      "Bio": "Gloria is a freshman at the University of Pennsylvania studying physics and bioengineering. In her free time, she enjoys figure skating, playing soccer, and photography. This is her first year in SOUP, but she competed in Science Olympiad for three years in high school and is very excited to be a part of SOUP this year.",
-      "Email Address": "leeglr@sas.upenn.edu",
-      "Favorite SOUP": "Clam chowder, broccoli cheese",
-      "High School": "Rock Canyon High School",
-      "Name": "Gloria Lee",
-      "Position": "Experimental Design",
-      "Studies": "Physics and Bioengineering",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Gloria_Lee"
-    },
-    {
-      "Bio": "Rohil is a freshman at the University of Pennsylvania majoring in Mechanical Engineering with possible minors in Computer Science and Engineering Entrepreneurship. In his free time, he can be seen at a poker game with his hall or running to Wawa to grab some mac and cheese. He's been part of SciOly since middle school and can't wait to meet all the teams coming to SOUP this year!",
-      "Email Address": "rohil@seas.upenn.edu",
-      "Favorite SOUP": "Creamy tomato soup (with grilled cheese!)",
-      "High School": "South Brunswick High School",
-      "Name": "Rohil Sheth",
-      "Position": "Finance Committee Member, Detector Building Event Supervisor",
-      "Studies": "Mechanical Engineering and Applied Mechanics",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Rohil_Sheth"
-    },
-    {
-      "Bio": "Yi-An is a freshman in Bioengineering. She is passionate about metal arts and costuming, and she loves cats, hiking, and reading mystery thrillers. In her free time, she can be found trying to revive her ailing houseplants.",
-      "Email Address": "yh667@seas.upenn.edu",
-      "Favorite SOUP": "Pumpkin soup",
-      "High School": "Orange County School of the Arts, Visual Arts Conservatory",
-      "Name": "Yi-An Hsieh",
-      "Position": "Finance Committee Member, Protein Modeling Event Supervisor",
-      "Studies": "Bioengineering",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Yi-An_Hsieh"
-    },
-    {
-      "Bio": "Charis is a freshman in the College who has no idea what she's majoring in yet, but will probably say biology or BBB if asked. When she isn't studying in the Van Pelt Reading Room, you can find her frantically avoiding the scary squirrels on campus or painting and knitting in her room. Charis has competed at SOUP as a high school student for the past two years and is super excited to help host the event this year! ",
-      "Email Address": "charism@sas.upenn.edu",
-      "Favorite SOUP": "Pumpkin soup ",
-      "High School": "North Penn High School ",
-      "Name": "Charis Ma",
-      "Position": "Forensics Event Supervisor ",
-      "Studies": "Biology or BBB",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Charis_Ma"
-    },
-    {
-      "Bio": "Jessica is a freshman studying bioengineering at the University of Pennsylvania. She enjoys sculpting, reading, and playing the violin in her free time, and is also involved in robotics.",
-      "Email Address": "jessling@seas.upenn.edu",
-      "Favorite SOUP": "Miso",
-      "High School": "East Brunswick High School",
-      "Name": "Jessica Ling",
-      "Position": "Fossils Event Supervisor",
-      "Studies": "Bioengineering",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Jessica_Ling"
-    },
-    {
-      "Bio": "Owen is a sophomore from Lincolnshire, IL studying Computer Science. He enjoys hanging out with friends and is always down for a game of Smash. Outside of SOUP, Owen is also a member of the Penn Aerial Robotics team and the Penn Social Deduction Club.",
-      "Email Address": "simono@seas.upenn.edu",
-      "Favorite SOUP": "French onion",
-      "High School": "Adlai E. Stevenson High School",
-      "Name": "Owen Simon",
-      "Position": "Gravity Vehicle Event Supervisor",
-      "Studies": "Computer Science",
-      "Year": "Sophomore (Class of 2022)",
-      "photoName": "Owen_Simon"
-    },
-    {
-      "Bio": "Maggie is a freshman studying neuroscience and computer science. Maggie loves Science Olympiad since her first year of high school. She is also a huge cat lover and has three cats! ",
-      "Email Address": "zhousj@sas.upenn.edu",
-      "Favorite SOUP": "Homemade beef stew",
-      "High School": "Lake Forest Academy ",
-      "Name": "Maggie Zhou",
-      "Position": "Operations Committee Member, Water Quality Event Supervisor",
-      "Studies": "Neuroscience and Computer Science",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Maggie_Zhou"
-    },
-    {
-      "Bio": "Peter is a junior at Penn studying biochemistry. He was part of his high school Science Olympiad team, competed in SOUP's first invitational, and has now been part of SOUP in college. His favorite events are astronomy, air trajectory, and hovercraft!",
-      "Email Address": "mapeter@sas.upenn.edu",
-      "Favorite SOUP": "Ramen",
-      "High School": "Cherry Hill High School East",
-      "Name": "Peter Ma",
-      "Position": "Ping Pong Parachute Event Supervisor ",
-      "Studies": "Biochemistry",
-      "Year": "Junior (Class of 2021)"
-    },
-    {
-      "Bio": "Grant is a freshman at the University of Pennsylvania majoring in Computational Biology. In his free time, he can be found sleeping through all his alarms or yelling at his game of Tetris. This is the first year Grant is participating in SOUP and he can't wait to see what it brings!",
-      "Email Address": "ligr@sas.upenn.edu",
-      "Favorite SOUP": "Wonton soup",
-      "High School": "University of Toronto Schools",
-      "Name": "Grant Li",
-      "Position": "Solar Power Event Supervisor",
-      "Studies": "Biology",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Grant_Li"
-    },
-    {
-      "Bio": "Brandon is a freshman at Penn and plans on majoring in chemistry and physics in the Vagelos MLS program. Brandon likes to spend most of his time asleep, regardless of whether he's busy or not. He also loves meeting new people, so please stop by and say hi!",
-      "Email Address": "bchyi@sas.upenn.edu",
-      "Favorite SOUP": "Clam chowder",
-      "High School": "Lawton Chiles High School",
-      "Name": "Brandon Chyi",
-      "Position": "Solar Power Event Supervisor",
-      "Studies": "Chemistry and Physics",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Brandon_Chyi"
-    },
-    {
-      "Bio": "Savan is a freshmen at the University of Pennsylvania majoring in bioengineering and economics. In his free time, he enjoys watching The Office on repeat (7th time through) or playing tennis with friends. This is Savan's first year in SOUP and he has competed for all 4 years in high school. He is super excited about memes.",
-      "Email Address": "savanp@seas.upenn.edu",
-      "Favorite SOUP": "Broccoli cheddar (from Panera)",
-      "High School": "Montgomery High School",
-      "Name": "Savan Patel",
-      "Position": "Sounds of Music Event Supervisor",
-      "Studies": "Bioengineering and Economics",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Savan_Patel"
-    },
-    {
-      "Bio": "Chuqi is a freshman at the University of Pennsylvania planning on majoring in biochemistry, chemistry, and maybe neurobiology, and minoring in creative writing. She can often be found decorating her room for holidays, baking, or studying in Van Pelt. She hopes that she can be found at the campus gym more often, but that may or may not happen. This is Chuqi\u2019s first year in SOUP, and she\u2019s very excited for the upcoming year and her first SOUP invitational.",
-      "Email Address": "chuqiz@sas.upenn.edu",
-      "Favorite SOUP": "Corn chowder",
-      "High School": "Hinsdale Central High School",
-      "Name": "Chuqi Zheng",
-      "Position": "Urban Initiative Fellow",
-      "Studies": "Biochemistry and chemistry ",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Chuqi_Zheng"
-    },
-    {
-      "Bio": "Pallavi is a freshman at the University of Pennsylvania majoring in Bioengineering and Classics. When she's not in class, she can be found hanging out with friends on campus, thinking about frozen custard, and/or singing along to the latest Billy Joel song that's stuck in her head. Previously a competitor in Science Olympiad for seven years, Pallavi loves the Science Olympiad community and is excited to be a proud member of SOUP!",
-      "Email Address": "p2j@seas.upenn.edu",
-      "Favorite SOUP": "Black bean",
-      "High School": "The Pembroke Hill School",
-      "Name": "Pallavi Jonnalagadda",
-      "Position": "Water Quality Event Supervisor",
-      "Studies": "Bioengineering and Classics",
-      "Year": "Freshman (Class of 2023)",
-      "photoName": "Pallavi_Jonnalagadda"
-    },
-    {
-      "Bio": "Conner is a freshman at the University of Pennsylvania, likely majoring in biology and materials engineering through the dual degree VIPER program. In his free time, he enjoys watching youtube videos, including ones documenting the cute habit of baby orangutans embracing each other at various \"Jungle\" schools scattered around Borneo. On campus, he can be foudn either speed walking to classes or inhaling his food before speed walking to classes. He is excited to get people interested about the various water quality issues currently facing the planet.",
-      "Email Address": "pettitco@seas.upenn.edu",
-      "Favorite SOUP": "Chicken noodle soup",
-      "High School": "Regis Jesuit High School in Aurora, Colorado",
-      "Name": "Conner Pettit",
-      "Position": "Water Quality Event Supervisor",
-      "Studies": "Biology and Materials Engineering",
-      "Year": "Freshman (Class of 2023)"
-    },
-    {
-      "Bio": "Alan is a sophomore majoring in computer science. Outside of SOUP, he can be found in the Penn Band as a bari saxophone player, or somewhere trying (and failing) to convince people to watch Bachelor in Paradise with him. He participated in his high school Science Olympiad team since it was founded his sophomore year, and is excited to continue giving back to this experience that meant so much to him.",
-      "Email Address": "aismaiel@seas.upenn.edu",
-      "Favorite SOUP": "Chili",
-      "High School": "Reservoir High School",
-      "Name": "Alan Ismaiel",
-      "Position": "Wright Stuff Event Supervisor",
-      "Studies": "Computer Science",
-      "Year": "Sophomore (Class of 2022)",
-      "photoName": "Alan_Ismaiel"
-    },
-    {
-      "Bio": "Tosin is a sophomore on the pre-med track planning to major in either chemistry or biochemistry. After doing SciOly all throughout high school, she was excited to be able to continue in college! Outside of SOUP, Tosin sings in The Inspiration A Cappella and helps to teach chemistry to high school students in West Philadelphia. She is excited for her second year of SOUP and can't wait for a great year!",
-      "Email Address": "todufalu@sas.upenn.edu",
-      "Favorite SOUP": "Clam chowder",
-      "High School": "Martin Luther King High School",
-      "Name": "Tosin Odufalu",
-      "Position": "Write It Do It Event Supervisor",
-      "Studies": "Undecided",
-      "Year": "Sophomore (Class of 2022)",
-      "photoName": "Tosin_Odufalu"
-    },
-    {
       "Bio": "Michael is a sophomore at the University of Pennsylvania majoring in Biology as part of the Seven Year Biology and Dentistry Program. In his free time, Michael enjoys playing intramural basketball, cleaning out the house in poker, cheering on his Packers and Bucks, and keeping his roommate up at night while yammering on about CRISPR-Cas9. Michael has been a member of SOUP for two years, and he is excited to meet everyone at the meet!",
       "Email Address": "troks27@sas.upenn.edu",
       "Favorite SOUP": "Chicken Dumpling",
@@ -410,7 +151,7 @@
       "Favorite SOUP": "Ramen!!",
       "High School": "Union County Magnet High School ",
       "Name": "Amanda Zheng",
-      "Position": "Event Reviewer for the event Protein Modeling",
+      "Position": "Protein Modeling Event Reviewer",
       "Studies": "Mechanical Engineering and Management",
       "Year": "Freshman (Class of 2024)",
       "photoName": "amanda"
@@ -735,125 +476,20 @@
       "photoName": "Vishesh_Patel"
     },
     {
-      "Name": "Ali Mohammad",
-      "Position": "Astronomy Event Supervisor"
+      "Name": "Jio Jeong",
+      "Position": "Chemistry Lab Event Supervisor"
     },
     {
-      "Name": "Angela Youn",
-      "Position": "Geologic Mapping  Event Supervisor"
+      "Name": "Jasleen Gil",
+      "Position": "Forensics Event Supervisor"
     },
     {
-      "Name": "Arik Li",
-      "Position": "Finance Committee Member"
-    },
-    {
-      "Name": "Christina Kim",
-      "Position": "Ornithology Event Supervisor"
-    },
-    {
-      "Name": "Christine Li",
-      "Position": "Urban Initiative Fellow"
-    },
-    {
-      "Name": "Christine Wu",
-      "Position": "Wright Stuff Event Supervisor"
-    },
-    {
-      "Name": "Daniel Jin",
-      "Position": "Codebusters Event Supervisor"
+      "Name": "Sarika Rau",
+      "Position": "Forensics Event Supervisor"
     },
     {
       "Name": "David Lang",
       "Position": "Protein Modeling Event Supervisor"
-    },
-    {
-      "Name": "Eric Shan",
-      "Position": "Anatomy and Physiology Event Supervisor"
-    },
-    {
-      "Name": "Evan Jiang",
-      "Position": "Designer Genes Event Supervisor"
-    },
-    {
-      "Name": "Grace Jiang",
-      "Position": "Write It, Do It Event Supervisor"
-    },
-    {
-      "Name": "Jacob Keller",
-      "Position": "Fossils Event Supervisor"
-    },
-    {
-      "Name": "Jae Young Baik",
-      "Position": "Experimental Design Event Supervisor"
-    },
-    {
-      "Name": "Jake Welde",
-      "Position": "Gravity Vehicle Event Supervisor"
-    },
-    {
-      "Name": "Joanna Wang",
-      "Position": "Experimental Design Event Supervisor"
-    },
-    {
-      "Name": "Julia Lottman",
-      "Position": "Machines Event Supervisor"
-    },
-    {
-      "Name": "Kevin Tao",
-      "Position": "Ping Pong Parachute Event Supervisor"
-    },
-    {
-      "Name": "Liam Theveny",
-      "Position": "Sounds of Music Event Supervisor"
-    },
-    {
-      "Name": "Mehek Dedhia",
-      "Position": "Disease Detectives Event Shadow"
-    },
-    {
-      "Name": "Michael Troka",
-      "Position": "Boomilever Event Supervisor"
-    },
-    {
-      "Name": "Mustafa Salim",
-      "Position": "Ornithology Event Supervisor"
-    },
-    {
-      "Name": "Nathan Chau",
-      "Position": "Boomilever Event Supervisor"
-    },
-    {
-      "Name": "Neehal Hussain",
-      "Position": "Urban Initiative Fellow",
-      "photoName": "Neehal_Hussain"
-    },
-    {
-      "Name": "Nisha Krishnan",
-      "Position": "Urban Initiative Fellow"
-    },
-    {
-      "Name": "Omar Elbulok",
-      "Position": "Forensics Event Supervisor"
-    },
-    {
-      "Name": "Ryan Lee",
-      "Position": "Operations Committee Member, Dynamic Planet Event Supervisor"
-    },
-    {
-      "Name": "Sai Mamidala",
-      "Position": "Urban Initiative Fellow"
-    },
-    {
-      "Name": "Sampath Kumar",
-      "Position": "Anatomy and Physiology Event Supervisor"
-    },
-    {
-      "Name": "Sarah Kane",
-      "Position": "Urban Initiative Fellow"
-    },
-    {
-      "Name": "Sarah Root",
-      "Position": "Disease Detectives Event Supervisor"
     },
     {
       "Name": "Shivani Nellore",
@@ -861,19 +497,123 @@
     },
     {
       "Name": "Steven Wren",
-      "Position": "Anatomy and Physiology Event Supervisor"
+      "Position": "Anatomy & Physiology Event Supervisor"
     },
     {
-      "Name": "Tahmid Ahamed",
-      "Position": "Finance Committee Member, Detector Building Event Supervisor"
+      "Name": "Kirti Nath",
+      "Position": "Designer Genes Event Supervisor"
     },
     {
-      "Name": "Vivian Dinh",
-      "Position": "Urban Initiative Fellow"
+      "Name": "Evan Jiang",
+      "Position": "Designer Genes Event Supervisor"
     },
     {
-      "Name": "Xavier Lee",
-      "Position": "Operations Committee Member"
+      "Name": "Sarah Root",
+      "Position": "Disease Detectives Event Supervisor"
+    },
+    {
+      "Name": "Anushree Aneja",
+      "Position": "Disease Detectives Event Supervisor"
+    },
+    {
+      "Name": "Pallavi Jonnalagadda",
+      "Position": "Water Quality Event Supervisor"
+    },
+    {
+      "Name": "Maggie Zhou",
+      "Position": "Water Quality Event Supervisor"
+    },
+    {
+      "Name": "Michelle Li",
+      "Position": "Water Quality Event Supervisor"
+    },
+    {
+      "Name": "Julia Lottman",
+      "Position": "Astronomy Event Supervisor"
+    },
+    {
+      "Name": "Benjamin Beyer",
+      "Position": "Astronomy Event Supervisor"
+    },
+    {
+      "Name": "Ryan Lee",
+      "Position": "Dynamic Planet Event Supervisor"
+    },
+    {
+      "Name": "Jacob Keller",
+      "Position": "Fossils Event Supervisor"
+    },
+    {
+      "Name": "Shobhit Prasad",
+      "Position": "Solar Power Event Supervisor, Finance Committee Member"
+    },
+    {
+      "Name": "Kevin Xu",
+      "Position": "Circuit Lab Event Supervisor"
+    },
+    {
+      "Name": "Tosin Odufalu",
+      "Position": "Write It, Do It Event Supervisor"
+    },
+    {
+      "Name": "Samuel Lee",
+      "Position": "Write It, Do It Event Supervisor"
+    },
+    {
+      "Name": "Erika Acosta",
+      "Position": "Write It, Do It Event Supervisor"
+    },
+    {
+      "Name": "Joanna Wang",
+      "Position": "Experimental Design Event Supervisor"
+    },
+    {
+      "Name": "Lily Yan",
+      "Position": "Experimental Design Event Supervisor"
+    },
+    {
+      "Name": "Akhilesh Tumu",
+      "Position": "Ping-Pong Parachute Event Supervisor"
+    },
+    {
+      "Name": "Gloria Lee",
+      "Position": "Ping-Pong Parachute Event Supervisor"
+    },
+    {
+      "Name": "Nathan Chau",
+      "Position": "Boomilever Event Supervisor"
+    },
+    {
+      "Name": "Jacob Marsh",
+      "Position": "Detector Building Event Supervisor"
+    },
+    {
+      "Name": "Jackson Powell",
+      "Position": "Detector Building Event Supervisor, Finance Committee Member"
+    },
+    {
+      "Name": "Peter Ma",
+      "Position": "Gravity Vehicle Event Supervisor"
+    },
+    {
+      "Name": "Owen Simon",
+      "Position": "Gravity Vehicle Event Supervisor"
+    },
+    {
+      "Name": "Alan Ismaiel",
+      "Position": "Wright Stuff Event Supervisor"
+    },
+    {
+      "Name": "Liam Theveny",
+      "Position": "Sounds of Music Event Supervisor"
+    },
+    {
+      "Name": "Hikaru 'Katie' Kotaka",
+      "Position": "Sounds of Music Event Supervisor"
+    },
+    {
+      "Name": "Priyanka Bhashyam",
+      "Position": "Finance Committee Member"
     }
   ]
 }
