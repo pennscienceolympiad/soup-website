@@ -476,6 +476,17 @@
       "photoName": "Vishesh_Patel"
     },
     {
+      "Bio": "",
+      "Email Address": "",
+      "Favorite SOUP": "Chicken noodle soup",
+      "High School": "Allentown Central Catholic High School",
+      "Name": "Priyanka Bhashyam",
+      "Position": "Finance Committee Member, Marketing Committee Member",
+      "Studies": "health and societies and political science",
+      "Year": "Freshman (Class of 2024)",
+      "photoName": "Priyanka_Bhashyam"
+    },
+    {
       "Name": "Jio Jeong",
       "Position": "Chemistry Lab Event Supervisor"
     },
@@ -610,10 +621,6 @@
     {
       "Name": "Hikaru 'Katie' Kotaka",
       "Position": "Sounds of Music Event Supervisor"
-    },
-    {
-      "Name": "Priyanka Bhashyam",
-      "Position": "Finance Committee Member"
     }
   ]
 }
