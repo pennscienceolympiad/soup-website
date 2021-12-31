@@ -2,15 +2,15 @@
 	"questions" : [
 		{
 			"q": "When will registration open?",
-			"a": "Registration for the 2021 invitational has closed."
+			"a": "Registration for the 2022 invitational is closed."
 		},
 		{
 			"q": "What is the registration fee?",
-			"a": "The registration fee for this year is $30 per team. Philadelphia school district schools have their registration fees waived. If you are currently registered for the tournament, checks should be made payable to Trustees of the University of Pennsylvania, with Science Olympiad on the memo line, and mailed to 200 Houston Hall, 3417 Spruce Street, Philadelphia, PA. Checks need to be postmarked by 12/10/2020, or your spot on the register will be opened to a team on the waitlist."
+			"a": "The registration fee for this year is $75 per team. Philadelphia school district schools have their registration fees waived. If you are currently registered for the tournament, checks should be made payable to Trustees of the University of Pennsylvania, with Science Olympiad on the memo line, and mailed to 200 Houston Hall, 3417 Spruce Street, Philadelphia, PA. Checks need to be postmarked by 01/05/2022, or your spot on the register will be opened to a team on the waitlist."
 		},
 		{
 			"q": "What will the tournament format be?",
-			"a": "All of our events will be run using National-level rules, with minor modifications to the event structure to accommodate the virtual environment. A detailed list of changes will be announced to registered teams. Events will be scheduled on the Scilympiad platform following the 2019-2020 National schedule. A detailed schedule with team numbers will be sent to registered teams. Tests will be administered electronically through the Scilympiad platform, which will allow partners to collaborate on events. Build events will not count toward teams’ final scores. To compete in build events, students must submit their videos by 10 am ET on Saturday, February 27, 2021. These videos will be graded on a rolling basis on the day of the tournament. More details on build events will be announced to registered teams. We expect students to give their best effort while displaying honesty, integrity, and good sportsmanship. All teams are expected to follow our tournament rules and abide by the Science Olympiad Code of Ethics."
+			"a": "All of our events will be run using National-level rules, with minor modifications to the event structure to accommodate the virtual environment. A detailed list of changes will be announced to registered teams. Events will be scheduled on the Scilympiad platform following the 2021-2022 National schedule. A detailed schedule with team numbers will be sent to registered teams. We expect students to give their best effort while displaying honesty, integrity, and good sportsmanship. All teams are expected to follow our tournament rules and abide by the Science Olympiad Code of Ethics. More details on tournament format will be provided in the coming weeks."
 		},
 		{
 			"q": "Will teams be allowed to write on tests?",
@@ -22,11 +22,11 @@
 		},
 		{
 			"q" : "Where can I find all of the necessary tournament information?",
-			"a" : "Our official information document is located on the “Tournament Information” page under the “Tournament” tab."
+			"a" : "Our official information document will be posted on the “Tournament Information” page under the “Tournament” tab when available."
 		},
 		{
 			"q" : "When will the information document be released?",
-			"a" : "Our unofficial information document will be released sometime in November. Revised versions will appear periodically and will be posted about under the “Updates” tab."
+			"a" : "Our unofficial information document will be released sometime in January. Revised versions will appear periodically and will be posted under the “Updates” tab."
 		},
 
 		{
@@ -34,12 +34,12 @@
 			"a" : "They are also located on the “Tournament Information” page under the “Tournament” tab."
 		},
 		{
-			"q": "when will the tournament start?",
-			"a": "The tournament will start on Feburary 27th, 2021 at 10am ET."
+			"q": "When will the tournament start?",
+			"a": "More details on tournament format will be provided in the coming weeks."
 		},
 		{
 			"q" : "When will the tournament end?",
-			"a" : "The tournament ends on Feburary 27th, 2021 at 5pm ET. The awards ceremony will begin at 4 pm ET on Sunday, February 28, 2021. Trophies and medals will be mailed to the winners."
+			"a" : "More details on tournament format will be provided in the coming weeks."
 		}
 	]
 }
