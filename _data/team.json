@@ -1,56 +1,248 @@
 {
   "exec": [
     {
-      "Name": "Savan Patel",
-      "Position": "President/Tournament Director",
-      "photoName": "Savan_Patel"
+      "Name": "Aurora Yuan",
+      "Position": "Co-President/Tournament Director",
+      "photoName": "Aurora_Yuan",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
     },
     {
-      "Name": "Jackson Powell",
+      "Name": "Teodora Dragic",
+      "Position": "Co-President/Tournament Director",
+      "photoName": "Teodora_Dragic",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Tyler Turek",
       "Position": "VP Finance",
-      "photoName": "Jackson_Powell"
+      "photoName": "Tyler_Turek",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Arav Nangia",
+      "Position": "VP Operations",
+      "photoName": "Arav_Nangia",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Adya Gupta",
+      "Position": "VP Communications",
+      "photoName": "Adya_Gupta",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Rishi Patel",
+      "Position": "VP Marketing",
+      "photoName": "Rishi_Patel",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
     },
     {
       "Name": "Jacqueline Chan",
-      "Position": "VP Operations",
-      "photoName": "Jacqueline_Tse"
+      "Position": "Social Chair",
+      "photoName": "Jacqueline_Chan",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Seamus Wang",
+      "Position": "Technology Chair",
+      "photoName": "Seamus_Wang",
+      "Bio": "Test",
+      "Year": "Senior (2024)",
+      "Studies": "Biology (conc. Ecology and Evolution)",
+      "Soup": "Maryland Cream of Crab"
+    },
+    {
+      "Name": "Charis Gao",
+      "Position": "Tournament Volunteer Coordinator",
+      "photoName": "Charis_Gao",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Suraj Oruganti",
+      "Position": "Urban Initiative Co-Coordinator",
+      "photoName": "Suraj_Oruganti",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Cynthia Dong",
+      "Position": "Urban Initiative Co-Coordinator",
+      "photoName": "Cynthia_Dong",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Joseph Dong",
+      "Position": "Biology Director",
+      "photoName": "Joseph_Dong",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Jimmy Bianchi",
+      "Position": "Chemistry Director",
+      "photoName": "Jimmy_Bianchi",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Xiangyu Chen",
+      "Position": "Builds Director",
+      "photoName": "Xiangyu_Chen",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Eric Tao",
+      "Position": "Earth and Space Science Director",
+      "photoName": "Eric_Tao",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    },
+    {
+      "Name": "Samuel Lee",
+      "Position": "Nature of Science Director",
+      "photoName": "Samuel_Lee",
+      "Bio": "",
+      "Year": "",
+      "Studies": "",
+      "Soup": ""
+    }
+  ],
+  "teamSeven": [
+    {
+      "Name": "Jackson Powell",
+      "Position": "Co-President/Tournament Co-Director"
+    },
+    {
+      "Name": "Jacqueline Chan",
+      "Position": "Co-President/Tournament Co-Director"
+    },
+    {
+      "Name": "Aurora Yuan",
+      "Position": "VP Finance"
+    },
+    {
+      "Name": "Teodora Dragic",
+      "Position": "VP Operations"
     },
     {
       "Name": "Shivani Nellore",
-      "Position": "VP Communications",
-      "photoName": "Shivani_Nellore"
+      "Position": "VP Communications"
     },
     {
       "Name": "Yi-An Hsieh",
-      "Position": "VP Marketing, Social Chair",
-      "photoName": "Yi-An_Hsieh"
+      "Position": "VP Marketing"
     },
     {
-      "Name": "Christina Kim",
-      "Position": "Urban Initiative Chair",
-      "photoName": "Christina_Kim"
-    },
-    {
-      "Name": "Brain Lee",
-      "Position": "Urban Initiative Chair",
-      "photoName": "Brian_Lee"
-    },
-    {
-      "Name": "Zachary Stotz",
-      "Position": "Biology Director",
-      "photoName": "Zachary_Stotz"
-    },
-    {
-      "Name": "David Lang",
-      "Position": "Chemistry Director",
-      "photoName": "David_Lang"
+      "Name": "Shobhit Prasad",
+      "Position": "Tournament Volunteer Coordinator, Urban Initiative Coordinator"
     },
     {
       "Name": "Belinda Xi",
-      "Position": "Technology Director",
-      "photoName": "Belinda_Xi"
+      "Position": "Social Chair, Technology Chair"
+    },
+    {
+      "Name": "Savan Patel",
+      "Position": "Social Chair"
+    },
+    {
+      "Name": "Sarah Kane",
+      "Position": "Urban Initiative Coordinator"
+    },
+    {
+      "Name": "Joseph Dong",
+      "Position": "Biology Director"
+    },
+    {
+      "Name": "Xiangyu Chen",
+      "Position": "Builds Director"
+    },
+    {
+      "Name": "Charis Ma",
+      "Position": "Chemistry Director"
+    },
+    {
+      "Name": "Samuel Lee",
+      "Position": "Nature of Science Director"
     }
   ],
-  "team": [
+  "teamSix": [
+    {
+      "Name": "Savan Patel",
+      "Position": "President/Tournament Director"
+    },
+    {
+      "Name": "Jackson Powell",
+      "Position": "VP Finance"
+    },
+    {
+      "Name": "Jacqueline Chan",
+      "Position": "VP Operations"
+    },
+    {
+      "Name": "Shivani Nellore",
+      "Position": "VP Communications"
+    },
+    {
+      "Name": "Yi-An Hsieh",
+      "Position": "VP Marketing, Social Chair"
+    },
+    {
+      "Name": "Christina Kim",
+      "Position": "Urban Initiative Chair"
+    },
+    {
+      "Name": "Brain Lee",
+      "Position": "Urban Initiative Chair"
+    },
+    {
+      "Name": "Zachary Stotz",
+      "Position": "Biology Director"
+    },
+    {
+      "Name": "David Lang",
+      "Position": "Chemistry Director"
+    },
+    {
+      "Name": "Belinda Xi",
+      "Position": "Technology Director"
+    }
   ]
 }
