@@ -4,7 +4,6 @@ layout: pagecontent
 permalink: /ourTeam/
 ---
 <div class="main-content">
-    <!--
     <div class="">
         <h2><span>2023-2024 Executive Board (Eighth Invitational)</span></h2>
         <div class="row">
@@ -20,9 +19,6 @@ permalink: /ourTeam/
                         <div class="figure-placeholder rounded"></div>
                         {% endif %}
                         <div class="img-text">
-                            {{ member.Bio }}
-                            <br />
-                            <br />
                             {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
                             {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
                             {% if member.Soup %}<b>Favorite Soup:</b>
@@ -41,13 +37,12 @@ permalink: /ourTeam/
         </div>
         <hr>
     </div>
--->
+
 <div class="">
-    <h2><span>2023-2024 Executive Board (Eighth Invitational)</span></h2>
-    {% assign team = site.data.team["exec"] %}     
-    {% for member in team %}
-        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
-    {% endfor %}
+    <h3><span>Not Pictured</span></h3> 
+        <li><b>Adya Gupta</b> - VP Communications</li>
+        <li><b>Rishi Patel</b> - VP Marketing</li>
+        <li><b>Suraj Oruganti</b> - Urban Initiative Co-Coordinator</li>  
 </div>
 
         <p><br><p>     
