@@ -1,22 +1,40 @@
 {
   "exec": [
     {
-      "Name": "Aurora Yuan",
-      "Position": "Co-President/Tournament Director",
-      "photoName": "Aurora_Yuan",
+      "Name": "Arav Nangia",
+      "Position": "Co-President",
+      "photoName": "Arav_Nangia",
       "Bio": "",
-      "Year": "",
-      "Studies": "",
+      "Year": "Junior (2026)",
+      "Studies": "Biochemistry",
+      "Soup": "Tom Yum"
+    },
+    {
+      "Name": "Manas Choure",
+      "Position": "Co-President",
+      "photoName": "",
+      "Bio": "",
+      "Year": "Junior (2026)",
+      "Studies": "Physics, Economics",
+      "Soup": "Minestrone"
+    },
+    {
+      "Name": "Mahreen Ahmed",
+      "Position": "VP Operations",
+      "photoName": "",
+      "Bio": "",
+      "Year": "Junior (2026)",
+      "Studies": "Health & Societies, Biology",
       "Soup": ""
     },
     {
-      "Name": "Teodora Dragic",
-      "Position": "Co-President/Tournament Director",
-      "photoName": "Teodora_Dragic",
+      "Name": "Rishi Patel",
+      "Position": "VP Operations",
+      "photoName": "",
       "Bio": "",
-      "Year": "Junior (2025)",
-      "Studies": "Health & Societies",
-      "Soup": "French Onion"
+      "Year": "Senior (2025)",
+      "Studies": "Biochemistry, Biophysics",
+      "Soup": ""
     },
     {
       "Name": "Tyler Turek",
@@ -28,94 +46,67 @@
       "Soup": "Avgolemono"
     },
     {
-      "Name": "Arav Nangia",
-      "Position": "VP Operations",
-      "photoName": "Arav_Nangia",
-      "Bio": "",
-      "Year": "Sophomore (2026)",
-      "Studies": "Biochemistry",
-      "Soup": "Tom Yum"
-    },
-    {
-      "Name": "Jacqueline Chan",
-      "Position": "Social Chair",
-      "photoName": "Jacqueline_Chan",
-      "Bio": "",
-      "Year": "Senior (2024)",
-      "Studies": "Medical Anthropology",
-      "Soup": "Lobster Bisque"
-    },
-    {
-      "Name": "Seamus Wang",
-      "Position": "Technology Chair",
-      "photoName": "Seamus_Wang",
-      "Bio": "Test",
-      "Year": "Senior (2024)",
-      "Studies": "Biology (Ecology and Evolution)",
-      "Soup": "Maryland Cream of Crab"
-    },
-    {
-      "Name": "Charis Gao",
+      "Name": "Richard Zhuang",
       "Position": "Tournament Volunteer Coordinator",
-      "photoName": "Charis_Gao",
+      "photoName": "",
       "Bio": "",
-      "Year": "Junior (2025)",
-      "Studies": "Computer Science",
-      "Soup": "Clam Chowder"
+      "Year": "Sophomore (2027)",
+      "Studies": "Computational Biology, Computer Science",
+      "Soup": ""
     },
     {
       "Name": "Cynthia Dong",
-      "Position": "Urban Initiative Co-Coordinator",
+      "Position": "VP Marketing",
       "photoName": "Cynthia_Dong",
       "Bio": "",
-      "Year": "Sophomore (2026)",
+      "Year": "Junior (2026)",
       "Studies": "Bioengineering ",
       "Soup": "Tomato Bisque"
     },
     {
-      "Name": "Joseph Dong",
+      "Name": "Siddharth Chitta",
       "Position": "Biology Director",
-      "photoName": "Joseph_Dong",
+      "photoName": "",
       "Bio": "",
-      "Year": "Senior (2024)",
-      "Studies": "Biochemistry, Biophysics",
-      "Soup": "Signature Cafe® Loaded Baked Potato Soup with Bacon"
+      "Year": "Junior (2026)",
+      "Studies": "Biology",
+      "Soup": "Apple Soup"
     },
     {
-      "Name": "Jimmy Bianchi",
+      "Name": "Julia Gauffreau",
       "Position": "Chemistry Director",
-      "photoName": "Jimmy_Bianchi",
+      "photoName": "",
       "Bio": "",
-      "Year": "Senior (2024)",
-      "Studies": "Neuroscience",
-      "Soup": "Italian Wedding"
-    },
-    {
-      "Name": "Xiangyu Chen",
-      "Position": "Builds Director",
-      "photoName": "Xiangyu_Chen",
-      "Bio": "",
-      "Year": "Junior (2025)",
-      "Studies": "Mechanical Engineering & Applied Mechanics",
-      "Soup": "Tomato and Egg"
-    },
-    {
-      "Name": "Eric Tao",
-      "Position": "Earth and Space Science Director",
-      "photoName": "Eric_Tao",
-      "Bio": "",
-      "Year": "",
-      "Studies": "",
+      "Year": "Junior (2026)",
+      "Studies": "Chemistry, Biochemistry",
       "Soup": ""
     },
     {
-      "Name": "Samuel Lee",
-      "Position": "Nature of Science Director",
-      "photoName": "Samuel_Lee",
+      "Name": "Ray Ma",
+      "Position": "Builds Director",
+      "photoName": "",
       "Bio": "",
-      "Year": "Senior (2024)",
-      "Studies": "Computer Science",
-      "Soup": "Beef Short Rib (Galbitang)"
+      "Year": "Sophomore (2027)",
+      "Studies": "Neuroscience",
+      "Soup": ""
+    },
+    {
+      "Name": "Jasjeev Singh",
+      "Position": "Earth and Space Science Director",
+      "photoName": "",
+      "Bio": "",
+      "Year": "Junior (2026)",
+      "Studies": "Physics",
+      "Soup": ""
+    },
+    {
+      "Name": "Pedram Bayat",
+      "Position": "Nature of Science Director",
+      "photoName": "",
+      "Bio": "",
+      "Year": "Sophomore (2027)",
+      "Studies": "Bioengineering",
+      "Soup": ""
     }
   ],
   "teamSeven": [
