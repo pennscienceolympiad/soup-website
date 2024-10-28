@@ -3,7 +3,7 @@
     {
       "Name": "Arav Nangia",
       "Position": "Co-President",
-      "photoName": "Arav_N",
+      "photoName": "Arav_Nangia",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Biochemistry",
@@ -12,7 +12,7 @@
     {
       "Name": "Manas Choure",
       "Position": "Co-President",
-      "photoName": "Manas_C",
+      "photoName": "Manas_Choure",
       "Bio": "I'm Manas, a junior studying physics and economics. I was captain of Chattahoochee Science Olympiad in HS and my favorite events included Codebusters, Wifi Lab, and Astronomy. Besides Scioly, I spend my time playing cricket and completing puzzle books. You can find me weeping as I contemplate the drop-off of Philly sports (baseball, football, soccer, etc).",
       "Year": "Junior (2026)",
       "Studies": "Physics, Economics",
@@ -21,7 +21,7 @@
     {
       "Name": "Mahreen Ahmed",
       "Position": "VP Operations",
-      "photoName": "Mahreen_A",
+      "photoName": "Mahreen_Ahmed",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Health & Societies, Biology",
@@ -48,7 +48,7 @@
     {
       "Name": "Richard Zhuang",
       "Position": "Tournament Volunteer Coordinator",
-      "photoName": "Richard_Z",
+      "photoName": "Richard_Zhuang",
       "Bio": "",
       "Year": "Sophomore (2027)",
       "Studies": "Computational Biology, Computer Science",
@@ -57,7 +57,7 @@
     {
       "Name": "Cynthia Dong",
       "Position": "VP Marketing",
-      "photoName": "Cynthia_D",
+      "photoName": "Cynthia_Dong",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Bioengineering ",
@@ -65,8 +65,8 @@
     },
     {
       "Name": "Randy Cai",
-      "Position": "Urban Initiative Coordinator"
-      "photoName": "Randy_C",
+      "Position": "Urban Initiative Coordinator",
+      "photoName": "Randy_Cai",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Neuroscience",
@@ -74,8 +74,8 @@
     },
     {
       "Name": "Jake Konigsberg",
-      "Position": "Urban Initiative Coordinator"
-      "photoName": "Jake_K",
+      "Position": "Urban Initiative Coordinator",
+      "photoName": "Jake_Konigsberg",
       "Bio": "I'm Jake, a sophomore studying biochemistry. In high school, I was captain of Roslyn Science Olympiad with my favorite events being forensics and chemistry lab.",
       "Year": "Junior (2026)",
       "Studies": "Biochemistry",
@@ -84,7 +84,7 @@
     {
       "Name": "Siddharth Chitta",
       "Position": "Biology Director",
-      "photoName": "Sid_C",
+      "photoName": "Siddharth_Chitta",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Biology",
@@ -93,7 +93,7 @@
     {
       "Name": "Julia Gauffreau",
       "Position": "Chemistry Director",
-      "photoName": "Julia_G",
+      "photoName": "Julia_Gauffreau",
       "Bio": "I’m Julia, a junior studying chemistry and biochemistry. I was captain of the Penncrest High School Science Olympiad team, and my favorite events were chemistry lab, forensics, and disease detectives. Outside of SOUP, I sing with the Penn Glee Club and do research in medicinal chemistry.",
       "Year": "Junior (2026)",
       "Studies": "Chemistry, Biochemistry",
@@ -102,7 +102,7 @@
     {
       "Name": "Ray Ma",
       "Position": "Builds Director",
-      "photoName": "Ray_M",
+      "photoName": "Ray_Ma",
       "Bio": "",
       "Year": "Sophomore (2027)",
       "Studies": "Neuroscience",
@@ -111,7 +111,7 @@
     {
       "Name": "Jasjeev Singh",
       "Position": "Earth and Space Science Director",
-      "photoName": "Jasjeev_S",
+      "photoName": "Jasjeev_Singh",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Physics",
@@ -120,7 +120,7 @@
     {
       "Name": "Pedram Bayat",
       "Position": "Nature of Science Director",
-      "photoName": "Pedram_B",
+      "photoName": "Pedram_Bayat",
       "Bio": "Hi, I'm Pedram, a sophomore studying bioengineering. I was a captain at Mountain View HS where I loved competing in codebusters, experimental design, WIDI, and chemistry lab.",
       "Year": "Sophomore (2027)",
       "Studies": "Bioengineering",
