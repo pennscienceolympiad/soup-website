@@ -3,7 +3,7 @@
     {
       "Name": "Arav Nangia",
       "Position": "Co-President",
-      "photoName": "Arav_Nangia",
+      "photoName": "Arav_N",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Biochemistry",
@@ -12,8 +12,8 @@
     {
       "Name": "Manas Choure",
       "Position": "Co-President",
-      "photoName": "",
-      "Bio": "",
+      "photoName": "Manas_C",
+      "Bio": "I'm Manas, a junior studying physics and economics. I was captain of Chattahoochee Science Olympiad in HS and my favorite events included Codebusters, Wifi Lab, and Astronomy. Besides Scioly, I spend my time playing cricket and completing puzzle books. You can find me weeping as I contemplate the drop-off of Philly sports (baseball, football, soccer, etc).",
       "Year": "Junior (2026)",
       "Studies": "Physics, Economics",
       "Soup": "Minestrone"
@@ -21,7 +21,7 @@
     {
       "Name": "Mahreen Ahmed",
       "Position": "VP Operations",
-      "photoName": "blank",
+      "photoName": "Mahreen_A",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Health & Societies, Biology",
@@ -48,7 +48,7 @@
     {
       "Name": "Richard Zhuang",
       "Position": "Tournament Volunteer Coordinator",
-      "photoName": "",
+      "photoName": "Richard_Z",
       "Bio": "",
       "Year": "Sophomore (2027)",
       "Studies": "Computational Biology, Computer Science",
@@ -57,16 +57,34 @@
     {
       "Name": "Cynthia Dong",
       "Position": "VP Marketing",
-      "photoName": "Cynthia_Dong",
+      "photoName": "Cynthia_D",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Bioengineering ",
       "Soup": "Tomato Bisque"
     },
     {
+      "Name": "Randy Cai",
+      "Position": "Urban Initiative Coordinator"
+      "photoName": "Randy_C",
+      "Bio": "",
+      "Year": "Junior (2026)",
+      "Studies": "Neuroscience",
+      "Soup": ""
+    },
+    {
+      "Name": "Jake Konigsberg",
+      "Position": "Urban Initiative Coordinator"
+      "photoName": "Jake_K",
+      "Bio": "I'm Jake, a sophomore studying biochemistry. In high school, I was captain of Roslyn Science Olympiad with my favorite events being forensics and chemistry lab.",
+      "Year": "Junior (2026)",
+      "Studies": "Biochemistry",
+      "Soup": "Ramen"
+    },
+    {
       "Name": "Siddharth Chitta",
       "Position": "Biology Director",
-      "photoName": "",
+      "photoName": "Sid_C",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Biology",
@@ -75,16 +93,16 @@
     {
       "Name": "Julia Gauffreau",
       "Position": "Chemistry Director",
-      "photoName": "",
-      "Bio": "",
+      "photoName": "Julia_G",
+      "Bio": "I’m Julia, a junior studying chemistry and biochemistry. I was captain of the Penncrest High School Science Olympiad team, and my favorite events were chemistry lab, forensics, and disease detectives. Outside of SOUP, I sing with the Penn Glee Club and do research in medicinal chemistry.",
       "Year": "Junior (2026)",
       "Studies": "Chemistry, Biochemistry",
-      "Soup": ""
+      "Soup": "Pho!"
     },
     {
       "Name": "Ray Ma",
       "Position": "Builds Director",
-      "photoName": "",
+      "photoName": "Ray_M",
       "Bio": "",
       "Year": "Sophomore (2027)",
       "Studies": "Neuroscience",
@@ -93,7 +111,7 @@
     {
       "Name": "Jasjeev Singh",
       "Position": "Earth and Space Science Director",
-      "photoName": "",
+      "photoName": "Jasjeev_S",
       "Bio": "",
       "Year": "Junior (2026)",
       "Studies": "Physics",
@@ -102,11 +120,61 @@
     {
       "Name": "Pedram Bayat",
       "Position": "Nature of Science Director",
-      "photoName": "",
-      "Bio": "",
+      "photoName": "Pedram_B",
+      "Bio": "Hi, I'm Pedram, a sophomore studying bioengineering. I was a captain at Mountain View HS where I loved competing in codebusters, experimental design, WIDI, and chemistry lab.",
       "Year": "Sophomore (2027)",
       "Studies": "Bioengineering",
-      "Soup": ""
+      "Soup": "An Iranian dish called ash reshteh!"
+    }
+  ],
+  "teamEight": [
+    {
+      "Name": "Aurora Yuan",
+      "Position": "Co-President/Tournament Co-Director"
+    },
+    {
+      "Name": "Teodora Dragic",
+      "Position": "Co-President/Tournament Co-Director"
+    },
+    {
+      "Name": "Tyler Turek",
+      "Position": "VP Finance"
+    },
+    {
+      "Name": "Arav Nangia",
+      "Position": "VP Operations"
+    },
+    {
+      "Name": "Charis Gao",
+      "Position": "Tournament Volunteer Coordinator"
+    },
+    {
+      "Name": "Seamus Wang",
+      "Position": "Technology Chair"
+    },
+    {
+      "Name": "Jacqueline Chan",
+      "Position": "Social Chair"
+    },
+    {
+      "Name": "Cynthia Dong",
+      "Position": "Urban Initiative Coordinator"
+    },
+    {
+      "Name": "Joseph Dong",
+      "Position": "Biology Director"
+    },
+    {
+      "Name": "Xiangyu Chen",
+      "Position": "Builds Director"
+    },
+    {
+      "Name": "Jimmy Bianchi",
+      "Position": "Chemistry Director"
+    },
+    {
+      "Name": "Samuel Lee",
+      "Position": "Nature of Science Director"
     }
   ],
   "teamSeven": [
