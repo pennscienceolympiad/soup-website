@@ -40,13 +40,22 @@ permalink: /ourTeam/
 
 <div class="">
     <h3><span>Not Pictured</span></h3> 
-        <li><b>Rishi Patel</b> - VP Marketing</li> 
+        <li><b>Rishi Patel</b> - VP Operations</li> 
 </div>
 
         <p><br><p>     
             
 <div class="">
         <h2><span>Past Executive Boards</span></h2>
+    <h3>2022-2023 (Eighth Invitational)</h3>
+    {% assign team = site.data.team["teamEight"] %}     
+    {% for member in team %}
+        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
+    {% endfor %}
+</div>
+
+    
+<div class="">
         <h3>2022-2023 (Seventh Invitational)</h3>
     {% assign team = site.data.team["teamSeven"] %}     
     {% for member in team %}
