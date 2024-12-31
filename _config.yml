@@ -7,3 +7,8 @@ baseurl: ""
 
 sass: 
   sass_dir: css
+
+include:
+  - img
+  - img/team
+  - img/team/2024
