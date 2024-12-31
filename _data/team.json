@@ -28,15 +28,6 @@
       "Soup": ""
     },
     {
-      "Name": "Rishi Patel",
-      "Position": "VP Operations",
-      "photoName": "",
-      "Bio": "",
-      "Year": "Senior (2025)",
-      "Studies": "Biochemistry, Biophysics",
-      "Soup": ""
-    },
-    {
       "Name": "Tyler Turek",
       "Position": "VP Finance",
       "photoName": "Tyler_Turek",
@@ -89,15 +80,6 @@
       "Year": "Junior (2026)",
       "Studies": "Biology",
       "Soup": "Apple Soup"
-    },
-    {
-      "Name": "Julia Gauffreau",
-      "Position": "Chemistry Director",
-      "photoName": "Julia_Gauffreau",
-      "Bio": "I’m Julia, a junior studying chemistry and biochemistry. I was captain of the Penncrest High School Science Olympiad team, and my favorite events were chemistry lab, forensics, and disease detectives. Outside of SOUP, I sing with the Penn Glee Club and do research in medicinal chemistry.",
-      "Year": "Junior (2026)",
-      "Studies": "Chemistry, Biochemistry",
-      "Soup": "Pho!"
     },
     {
       "Name": "Ray Ma",
