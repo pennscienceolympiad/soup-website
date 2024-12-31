@@ -13,13 +13,13 @@ permalink: /ourTeam/
                 <figure class="figure">
                     <div class="img-hover">
                         {% if member.photoName %}
-                        <img src="img/team/2024/{{ member.photoName }}.jpg"
+                        <img src="{{ site.baseurl }}/img/team/2024/{{ member.photoName }}.JPG"
                             class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
                         {% else %}
                         <div class="figure-placeholder rounded"></div>
                         {% endif %}
                         <div class="img-text">
-                            {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
+                            {% if member.Year %}<b>Year1:</b> {{ member.Year }}<br />{% endif %}
                             {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
                             {% if member.Soup %}<b>Favorite Soup:</b>
                             {{ member.Soup }}{% endif %}
