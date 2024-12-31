@@ -82,6 +82,15 @@
       "Soup": "Apple Soup"
     },
     {
+      "Name": "Julia Gauffreau",
+      "Position": "Chemistry Director",
+      "photoName": "Julia_Gauffreau",
+      "Bio": "",
+      "Year": "Junior (2026)",
+      "Studies": "Chemistry, Biochemistry",
+      "Soup": "Pho"
+    },
+    {
       "Name": "Ray Ma",
       "Position": "Builds Director",
       "photoName": "Ray_Ma",
