@@ -1,121 +1,189 @@
 {
   "exec": [
     {
-      "Name": "Arav Nangia",
+      "Name": "Richard Zhuang",
       "Position": "Co-President",
-      "photoName": "Arav_Nangia",
-      "Bio": "",
-      "Year": "Junior (2026)",
-      "Studies": "Biochemistry",
-      "Soup": "Tom Yum"
+      "photoName": "Richard_Zhuang",
+      "Favorite SOUP Memory": "Reuniting with my high school team at SOUP and handing out medals to them",
+      "Year": "Junior (2027)",
+      "Studies": "Biology",
+      "Soup of Choice": "Miso Soup"
     },
     {
-      "Name": "Manas Choure",
+      "Name": "Jake Konigsberg",
       "Position": "Co-President",
-      "photoName": "Manas_Choure",
-      "Bio": "I'm Manas, a junior studying physics and economics. I was captain of Chattahoochee Science Olympiad in HS and my favorite events included Codebusters, Wifi Lab, and Astronomy. Besides Scioly, I spend my time playing cricket and completing puzzle books. You can find me weeping as I contemplate the drop-off of Philly sports (baseball, football, soccer, etc).",
-      "Year": "Junior (2026)",
-      "Studies": "Physics, Economics",
-      "Soup": "Minestrone"
+      "photoName": "Jake_Konigsberg",
+      "Favorite SOUP Memory": "Organizing socials for the board and the club",
+      "Year": "Junior (2027)",
+      "Studies": "Biology",
+      "Soup of Choice": "Ramen"
     },
     {
       "Name": "Mahreen Ahmed",
       "Position": "VP Operations",
       "photoName": "Mahreen_Ahmed",
-      "Bio": "",
-      "Year": "Junior (2026)",
+      "Favorite SOUP Memory": "Chinatown dinner with the board",
+      "Year": "Senior (2026)",
       "Studies": "Health & Societies, Biology",
-      "Soup": ""
+      "Soup of Choice": "French onion"
     },
     {
-      "Name": "Tyler Turek",
+      "Name": "Claire Kang",
       "Position": "VP Finance",
-      "photoName": "Tyler_Turek",
-      "Bio": "",
-      "Year": "Sophomore (2026)",
-      "Studies": "Physics",
-      "Soup": "Avgolemono"
+      "photoName": "Claire_Kang",
+      "Favorite SOUP Memory": "Eating Chipotle on the floor while grading tests during last year's competition.",
+      "Year": "Sophomore (2028)",
+      "Studies": "Chemistry, Chemical and Biomolecular Engineering",
+      "Soup of Choice": "Any noodle soups"
     },
     {
       "Name": "Richard Zhuang",
       "Position": "Tournament Volunteer Coordinator",
       "photoName": "Richard_Zhuang",
-      "Bio": "",
+      "Favorite SOUP Memory": "",
       "Year": "Sophomore (2027)",
       "Studies": "Computational Biology, Computer Science",
-      "Soup": "Miso Soup"
+      "Soup of Choice": "Miso Soup"
     },
     {
       "Name": "Cynthia Dong",
       "Position": "VP Marketing",
       "photoName": "Cynthia_Dong",
-      "Bio": "",
-      "Year": "Junior (2026)",
-      "Studies": "Bioengineering ",
-      "Soup": "Tomato Bisque"
+      "Favorite SOUP Memory": "Chipotle on tournament day and taking everyone's picture",
+      "Year": "Senior (2026)",
+      "Studies": "Bioengineering",
+      "Soup of Choice": "Tomato Bisque"
     },
     {
-      "Name": "Randy Cai",
+      "Name": "Anushka Gandhi",
       "Position": "Urban Initiative Coordinator",
-      "photoName": "Randy_Cai",
-      "Bio": "",
-      "Year": "Junior (2026)",
-      "Studies": "Neuroscience",
-      "Soup": ""
+      "photoName": "Anushka_Gandhi",
+      "Favorite SOUP Memory": "Towers with Amanda and Kithya last year",
+      "Year": "Senior (2026)",
+      "Studies": "Bioengineering",
+      "Soup of Choice": "Tomato Soup"
     },
     {
-      "Name": "Jake Konigsberg",
+      "Name": "Amanda Chen",
       "Position": "Urban Initiative Coordinator",
-      "photoName": "Jake_Konigsberg",
-      "Bio": "I'm Jake, a sophomore studying biochemistry. In high school, I was captain of Roslyn Science Olympiad with my favorite events being forensics and chemistry lab.",
-      "Year": "Junior (2026)",
-      "Studies": "Biochemistry",
-      "Soup": "Ramen"
+      "photoName": "Amanda_Chen",
+      "Favorite SOUP Memory": "Late night setting up for builds and running between the engineering buildings the night before before my first SOUP tournament 2 years ago",
+      "Year": "Junior (2027)",
+      "Studies": "Biology",
+      "Soup of Choice": "Seafood Tofu Soup"
     },
     {
       "Name": "Siddharth Chitta",
       "Position": "Biology Director",
       "photoName": "Siddharth_Chitta",
-      "Bio": "",
-      "Year": "Junior (2026)",
+      "Favorite SOUP Memory": "Walking over 25K steps solely in DRL at last year's tournament",
+      "Year": "Senior (2026)",
       "Studies": "Biology",
-      "Soup": "Rasam"
+      "Soup of Choice": "Minestrone"
     },
     {
-      "Name": "Julia Gauffreau",
+      "Name": "Arjun Sharma",
       "Position": "Chemistry Director",
-      "photoName": "Julia_Gauffreau",
-      "Bio": "",
-      "Year": "Junior (2026)",
-      "Studies": "Chemistry, Biochemistry",
-      "Soup": "Pho"
+      "photoName": "Arjun_Sharma",
+      "Favorite SOUP Memory": "Testing out our lab procedure as a Chem Lab ES last year! I had a lot of fun with my co-writers and the experience was a testament to the atmosphere of camaraderie that we’d cultivated throughout the semester.",
+      "Year": "Sophomore (2028)",
+      "Studies": "Chemistry, Chemical and Biomolecular Engineering",
+      "Soup of Choice": "Tom Yum"
     },
     {
       "Name": "Ray Ma",
       "Position": "Builds Director",
       "photoName": "Ray_Ma",
-      "Bio": "",
-      "Year": "Sophomore (2027)",
+      "Favorite SOUP Memory": "",
+      "Year": "Junior (2027)",
       "Studies": "Neuroscience",
-      "Soup": ""
+      "Soup of Choice": ""
     },
     {
-      "Name": "Jasjeev Singh",
+      "Name": "Jeremy Chung",
+      "Position": "Builds Director",
+      "photoName": "Jeremy_Chung",
+      "Favorite SOUP Memory": "Arguing with high school kids about a scale",
+      "Year": "Sophomore (2028)",
+      "Studies": "Electrical Engineering",
+      "Soup of Choice": "Beef noodle soup"
+    },
+    {
+      "Name": "Manas Choure",
       "Position": "Earth and Space Science Director",
-      "photoName": "Jasjeev_Singh",
-      "Bio": "",
-      "Year": "Junior (2026)",
-      "Studies": "Physics",
-      "Soup": ""
+      "photoName": "Manas_Choure",
+      "Favorite SOUP Memory": "Winning a medal at SOUP in 2020 when I was a sophomore in high school",
+      "Year": "Senior (2026)",
+      "Studies": "Physics, Economics",
+      "Soup of Choice": "Minestrone"
     },
     {
       "Name": "Pedram Bayat",
       "Position": "Nature of Science Director",
       "photoName": "Pedram_Bayat",
-      "Bio": "Hi, I'm Pedram, a sophomore studying bioengineering. I was a captain at Mountain View HS where I loved competing in codebusters, experimental design, WIDI, and chemistry lab.",
-      "Year": "Sophomore (2027)",
+      "Favorite SOUP Memory": "Handing out medals during awards",
+      "Year": "Junior (2027)",
       "Studies": "Bioengineering",
-      "Soup": "An Iranian dish called ash reshteh!"
+      "Soup of Choice": "A Persian soup called ash reshteh!"
+    },
+    {
+      "Name": "Arav Nangia",
+      "Position": "Social Chair",
+      "photoName": "Arav_Nangia",
+      "Favorite SOUP Memory": "Trying Panera's tomato soup for the first time",
+      "Year": "Senior (2026)",
+      "Studies": "Biochemistry",
+      "Soup of Choice": "Tom Yum"
+    }
+  ],
+  "teamNine": [
+    {
+      "Name": "Arav Nangia",
+      "Position": "Co-President/Tournament Co-Director"
+    },
+    {
+      "Name": "Manas Choure",
+      "Position": "Co-President/Tournament Co-Director"
+    },
+    {
+      "Name": "Tyler Turek",
+      "Position": "VP Finance"
+    },
+    {
+      "Name": "Mahreen Ahmed",
+      "Position": "VP Operations"
+    },
+    {
+      "Name": "Cynthia Dong",
+      "Position": "VP Marketing"
+    },
+    {
+      "Name": "Richard Zhuang",
+      "Position": "Tournament Volunteer Coordinator"
+    },
+    {
+      "Name": "Randy Cai",
+      "Position": "Urban Initiative Coordinator"
+    },
+    {
+      "Name": "Jake Konigsberg",
+      "Position": "Urban Initiative Coordinator"
+    },
+    {
+      "Name": "Siddharth Chitta",
+      "Position": "Biology Director"
+    },
+    {
+      "Name": "Ray Ma",
+      "Position": "Builds Director"
+    },
+    {
+      "Name": "Julia Gauffreau",
+      "Position": "Chemistry Director"
+    },
+    {
+      "Name": "Pedram Bayat",
+      "Position": "Nature of Science Director"
     }
   ],
   "teamEight": [
