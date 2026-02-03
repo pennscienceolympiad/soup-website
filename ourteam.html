@@ -11,21 +11,25 @@ permalink: /ourTeam/
             {% for member in exec %}
             <div class="col-sm-6 col-md-4">
                 <figure class="figure">
-                    <div class="img-hover img-container">
-                        {% if member.photoName %}
-                        <img src="{{ site.baseurl }}/img/team/2025/{{ member.photoName }}.JPG"
-                            class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
-                        {% else %}
-                        <div class="figure-placeholder rounded"></div>
-                        {% endif %}
+                    <div class="img-hover">
+                        <div class="img-container">
+                            {% if member.photoName %}
+                            <img src="{{ site.baseurl }}/img/team/2025/{{ member.photoName }}.JPG"
+                                class="figure-img rounded"
+                                alt="A photo of {{ member.Name }}">
+                            {% else %}
+                            <div class="figure-placeholder rounded"></div>
+                            {% endif %}
+                        </div>
+
                         <div class="img-text">
                             {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
                             {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
                             {% if member.Memory %}<b>Favorite SOUP Memory:</b> {{ member.Memory }}<br />{% endif %}
-                            {% if member.Soup %}<b>Soup of Choice:</b>
-                            {{ member.Soup }}{% endif %}
+                            {% if member.Soup %}<b>Soup of Choice:</b> {{ member.Soup }}{% endif %}
                         </div>
                     </div>
+
                     <figcaption class="figure-caption">
                         <p><center>
                             <b>{{ member.Name }}</b><br />
@@ -52,8 +56,7 @@ permalink: /ourTeam/
 </div>
 
 <div class="">
-        <h2><span>Past Executive Boards</span></h2>
-    <h3>2023-2024 (Eighth Invitational)</h3>
+        <h3>2023-2024 (Eighth Invitational)</h3>
     {% assign team = site.data.team["teamEight"] %}     
     {% for member in team %}
         <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
@@ -82,23 +85,19 @@ permalink: /ourTeam/
 
 <style>
 .img-container {
-    border: 5px solid red !important;
-    height: 300px !important;
-}
-
-.img-container {
-    width: 100%;
+    width: 220px;
     height: 300px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center top;
 }
 </style>
+
 
         <!--
     <div class="">
