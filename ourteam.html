@@ -11,7 +11,7 @@ permalink: /ourTeam/
             {% for member in exec %}
             <div class="col-sm-6 col-md-4">
                 <figure class="figure">
-                    <div class="img-hover">
+                    <div class="img-hover img-container">
                         {% if member.photoName %}
                         <img src="{{ site.baseurl }}/img/team/2025/{{ member.photoName }}.JPG"
                             class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
@@ -78,6 +78,22 @@ permalink: /ourTeam/
         <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
     {% endfor %}
 </div>
+
+
+<style>
+.img-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+</style>
 
         <!--
     <div class="">
