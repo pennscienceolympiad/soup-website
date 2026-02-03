@@ -5,7 +5,7 @@ permalink: /ourTeam/
 ---
 <div class="main-content">
     <div class="">
-        <h2><span>2025-2026 Executive Board (Ninth Invitational)</span></h2>
+        <h2><span>2025-2026 Executive Board (Tenth Invitational)</span></h2>
         <div class="row">
             {% assign exec = site.data.team["exec"] %}
             {% for member in exec %}
@@ -13,7 +13,7 @@ permalink: /ourTeam/
                 <figure class="figure">
                     <div class="img-hover">
                         {% if member.photoName %}
-                        <img src="{{ site.baseurl }}/img/team/2024/{{ member.photoName }}.JPG"
+                        <img src="{{ site.baseurl }}/img/team/2025/{{ member.photoName }}.JPG"
                             class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
                         {% else %}
                         <div class="figure-placeholder rounded"></div>
@@ -38,14 +38,18 @@ permalink: /ourTeam/
         <hr>
     </div>
 
-<div class="">
-    <h3><span>Not Pictured</span></h3> 
-        <li><b>Rishi Patel</b> - VP Operations</li> 
-        <li><b>Julia Gauffreau</b> - Chemistry Director</li> 
-</div>
 
         <p><br><p>     
             
+<div class="">
+        <h2><span>Past Executive Boards</span></h2>
+    <h3>2023-2024 (Nonth Invitational)</h3>
+    {% assign team = site.data.team["teamNine"] %}     
+    {% for member in team %}
+        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
+    {% endfor %}
+</div>
+
 <div class="">
         <h2><span>Past Executive Boards</span></h2>
     <h3>2023-2024 (Eighth Invitational)</h3>
