@@ -50,8 +50,67 @@ body {
     text-shadow: 0 0 3px black;
     margin: 0 auto;
     width: 600px;
+    max-width: calc(100% - 32px);
     border-radius: 5px;
     margin-top: 30px;
+}
+
+/* Registration timeline box on the front page */
+.reg-box {
+    font-weight: 400;
+    padding: 20px 24px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.reg-heading {
+    margin: 0 0 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.reg-timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.reg-timeline li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px 16px;
+    padding: 8px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.reg-timeline li:first-child {
+    border-top: none;
+}
+
+.reg-when {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.reg-what {
+    flex: 1 1 220px;
+    text-align: right;
+}
+
+.reg-cta {
+    margin: 16px 0 0;
+}
+
+@media (max-width: 575px) {
+    .reg-timeline li {
+        flex-direction: column;
+    }
+
+    .reg-what {
+        flex: none;
+        text-align: left;
+    }
 }
 
 .registration-text {
