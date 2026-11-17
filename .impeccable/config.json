@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "css/soup.css"
+        ],
+        "createdAt": "2026-11-17T14:08:51.096Z",
+        "reason": "Claude triage: css/soup.css L312 is a 4px bottom underline that grows on team-photo hover, not a side border on a card"
+      }
+    ]
+  }
+}
