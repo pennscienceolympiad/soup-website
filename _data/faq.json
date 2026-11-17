@@ -1,45 +1,44 @@
 {
-	"questions" : [
-		{
-			"q": "When will registration open?",
-			"a": "Registration for the 2022 invitational is closed."
-		},
-		{
-			"q": "What is the registration fee?",
-			"a": "The registration fee for this year is $75 per team. Philadelphia school district schools have their registration fees waived. If you are currently registered for the tournament, checks should be made payable to Trustees of the University of Pennsylvania, with Science Olympiad on the memo line, and mailed to 200 Houston Hall, 3417 Spruce Street, Philadelphia, PA. Checks need to be postmarked by 01/05/2022, or your spot on the register will be opened to a team on the waitlist."
-		},
-		{
-			"q": "What will the tournament format be?",
-			"a": "All of our events will be run using National-level rules, with minor modifications to the event structure to accommodate the virtual environment. A detailed list of changes will be announced to registered teams. Events will be scheduled on the Scilympiad platform following the 2021-2022 National schedule. A detailed schedule with team numbers will be sent to registered teams. We expect students to give their best effort while displaying honesty, integrity, and good sportsmanship. All teams are expected to follow our tournament rules and abide by the Science Olympiad Code of Ethics. More details on tournament format will be provided in the coming weeks."
-		},
-		{
-			"q": "Will teams be allowed to write on tests?",
-			"a": "This year, since our tournament will be virtual, we will be using scilympiad.org. Please submit your answers virtually through the website."
-		},
-		{
-			"q" : "Will coaches be responsible for writing tests?",
-			"a" : "All tests will be written, reviewed, and proctored by Science Olympiad alumni."
-		},
-		{
-			"q" : "Where can I find all of the necessary tournament information?",
-			"a" : "Our official information document will be posted on the “Tournament Information” page under the “Tournament” tab when available."
-		},
-		{
-			"q" : "When will the information document be released?",
-			"a" : "Our unofficial information document will be released sometime in January. Revised versions will appear periodically and will be posted under the “Updates” tab."
-		},
-
-		{
-			"q" : "Where can I find the forms that my students need to sign?",
-			"a" : "They are also located on the “Tournament Information” page under the “Tournament” tab."
-		},
-		{
-			"q": "When will the tournament start?",
-			"a": "More details on tournament format will be provided in the coming weeks."
-		},
-		{
-			"q" : "When will the tournament end?",
-			"a" : "More details on tournament format will be provided in the coming weeks."
-		}
-	]
+  "questions": [
+    {
+      "q": "When and where is the tournament?",
+      "a": "The 11th Penn Invitational is on Saturday, February 13, 2027, on the University of Pennsylvania campus in Philadelphia."
+    },
+    {
+      "q": "Who can compete?",
+      "a": "The Penn Invitational is a Division C (high school) tournament. Schools can register up to two teams."
+    },
+    {
+      "q": "How much does it cost?",
+      "a": "$250 per team. The fee is waived for Philadelphia school district high schools."
+    },
+    {
+      "q": "When is registration?",
+      "a": "For 2027, registration opened September 23 for Pennsylvania teams and September 26 for everyone else, and closed October 9."
+    },
+    {
+      "q": "What forms do students need?",
+      "a": "Every competitor needs a signed liability waiver and a signed photo release, turned in before the tournament starts. Both are linked in the Forms section above."
+    },
+    {
+      "q": "Which rules do events follow?",
+      "a": "Events follow the official Science Olympiad rules for the season. Anything specific to our tournament is in the information document and posted under Updates."
+    },
+    {
+      "q": "Do coaches have to run an event?",
+      "a": "No. Every event is written and run by Penn students who competed in Science Olympiad, so coaches are free to watch their teams."
+    },
+    {
+      "q": "Where do scheduling and scoring happen?",
+      "a": "On Scilympiad. Registered teams get details by email."
+    },
+    {
+      "q": "When do results and tests come out?",
+      "a": "Results are posted after awards. Tests and keys from recent years are linked on the Past Tournaments page."
+    },
+    {
+      "q": "Who do I contact with questions?",
+      "a": "Email pennscienceolympiad@gmail.com and a board member will reply."
+    }
+  ]
 }

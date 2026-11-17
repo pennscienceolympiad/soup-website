@@ -3,71 +3,17 @@ title: Updates
 layout: pagecontent
 permalink: /updates/
 ---
-
-<style>
-#widget {
-   max-width: 100%;
-   margin: auto;
-}
-</style>
-
-<style id='inside-css'>
-.timeline-Widget {
-   max-width: none;
-}
-
-.timeline-Tweet-text {
-   font-size: 1.5em !important;
-   white-space: normal;
-}
-</style>
-
-<script>
-   window.addEventListener('load', () => {
-      window.twttr.events.bind('loaded', () => {
-         const innerDoc = document.querySelector('#widget iframe').contentDocument;
-         innerDoc.head.appendChild($('#inside-css').get()[0]);
-      });
-   });
-</script>
-
-
-
+{% comment %}Add new updates to the top of _data/updates.json (date as YYYY-MM-DD).{% endcomment %}
 <div class="main-content">
-    <p>
-       <a href="https://drive.google.com/file/d/178cZ5t11_XguQEP_gHBTYv2oL9f5APCd/view?usp=sharing">Update on 12/14/2021: SOUP Tournament format and registration information</a>
-    </p>
-    <p>
-       <a href="https://drive.google.com/file/d/1lQvkojy9h4YULyMkWe_FdrJjEL2xbFpt/view">Update on 1/26/22: SOUP Tournament format and information document</a>
-    </p>
-    <p>
-       Update on 1/29/22: Trajectory will no longer require Scilympiad to be used in the video.
-    </p>
-   <p>
-       Update on 2/3/22: Gravity vehicle clarfications regarding grooves/seams in track. Wright stuff clarifications regarding multipliers. 
-    </p>
-   <p>
-       Update on 2/12/22: Experimental design will no longer be run in two separate timed sections.
-    </p>
-   <p>
-       Update on 2/15/22: Event block alterations; affected teams will be contacted.
-    </p>
-   <p>
-      Update on 2/23/22: Experimental Design and WIDI clarifications. Digital binders are disallowed for all events (except Ornithology).
-   </p>
-   <p>
-      Update on 9/23/23: Penn 8th Invitational date announced.
-   </p>
-   <p>
-      Update on 2/1/24: Penn 8th Invitational information document released.
-   </p>
-   <p>
-      Update on 2/3/25: Penn 9th Invitational information document released. 
-   </p>
-   <p>
-      Update on 1/31/26: Penn 10th Invitational information document released. 
-   </p>
-   <p>
-      Update on 2/2/26: Self-scheduling opened on Scilympiad.
-   </p>
+    <p class="intro">Rule clarifications, schedule changes, and documents for registered teams. The <a href="{{ site.baseurl }}/tournament/#forms">information document</a> always has the full details.</p>
+    <ol class="updates">
+        {% for u in site.data.updates %}
+        {% assign y = u.date | date: "%Y" %}
+        {% if y != last_year %}<li class="year"><h2>{{ y }}</h2></li>{% assign last_year = y %}{% endif %}
+        <li>
+            <time datetime="{{ u.date }}">{{ u.date | date: "%b %-d" }}</time>
+            <p>{% if u.link %}<a href="{{ u.link }}" target="_blank" rel="noopener">{{ u.text }}</a>{% else %}{{ u.text }}{% endif %}</p>
+        </li>
+        {% endfor %}
+    </ol>
 </div>

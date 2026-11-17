@@ -1,10 +1,77 @@
 [
-  { "year": 2017, "edition": "1st", "teams": 42, "champion": "Mason High School (OH)" },
-  { "year": 2018, "edition": "2nd", "teams": 49, "champion": "Liberal Arts and Science Academy (TX)" },
-  { "year": 2019, "edition": "3rd", "teams": 47, "champion": "Troy High School (CA)" },
-  { "year": 2020, "edition": "4th", "teams": 58, "champion": "Boca Raton Community High School (FL)" },
-  { "year": 2021, "edition": "5th", "teams": 100, "champion": "Carmel High School (IN)", "note": "virtual" },
-  { "year": 2023, "edition": "7th", "teams": 57, "champion": "Adlai E. Stevenson High School (IL)" },
-  { "year": 2025, "edition": "9th", "teams": 63, "champion": "Montgomery High School (NJ)" },
-  { "year": 2026, "edition": "10th", "teams": 67, "champion": "Montgomery High School (NJ)" }
+  {
+    "year": 2017,
+    "edition": "1st",
+    "teams": 42,
+    "champion": "Mason High School (OH)",
+    "date": "February 18, 2017",
+    "score": 89,
+    "results": "/docs/results2017.pdf"
+  },
+  {
+    "year": 2018,
+    "edition": "2nd",
+    "teams": 49,
+    "champion": "Liberal Arts and Science Academy (TX)",
+    "date": "February 17, 2018",
+    "score": 162,
+    "results": "https://www.ezratech.us/competition/university-of-pennsylvania-invitational/results"
+  },
+  {
+    "year": 2019,
+    "edition": "3rd",
+    "teams": 47,
+    "champion": "Troy High School (CA)",
+    "date": "February 16, 2019",
+    "score": 120,
+    "results": "https://app.avogadro.ws/invitational/university-of-pennsylvania-c/"
+  },
+  {
+    "year": 2020,
+    "edition": "4th",
+    "teams": 58,
+    "champion": "Boca Raton Community High School (FL)",
+    "date": "February 22, 2020",
+    "score": 187,
+    "results": "/docs/results2020.pdf"
+  },
+  {
+    "year": 2021,
+    "edition": "5th",
+    "teams": 100,
+    "champion": "Carmel High School (IN)",
+    "note": "virtual",
+    "date": "February 27, 2021",
+    "score": 232,
+    "results": "/docs/results2021.pdf"
+  },
+  {
+    "year": 2023,
+    "edition": "7th",
+    "teams": 57,
+    "champion": "Adlai E. Stevenson High School (IL)",
+    "date": "February 18, 2023",
+    "score": 192,
+    "results": "https://drive.google.com/file/d/1tukUuh2lcQ11qK0I7mSPD-H0CaNp95mY/view?usp=share_link"
+  },
+  {
+    "year": 2025,
+    "edition": "9th",
+    "teams": 63,
+    "champion": "Montgomery High School (NJ)",
+    "date": "February 15, 2025",
+    "score": 212,
+    "results": "https://www.duosmium.org/results/2025-02-15_penn_invitational_c/",
+    "tests": "https://drive.google.com/drive/u/3/folders/1aUVSo-q37Q4r4jIEo7u4dC_SFTNEhtUQ"
+  },
+  {
+    "year": 2026,
+    "edition": "10th",
+    "teams": 67,
+    "champion": "Montgomery High School (NJ)",
+    "date": "February 14, 2026",
+    "score": 215,
+    "results": "https://www.duosmium.org/results/2026-02-14_penn_invitational_c/",
+    "tests": "https://drive.google.com/drive/u/2/folders/1H9BsJ2sCr8GZDDRi7lNQTK_kMy7zy-ZA"
+  }
 ]

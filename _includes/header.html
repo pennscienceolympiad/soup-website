@@ -12,10 +12,10 @@
             <li><a href="{{ site.baseurl }}/about/" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a></li>
             <li>
                 <details>
-                    <summary>Tournament <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+                    {% assign tpages = '/tournament/,/events/,/updates/,/archive/' | split: ',' %}<summary{% if tpages contains page.url %} class="current"{% endif %}>Tournament <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
                     <div class="menu">
-                        <a href="{{ site.baseurl }}/info/">Tournament information</a>
-                        <a href="{{ site.baseurl }}/payment/">Registration</a>
+                        <a href="{{ site.baseurl }}/tournament/">Coaches' guide</a>
+                        <a href="{{ site.baseurl }}/events/">Events</a>
                         <a href="{{ site.baseurl }}/updates/">Updates</a>
                         <a href="{{ site.baseurl }}/archive/">Past tournaments</a>
                     </div>
