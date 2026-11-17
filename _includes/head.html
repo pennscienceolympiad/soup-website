@@ -1,28 +1,26 @@
 <meta charset="UTF-8">
-<title>Science Olympiad at Penn</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}Science Olympiad at Penn</title>
+<meta name="description" content="Science Olympiad at the University of Pennsylvania (SOUP) hosts the Penn Invitational, an alumni-run Division C Science Olympiad tournament, and mentors Philadelphia students through Urban Initiative.">
 <meta name="keywords" content="Science,Olympiad,Invitational,Penn,University,of,Pennsylvania,SOUP,Invite,Science Olympiad at Penn, Penn Science Olympiad">
-<meta name="author" content="John Powell, Eric Frank, Eric Wang, Jason Xian">
+<meta name="theme-color" content="#F5F0E8">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Science Olympiad at Penn">
+<meta property="og:image" content="{{ site.baseurl }}/img/team/2026/board-soup.jpg">
 
-<!-- Import Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Oswald:300,500,600,700' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/soup.css?v=2027.1">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/img/logo-square-shadow.png"/>
+<link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/img/soup/o-mark.svg">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/img/logo-square-shadow.png">
+<script>document.documentElement.classList.add('js');if(location.hash==='#shot')document.documentElement.classList.add('shot');</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="{{ site.baseurl }}/js/main.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178205512-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-178205512-1');
 </script>

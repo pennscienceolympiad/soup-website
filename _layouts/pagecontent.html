@@ -1,18 +1,16 @@
 ---
 layout: default
 ---
-
-<!-- Page Content -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="offset-sm-1 col-sm-10">
-
-            <!-- Page Title -->
-            <div class="jumbotron">
-                <h1 class="align-middle">{{ page.title }}</h1>
-            </div>
-
+<main id="main">
+    <div class="page-head">
+        <div class="wrap">
+            {% include o-mark.html %}
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="page-body">
+        <div class="wrap">
             {{ content }}
         </div>
     </div>
-</div>
+</main>

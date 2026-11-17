@@ -1,0 +1,10 @@
+[
+  { "year": 2017, "edition": "1st", "teams": 42, "champion": "Mason High School (OH)" },
+  { "year": 2018, "edition": "2nd", "teams": 49, "champion": "Liberal Arts and Science Academy (TX)" },
+  { "year": 2019, "edition": "3rd", "teams": 47, "champion": "Troy High School (CA)" },
+  { "year": 2020, "edition": "4th", "teams": 58, "champion": "Boca Raton Community High School (FL)" },
+  { "year": 2021, "edition": "5th", "teams": 100, "champion": "Carmel High School (IN)", "note": "virtual" },
+  { "year": 2023, "edition": "7th", "teams": 57, "champion": "Adlai E. Stevenson High School (IL)" },
+  { "year": 2025, "edition": "9th", "teams": 63, "champion": "Montgomery High School (NJ)" },
+  { "year": 2026, "edition": "10th", "teams": 67, "champion": "Montgomery High School (NJ)" }
+]
