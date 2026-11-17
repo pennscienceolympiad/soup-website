@@ -1,43 +1,30 @@
-<!-- Responsive Top Navbar -->
-<div class="navbar navbar-fixed-top navbar-expand-md" id="top-nav">
-
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/img/transparent-logo.png" height="30" alt="soup logo">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-nav" id="site-nav">
+    <a class="brand" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/img/transparent-logo.png" width="86" height="24" alt="SOUP">
+        <span>Science Olympiad at Penn</span>
     </a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fa fa-bars fa-lg"></i></span>
+    <button class="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
     </button>
-
-    <div class="navbar-collapse collapse" id="navbarMain">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About Us</a>
+    <nav aria-label="Main">
+        <ul class="nav-links" id="nav-links">
+            <li><a href="{{ site.baseurl }}/about/" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a></li>
+            <li>
+                <details>
+                    <summary>Tournament <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+                    <div class="menu">
+                        <a href="{{ site.baseurl }}/info/">Tournament information</a>
+                        <a href="{{ site.baseurl }}/payment/">Registration</a>
+                        <a href="{{ site.baseurl }}/updates/">Updates</a>
+                        <a href="{{ site.baseurl }}/archive/">Past tournaments</a>
+                    </div>
+                </details>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarArchivesToggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tournament</a>
-                <div class="dropdown-menu" aria-labelledby="navbarArchivesToggle">
-                    <a class="dropdown-item" href="{{ site.baseurl }}/info">Tournament Information</a>
-                    <a class="dropdown-item" href="{{ site.baseurl }}/payment">Registration</a>
-                    <!--a class="dropdown-item" href="{{ site.baseurl }}/events">Event Information</a-->
-                    <!--<a class="dropdown-item" href="{{ site.baseurl }}/policies">Tournament Policies</a>-->
-                    <!-- <a class="dropdown-item" href="{{ site.baseurl }}/accommodations">Planning Your Stay</a> -->
-                    <a class="dropdown-item" href="{{ site.baseurl }}/updates">Updates</a>
-                    <a class="dropdown-item" href="{{ site.baseurl }}/archive">Archive</a>
-                    <!--a class="dropdown-item" href="{{ site.baseurl }}/faq">FAQ</a-->
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/mentoring">Urban Initiative</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/ourTeam">Our Team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/sponsors">Support Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/contact">Contact Us</a>
-            </li>
+            <li><a href="{{ site.baseurl }}/mentoring/" {% if page.url == '/mentoring/' %}aria-current="page"{% endif %}>Urban Initiative</a></li>
+            <li><a href="{{ site.baseurl }}/ourTeam/" {% if page.url == '/ourTeam/' %}aria-current="page"{% endif %}>Our Team</a></li>
+            <li><a href="{{ site.baseurl }}/sponsors/" {% if page.url == '/sponsors/' %}aria-current="page"{% endif %}>Support Us</a></li>
+            <li><a href="{{ site.baseurl }}/contact/" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a></li>
         </ul>
-    </div>
-</div>
+    </nav>
+</header>

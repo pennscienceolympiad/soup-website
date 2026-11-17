@@ -3,143 +3,73 @@ title: Our Team
 layout: pagecontent
 permalink: /ourTeam/
 ---
-<div class="main-content">
-    <div class="">
-        <h2><span>2025-2026 Executive Board (Tenth Invitational)</span></h2>
-        <div class="row">
-            {% assign exec = site.data.team["exec"] %}
-            {% for member in exec %}
-            <div class="col-sm-6 col-md-4">
-                <figure class="figure">
-                    <div class="img-hover">
-                        <div class="img-container">
-                            {% if member.photoName %}
-                            <img src="{{ site.baseurl }}/img/team/2025/{{ member.photoName }}.JPG"
-                                class="figure-img rounded"
-                                alt="A photo of {{ member.Name }}">
-                            {% else %}
-                            <div class="figure-placeholder rounded"></div>
-                            {% endif %}
-                        </div>
+{% comment %}
+  Board data lives in _data/team.json under "board" (grouped by role).
+  Photos go in img/team/2026/<photoName>.jpg (4:5 crop). Leave photoName empty
+  to show the illustrated bowl placeholder.
+{% endcomment %}
+<div class="main-content wide">
+    <figure class="board-photo">
+        <img src="{{ site.baseurl }}/img/team/2026/board-candid.jpg" alt="The 2026–2027 SOUP executive board in a Penn hallway">
+    </figure>
 
-                        <div class="img-text">
-                            {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
-                            {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
-                            {% if member.Memory %}<b>Favorite SOUP Memory:</b> {{ member.Memory }}<br />{% endif %}
-                            {% if member.Soup %}<b>Soup of Choice:</b> {{ member.Soup }}{% endif %}
-                        </div>
+    <h2>2026–2027 Executive Board</h2>
+    <p style="color: var(--ink-2); margin-bottom: 40px">The students cooking up the 11th Penn Invitational and this year's Urban Initiative.</p>
+
+    {% assign board = site.data.team.board %}
+    {% for group in board %}
+    {% if forloop.first %}<ul class="people lead">{% endif %}
+    {% if forloop.index == 2 %}<ul class="people">{% endif %}
+        {% for m in group.members %}
+        <li>
+            <figure class="person">
+                <div class="ph">
+                    {% if m.photoName != "" %}
+                    <img src="{{ site.baseurl }}/img/team/2026/{{ m.photoName }}.jpg" width="720" height="900" alt="{{ m.Name }}" loading="lazy">
+                    {% else %}
+                    {% assign parts = m.Name | split: " " %}
+                    <div class="placeholder" aria-hidden="true">
+                        <svg viewBox="0 0 100 100">
+                            <path d="M38 22c-4 6 4 9 0 15M50 18c-4 7 4 10 0 17M62 22c-4 6 4 9 0 15" fill="none" stroke="#1A1D2E" stroke-opacity=".22" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M14 48h72c0 20-15 32-36 32S14 68 14 48Z" fill="{% cycle 'ph': '#A90533', '#0047AD' %}"/>
+                            <ellipse cx="50" cy="48" rx="36" ry="5" fill="#E3A04A"/>
+                            <path d="M66 46 82 26" stroke="#1A1D2E" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+                            <text class="initials" x="50" y="96" text-anchor="middle">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</text>
+                        </svg>
                     </div>
-
-                    <figcaption class="figure-caption">
-                        <p><center>
-                            <b>{{ member.Name }}</b><br />
-                            {{ member.Position }} 
-                        <center></p>
-                    </figcaption>
-                </figure>
-            </div>
-            {% endfor %}
-        </div>
-        <hr>
-    </div>
-
-
-        <p><br><p>     
-            
-<div class="">
-        <h2><span>Past Executive Boards</span></h2>
-    <h3>2024-2025 (Ninth Invitational)</h3>
-    {% assign team = site.data.team["teamNine"] %}     
-    {% for member in team %}
-        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
-    {% endfor %}
-</div>
-
-<div class="">
-        <h3>2023-2024 (Eighth Invitational)</h3>
-    {% assign team = site.data.team["teamEight"] %}     
-    {% for member in team %}
-        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
-    {% endfor %}
-</div>
-
-    
-<div class="">
-        <h3>2022-2023 (Seventh Invitational)</h3>
-    {% assign team = site.data.team["teamSeven"] %}     
-    {% for member in team %}
-        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
-    {% endfor %}
-</div>
-
-        <p><br><p>
-        
-<div class="">
-        <h3>2021-2022 (Sixth Invitational)</h3>
-    {% assign team = site.data.team["teamSix"] %}     
-    {% for member in team %}
-        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
-    {% endfor %}
-</div>
-
-
-<style>
-.img-container {
-    width: 220px;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-</style>
-
-
-        <!--
-    <div class="">
-        <h2><span>Committee Members</span></h2>
-        <div class="row">
-            {% assign team = site.data.team["team"] %}
-            {% for member in team %}
-            {% if member.photoName %}
-            <div class="col-sm-6 col-md-4">
-                <figure class="figure">
-                    <div class="img-hover">
-                        <img src="{{ site.baseurl }}/img/team/2022/{{ member.photoName }}.jpg"
-                            class="figure-img img-fluid rounded" alt="A photo of {{ member.Name }}">
-                        <div class="img-text">
-                            {{ member.Bio }}
-                            <br />
-                            <br />
-                            {% if member.Year %}<b>Year:</b> {{ member.Year }}<br />{% endif %}
-                            {% if member.Studies %}<b>Studies:</b> {{ member.Studies }}<br />{% endif %}
-                            {% if member['Favorite SOUP'] %}<b>Favorite Soup:</b>
-                            {{ member['Favorite SOUP'] }}{% endif %}
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption">
-                        <p>
-                            <b>Name:</b> {{ member.Name }}<br />
-                            <b>Position:</b> {{ member.Position }}
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-            {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-    <h3>Not Pictured</h3>
-    <ul>
-        {% for member in team %}
-        {% unless member.photoName %}
-        <li><b>{{ member.Name }}</b> - {{ member.Position }}</li>
-        {% endunless %}
+                    {% endif %}
+                </div>
+                <figcaption>
+                    <span class="name">{{ m.Name }}</span>
+                    <span class="role">{{ m.Position }}</span>
+                </figcaption>
+            </figure>
+        </li>
         {% endfor %}
-    </ul>
+    {% if forloop.first or forloop.last %}</ul>{% endif %}
+    {% endfor %}
+
+    <h2 style="margin-top: 96px">Past executive boards</h2>
+    <div class="past-boards">
+        <details>
+            <summary>2025–2026 (10th Invitational)</summary>
+            <ul>{% for member in site.data.team.teamTen %}<li><b>{{ member.Name }}</b>, {{ member.Position }}</li>{% endfor %}</ul>
+        </details>
+        <details>
+            <summary>2024–2025 (9th Invitational)</summary>
+            <ul>{% for member in site.data.team.teamNine %}<li><b>{{ member.Name }}</b>, {{ member.Position }}</li>{% endfor %}</ul>
+        </details>
+        <details>
+            <summary>2023–2024 (8th Invitational)</summary>
+            <ul>{% for member in site.data.team.teamEight %}<li><b>{{ member.Name }}</b>, {{ member.Position }}</li>{% endfor %}</ul>
+        </details>
+        <details>
+            <summary>2022–2023 (7th Invitational)</summary>
+            <ul>{% for member in site.data.team.teamSeven %}<li><b>{{ member.Name }}</b>, {{ member.Position }}</li>{% endfor %}</ul>
+        </details>
+        <details>
+            <summary>2021–2022 (6th Invitational)</summary>
+            <ul>{% for member in site.data.team.teamSix %}<li><b>{{ member.Name }}</b>, {{ member.Position }}</li>{% endfor %}</ul>
+        </details>
+    </div>
 </div>
--->

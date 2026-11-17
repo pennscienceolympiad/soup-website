@@ -1,33 +1,30 @@
-<!-- Bottom bar -->
-<div class="navbar navbar-default navbar-bottom" id="bottom-nav">
-    <div class="container-fluid justify-content-center">
-        <div class="row">
-            <div class="social-media">
-                <a href="https://www.facebook.com/ScienceOlympiadatPenn" target="_blank">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-facebook fa-stack-1x"></i>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                    </span>
-                </a>
-                <a href="https://scilympiad.com/soup" target="_blank">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-flask fa-stack-1x"></i>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                    </span>
-                </a>
-                <a href="https://www.instagram.com/scienceolympiadatpenn/" target="_blank">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-instagram fa-stack-1x"></i>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                    </span>
-                </a>
-                <a href="mailto:pennscienceolympiad@gmail.com" target="_blank">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-envelope fa-stack-1x"></i>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                    </span>
-                </a>
-            </div>
+<footer class="site-footer">
+    <div class="wrap">
+        <div>
+            <p class="sign">Made by Penn students who still love <em>Science Olympiad</em>.</p>
+            <p>Science Olympiad at the University of Pennsylvania, Philadelphia, PA</p>
+        </div>
+        <div>
+            <h2>Tournament</h2>
+            <ul>
+                <li><a href="{{ site.baseurl }}/info/">Tournament information</a></li>
+                <li><a href="{{ site.baseurl }}/payment/">Registration</a></li>
+                <li><a href="{{ site.baseurl }}/archive/">Past tournaments</a></li>
+                <li><a href="{{ site.baseurl }}/sponsors/">Support us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Find us</h2>
+            <ul>
+                <li><a href="mailto:pennscienceolympiad@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>Email</a></li>
+                <li><a href="https://www.instagram.com/scienceolympiadatpenn/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg>Instagram</a></li>
+                <li><a href="https://www.facebook.com/ScienceOlympiadatPenn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5a.5.5 0 0 1 .5-.5Z"/></svg>Facebook</a></li>
+                <li><a href="https://scilympiad.com/soup" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7 15h10"/></svg>Scilympiad</a></li>
+            </ul>
         </div>
     </div>
-</div>
+    <div class="fine">
+        <span>© {{ site.time | date: '%Y' }} Science Olympiad at the University of Pennsylvania</span>
+        <span>pennscienceolympiad@gmail.com</span>
+    </div>
+</footer>

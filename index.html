@@ -1,55 +1,157 @@
 ---
 layout: front
 ---
+{% comment %}
+  Yearly upkeep: edit the tournament block below (date, edition, timeline, links).
+  Timeline dots fill in automatically as each date passes.
+{% endcomment %}
+{% assign register_url = "https://docs.google.com/forms/d/e/1FAIpQLSe2IUtP09kVvjZldveMyGPlK47jjBVZoB4BI6nKxdIrvvQH4g/viewform" %}
+{% assign info_url = "https://docs.google.com/document/d/1zKzRJE04r20F33Sk5mZOIngrS7gZHf4vaDC_ks8oJ5Y/edit?usp=sharing" %}
 
-<div id="floater"></div>
+<main id="main">
 
-<div id="front-media">
-    
-    <h1 class="front-text"><strong>Science Olympiad at the University of Pennsylvania</strong></h1>
-    <h3 class="front-text"></h3>
-    <h3 class="front-text"></h3>
-    <h3 class="front-text"><b>The 11th Invitational Will Be Held on February 13th, 2027!</b></h3>
-
-    <div class="front-detail-text reg-box">
-        <h5 class="reg-heading">Registration Timeline</h5>
-        <ul class="reg-timeline">
-            <li><span class="reg-when">9 am ET, September 23rd</span><span class="reg-what">Registration opens (Pennsylvania teams only)</span></li>
-            <li><span class="reg-when">9 am ET, September 26th</span><span class="reg-what">Registration opens (all teams)</span></li>
-            <li><span class="reg-when">11:59 pm ET, October 9th</span><span class="reg-what">Registration closes</span></li>
-            <li><span class="reg-when">February 13th, 2027</span><span class="reg-what">Tournament day</span></li>
-        </ul>
-        <p class="align-middle reg-cta">
-            <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe2IUtP09kVvjZldveMyGPlK47jjBVZoB4BI6nKxdIrvvQH4g/viewform" target="_blank" rel="noopener noreferrer" role="button">Register Here</a>
-        </p>
+<section class="hero" aria-labelledby="hero-title">
+    <div class="sculpture" role="img" aria-label="SOUP">
+        <div class="sc-row">
+            <img class="L s" src="{{ site.baseurl }}/img/soup/S.png" width="1076" height="1088" alt="">
+            <div class="bowl">
+                <svg class="steam" viewBox="0 0 60 80" aria-hidden="true"><path d="M18 80 C 6 60, 30 50, 18 30 S 22 6, 22 0"/><path d="M32 80 C 20 62, 46 52, 33 32 S 38 8, 38 2"/><path d="M45 80 C 36 64, 58 54, 47 34"/></svg>
+                <canvas id="broth" aria-hidden="true"></canvas>
+                <svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
+                    <defs><mask id="pill"><rect width="100" height="100" fill="#fff"/><rect x="7.3" y="36.2" width="85.4" height="27.6" rx="13.8" fill="#000" transform="rotate(-45 50 50)"/></mask></defs>
+                    <circle cx="50" cy="50" r="50" fill="#A90533" mask="url(#pill)"/>
+                </svg>
+            </div>
+        </div>
+        <div class="sc-row">
+            <img class="L u" src="{{ site.baseurl }}/img/soup/U.png" width="1218" height="1084" alt="">
+            <img class="L p" src="{{ site.baseurl }}/img/soup/P.png" width="1068" height="1084" alt="">
+        </div>
+        <div class="ground"></div>
     </div>
 
-    <!--
-    <p class="align-middle">
-        <a class="btn" href="https://urldefense.com/v3/__https://docs.google.com/forms/d/e/1FAIpQLSeLsTJrCF7UQ0qItSApaeHh8OGGVkCPHHEfZmSSciiYXFYWzw/viewform__;!!IBzWLUs!UI4128ZByUCQ5zOypX0VC4XiT6FbHKUWoQC9aUwVq-C7rpZCY2pvKjjscx73R2vV-2moWgkpFvNEKtFbS96e0p1B1szUjg$" target= "_blank" rel="noopener noreferrer" role="button">EXEC BOARD APPLICATIONS</a>
-    </p>
-    -->
-    <!--
-    <p class="align-middle">
-        <a class="btn" href="https://docs.google.com/spreadsheets/d/1d8Dk5NgTBix_Brgr-NzZu193ZRHKgCBzDHiv6S81Anw/edit#gid=0" role="button">Exams 2022-2023</a>
-    </p>
-        // {
-    //   "Name": "Rishi Patel",
-    //   "Position": "VP Operations",
-    //   "photoName": "",
-    //   "Bio": "",
-    //   "Year": "Senior (2025)",
-    //   "Studies": "Biochemistry, Biophysics",
-    //   "Soup": ""
-    // },
-     // {
-    //   "Name": "Julia Gauffreau",
-    //   "Position": "Chemistry Director",
-    //   "photoName": "Julia_Gauffreau",
-    //   "Bio": "I’m Julia, a junior studying chemistry and biochemistry. I was captain of the Penncrest High School Science Olympiad team, and my favorite events were chemistry lab, forensics, and disease detectives. Outside of SOUP, I sing with the Penn Glee Club and do research in medicinal chemistry.",
-    //   "Year": "Junior (2026)",
-    //   "Studies": "Chemistry, Biochemistry",
-    //   "Soup": "Pho!"
-    // },
-    -->
-</div>
+    <div class="hero-info">
+        <h1 id="hero-title">The 11th Penn Invitational<br><em>Saturday, February 13, 2027</em></h1>
+        <p class="org-line">Science Olympiad at the University of Pennsylvania<br>A Division C tournament run by Science Olympiad alumni</p>
+        <ol class="steps" id="steps" aria-label="Registration timeline">
+            <li data-date="2026-09-23T09:00:00-04:00"><b>Sep 23</b>Opens for PA teams</li>
+            <li data-date="2026-09-26T09:00:00-04:00"><b>Sep 26</b>Opens for all teams</li>
+            <li data-date="2026-10-09T23:59:00-04:00" data-closes><b>Oct 9</b>Registration closes</li>
+            <li data-date="2027-02-13T08:00:00-05:00"><b>Feb 13</b>Tournament day</li>
+        </ol>
+        <div class="hero-actions">
+            <a class="btn" id="cta-register" href="{{ register_url }}" target="_blank" rel="noopener" hidden>Register your team</a>
+            <a class="btn" id="cta-info" href="{{ info_url }}" target="_blank" rel="noopener">Tournament information</a>
+            <a class="text-link" href="{{ site.baseurl }}/archive/">Past results, tests &amp; keys</a>
+        </div>
+    </div>
+</section>
+
+<section class="section band" aria-labelledby="recipe-title">
+    <div class="wrap recipe">
+        <div class="reveal">
+            <h2 class="section-title" id="recipe-title">What goes into <em>SOUP</em></h2>
+            <p class="lede">Every February, Penn students who grew up on Science Olympiad write the tests, build the builds, and run the rooms for one of the most competitive college-hosted Division C invitationals in the country. Coaches get to watch their teams instead of running an event.</p>
+            <ol class="method">
+                <li><div><b>Register in the fall</b><span>Pennsylvania teams get a head start, then registration opens to everyone.</span></div></li>
+                <li><div><b>Get the info document and waivers</b><span>Every competitor needs a signed liability waiver and photo release.</span></div></li>
+                <li><div><b>Compete at Penn on February 13</b><span>A full Saturday of events across Penn's campus, then awards.</span></div></li>
+                <li><div><b>Take the tests home</b><span>Results go up afterward, along with tests and keys to study from.</span></div></li>
+            </ol>
+        </div>
+        <div class="recipe-card reveal" aria-label="Recipe card">
+            <h3>Penn Invitational Soup<small>Serves one Saturday, since 2017</small></h3>
+            <ul>
+                <li><span class="qty">67</span><span>Division C teams from across the country (2026)</span></li>
+                <li><span class="qty">1</span><span>full slate of Division C events</span></li>
+                <li><span class="qty">10</span><span>years of invitationals at Penn</span></li>
+                <li><span class="qty">all</span><span>tests and builds written by Science Olympiad alumni</span></li>
+                <li><span class="qty">1</span><span>campus in West Philadelphia</span></li>
+                <li><span class="qty">to taste</span><span>medals, T-shirts, and Chipotle on the floor</span></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="pots-title">
+    <div class="wrap">
+        <div class="pots-head reveal">
+            <div>
+                <h2 class="section-title" id="pots-title">A decade of <em>full pots</em></h2>
+                <p class="lede">Each bowl is filled to the number of teams that came that year.</p>
+            </div>
+            <a class="btn secondary" href="{{ site.baseurl }}/archive/">Past tournaments</a>
+        </div>
+        <ol class="pots" id="pots">
+            {% for pot in site.data.pots %}
+            {% assign level = 100 | minus: pot.teams %}
+            <li class="pot{% if pot.note == 'virtual' %} virtual{% endif %}" style="--level: {{ level }}%; --d: {{ forloop.index0 | times: 0.09 }}s">
+                <svg viewBox="0 0 120 92" aria-hidden="true">
+                    <defs>
+                        <clipPath id="bowl-{{ pot.year }}"><path d="M8 26 C 10 70, 34 86, 60 86 C 86 86, 110 70, 112 26 Z"/></clipPath>
+                        <linearGradient id="broth-{{ pot.year }}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2C47A"/><stop offset="1" stop-color="#C77A2C"/></linearGradient>
+                    </defs>
+                    <path d="M8 26 C 10 70, 34 86, 60 86 C 86 86, 110 70, 112 26 Z" fill="#E2D9C9"/>
+                    <g clip-path="url(#bowl-{{ pot.year }})">
+                        <g class="fill" style="transform-box: fill-box">
+                            <rect x="0" y="26" width="120" height="62" fill="url(#broth-{{ pot.year }})"/>
+                            <path d="M0 26 Q 15 22 30 26 T 60 26 T 90 26 T 120 26 V 30 H 0 Z" fill="#F7D79C"/>
+                        </g>
+                    </g>
+                    <path d="M8 26 C 10 70, 34 86, 60 86 C 86 86, 110 70, 112 26" fill="none" stroke="{% cycle '#A90533', '#0047AD' %}" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M4 26 H 116" stroke="{% cycle '#A90533', '#0047AD' %}" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+                <span class="year">{{ pot.year }}</span>
+                <span class="teams">{{ pot.teams }} teams</span>
+                <span class="champ">{{ pot.champion }}</span>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>
+
+<section class="section band" aria-labelledby="ui-title">
+    <div class="wrap feature">
+        <figure class="feature-photo reveal">
+            <img src="{{ site.baseurl }}/img/team/2026/ui-directors.jpg" alt="Urban Initiative leads Jacob Flores Zeranski and Amanda Chen in a Penn hallway" loading="lazy" style="object-position: 50% 35%">
+        </figure>
+        <div class="reveal">
+            <h2 class="section-title" id="ui-title">Soup for the <em>whole city</em></h2>
+            <p>Through Urban Initiative, about twenty Penn undergraduates mentor students at Hamilton and Mitchell Middle Schools in West Philadelphia every week, in partnership with the Moelis Access Science Program.</p>
+            <a class="btn secondary" href="{{ site.baseurl }}/mentoring/">About Urban Initiative</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="board-title">
+    <div class="wrap feature flip">
+        <figure class="feature-photo reveal">
+            <img src="{{ site.baseurl }}/img/team/2026/board-soup.jpg" alt="The 2026–2027 SOUP board posing in a Penn hallway" loading="lazy" style="object-position: 50% 40%">
+        </figure>
+        <div class="reveal">
+            <h2 class="section-title" id="board-title">The cooks for <em>2026–27</em></h2>
+            <p>Seventeen Penn students run SOUP: tournament directors, VPs, and the event directors who write and run every test and build.</p>
+            <a class="btn secondary" href="{{ site.baseurl }}/ourTeam/">Meet the board</a>
+        </div>
+    </div>
+</section>
+
+<section class="section band centered" aria-labelledby="partners-title">
+    <div class="wrap reveal">
+        <h2 class="section-title" id="partners-title">Thanks to our <em>partners</em></h2>
+        <p class="lede">SOUP is funded by Penn departments, the Student Activities Council, and sponsors who believe in science education.</p>
+        <ul class="partners">
+            <li><img src="{{ site.baseurl }}/sponsors_2023/jane-street.png" alt="Jane Street" loading="lazy"></li>
+            <li><img src="{{ site.baseurl }}/sponsors_2023/HRT_logo.png" alt="Hudson River Trading" loading="lazy"></li>
+            <li><img src="{{ site.baseurl }}/sponsors_2023/DE_Shaw_logo.png" alt="D. E. Shaw" loading="lazy"></li>
+            <li><img src="{{ site.baseurl }}/sponsors_2023/wolfram_logo.png" alt="Wolfram" loading="lazy"></li>
+            <li><img src="{{ site.baseurl }}/sponsors_2023/mls.png" alt="Vagelos Scholars Program in the Molecular Life Sciences" loading="lazy"></li>
+            <li><img src="{{ site.baseurl }}/sponsors_2020/penn-chemistry.png" alt="Penn Chemistry" loading="lazy"></li>
+            <li><img src="{{ site.baseurl }}/sponsors_2021/physics.png" alt="Penn Physics and Astronomy" loading="lazy"></li>
+            <li><img src="{{ site.baseurl }}/sponsors_2021/sac.png" alt="Penn Student Activities Council" loading="lazy"></li>
+        </ul>
+        <p style="margin-top: 40px"><a class="btn" href="{{ site.baseurl }}/sponsors/">Support SOUP</a></p>
+    </div>
+</section>
+
+</main>

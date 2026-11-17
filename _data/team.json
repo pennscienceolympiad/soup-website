@@ -1,139 +1,211 @@
 {
-  "exec": [
+  "board": [
+    {
+      "group": "Tournament Directors",
+      "members": [
+        {
+          "Name": "Arjun Sharma",
+          "Position": "Tournament Director",
+          "photoName": "Arjun_Sharma"
+        },
+        {
+          "Name": "Claire Kang",
+          "Position": "Tournament Director",
+          "photoName": "Claire_Kang"
+        }
+      ]
+    },
+    {
+      "group": "Vice President of Finance",
+      "members": [
+        {
+          "Name": "Ian Yoon",
+          "Position": "Vice President of Finance",
+          "photoName": "Ian_Yoon"
+        }
+      ]
+    },
+    {
+      "group": "Vice President of Operations",
+      "members": [
+        {
+          "Name": "Cailyn Pan",
+          "Position": "Vice President of Operations",
+          "photoName": ""
+        }
+      ]
+    },
+    {
+      "group": "Vice President of Marketing",
+      "members": [
+        {
+          "Name": "Amy Luo",
+          "Position": "Vice President of Marketing",
+          "photoName": ""
+        }
+      ]
+    },
+    {
+      "group": "Vice Presidents of Urban Initiative",
+      "members": [
+        {
+          "Name": "Amanda Chen",
+          "Position": "Vice President of Urban Initiative",
+          "photoName": "Amanda_Chen"
+        },
+        {
+          "Name": "Jacob Flores Zeranski",
+          "Position": "Vice President of Urban Initiative",
+          "photoName": "Jacob_Flores_Zeranski"
+        }
+      ]
+    },
+    {
+      "group": "Tournament Volunteer Director",
+      "members": [
+        {
+          "Name": "Vidhi Patel",
+          "Position": "Tournament Volunteer Director",
+          "photoName": "Vidhi_Patel"
+        }
+      ]
+    },
+    {
+      "group": "Social Chair",
+      "members": [
+        {
+          "Name": "Richard Zhuang",
+          "Position": "Social Chair",
+          "photoName": ""
+        }
+      ]
+    },
+    {
+      "group": "Biology Directors",
+      "members": [
+        {
+          "Name": "Eric Yao",
+          "Position": "Biology Director",
+          "photoName": "Eric_Yao"
+        },
+        {
+          "Name": "Zara Yeghiazaryan",
+          "Position": "Biology Director",
+          "photoName": "Zara_Yeghiazaryan"
+        }
+      ]
+    },
+    {
+      "group": "Chemistry Director",
+      "members": [
+        {
+          "Name": "Jonathan Chen",
+          "Position": "Chemistry Director",
+          "photoName": "Jonathan_Chen"
+        }
+      ]
+    },
+    {
+      "group": "Builds Directors",
+      "members": [
+        {
+          "Name": "Kithya Borey",
+          "Position": "Builds Director",
+          "photoName": "Kithya_Borey"
+        },
+        {
+          "Name": "Jeremy Chung",
+          "Position": "Builds Director",
+          "photoName": "Jeremy_Chung"
+        },
+        {
+          "Name": "Ray Ma",
+          "Position": "Builds Advisor",
+          "photoName": ""
+        }
+      ]
+    },
+    {
+      "group": "Earth and Space Science Director",
+      "members": [
+        {
+          "Name": "Adrina Tiju",
+          "Position": "Earth and Space Science Director",
+          "photoName": "Adrina_Tiju"
+        }
+      ]
+    },
+    {
+      "group": "Nature of Science Director",
+      "members": [
+        {
+          "Name": "Pedram Bayat",
+          "Position": "Nature of Science Director",
+          "photoName": "Pedram_Bayat"
+        }
+      ]
+    }
+  ],
+  "teamTen": [
     {
       "Name": "Richard Zhuang",
-      "Position": "Co-President",
-      "photoName": "Richard_Zhuang",
-      "Memory": "Reuniting with my high school team at SOUP and handing out medals to them",
-      "Year": "Junior (2027)",
-      "Studies": "Computational Biology, Computer Science",
-      "Soup": "Miso Soup"
+      "Position": "Co-President"
     },
     {
       "Name": "Jake Konigsberg",
-      "Position": "Co-President",
-      "photoName": "Jake_Konigsberg",
-      "Memory": "Organizing socials for the board and the club",
-      "Year": "Junior (2027)",
-      "Studies": "Biology",
-      "Soup": "Ramen"
+      "Position": "Co-President"
     },
     {
       "Name": "Mahreen Ahmed",
-      "Position": "VP Operations",
-      "photoName": "Mahreen_Ahmed",
-      "Memory": "Chinatown dinner with the board",
-      "Year": "Senior (2026)",
-      "Studies": "Health & Societies, Biology",
-      "Soup": "French onion"
+      "Position": "VP Operations"
     },
     {
       "Name": "Claire Kang",
-      "Position": "VP Finance",
-      "photoName": "Claire_Kang",
-      "Memory": "Eating Chipotle on the floor while grading tests during last year's competition.",
-      "Year": "Sophomore (2028)",
-      "Studies": "Chemistry, Chemical and Biomolecular Engineering",
-      "Soup": "Any noodle soups"
+      "Position": "VP Finance"
     },
     {
       "Name": "Vidhi Patel",
-      "Position": "Tournament Volunteer Coordinator",
-      "photoName": "Vidhi_Patel",
-      "Memory": "",
-      "Year": "Sophomore (2028)",
-      "Studies": "Neuroscience, English",
-      "Soup": ""
+      "Position": "Tournament Volunteer Coordinator"
     },
     {
       "Name": "Cynthia Dong",
-      "Position": "VP Marketing",
-      "photoName": "Cynthia_Dong",
-      "Memory": "Chipotle on tournament day and taking everyone's picture",
-      "Year": "Senior (2026)",
-      "Studies": "Bioengineering",
-      "Soup": "Tomato Bisque"
+      "Position": "VP Marketing"
     },
     {
       "Name": "Anushka Gandhi",
-      "Position": "Urban Initiative Coordinator",
-      "photoName": "Anushka_Gandhi",
-      "Memory": "Towers with Amanda and Kithya last year",
-      "Year": "Senior (2026)",
-      "Studies": "Bioengineering",
-      "Soup": "Tomato Soup"
+      "Position": "Urban Initiative Coordinator"
     },
     {
       "Name": "Amanda Chen",
-      "Position": "Urban Initiative Coordinator",
-      "photoName": "Amanda_Chen",
-      "Memory": "Late night setting up for builds and running between the engineering buildings the night before before my first SOUP tournament 2 years ago",
-      "Year": "Junior (2027)",
-      "Studies": "Biology",
-      "Soup": "Seafood Tofu Soup"
+      "Position": "Urban Initiative Coordinator"
     },
     {
       "Name": "Siddharth Chitta",
-      "Position": "Biology Director",
-      "photoName": "Siddharth_Chitta",
-      "Memory": "Walking over 25K steps solely in DRL at last year's tournament",
-      "Year": "Senior (2026)",
-      "Studies": "Biology",
-      "Soup": "Minestrone"
+      "Position": "Biology Director"
     },
     {
       "Name": "Arjun Sharma",
-      "Position": "Chemistry Director",
-      "photoName": "Arjun_Sharma",
-      "Memory": "Testing out our lab procedure as a Chem Lab ES last year! I had a lot of fun with my co-writers and the experience was a testament to the atmosphere of camaraderie that we’d cultivated throughout the semester.",
-      "Year": "Sophomore (2028)",
-      "Studies": "Chemistry, Chemical and Biomolecular Engineering",
-      "Soup": "Tom Yum"
+      "Position": "Chemistry Director"
     },
     {
       "Name": "Ray Ma",
-      "Position": "Builds Director",
-      "photoName": "Ray_Ma",
-      "Memory": "",
-      "Year": "Junior (2027)",
-      "Studies": "Neuroscience",
-      "Soup": ""
+      "Position": "Builds Director"
     },
     {
       "Name": "Jeremy Chung",
-      "Position": "Builds Director",
-      "photoName": "Jeremy_Chung",
-      "Memory": "Arguing with high school kids about a scale",
-      "Year": "Sophomore (2028)",
-      "Studies": "Electrical Engineering",
-      "Soup": "Beef noodle soup"
+      "Position": "Builds Director"
     },
     {
       "Name": "Manas Choure",
-      "Position": "Earth and Space Science Director",
-      "photoName": "Manas_Choure",
-      "Memory": "Winning a medal at SOUP in 2020 when I was a sophomore in high school",
-      "Year": "Senior (2026)",
-      "Studies": "Physics, Economics",
-      "Soup": "Minestrone"
+      "Position": "Earth and Space Science Director"
     },
     {
       "Name": "Pedram Bayat",
-      "Position": "Nature of Science Director",
-      "photoName": "Pedram_Bayat",
-      "Memory": "Handing out medals during awards",
-      "Year": "Junior (2027)",
-      "Studies": "Bioengineering",
-      "Soup": "A Persian soup called ash reshteh!"
+      "Position": "Nature of Science Director"
     },
     {
       "Name": "Arav Nangia",
-      "Position": "Social Chair",
-      "photoName": "Arav_Nangia",
-      "Memory": "Trying Panera's tomato soup for the first time",
-      "Year": "Senior (2026)",
-      "Studies": "Biochemistry",
-      "Soup": "Tom Yum"
+      "Position": "Social Chair"
     }
   ],
   "teamNine": [
