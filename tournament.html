@@ -1,0 +1,107 @@
+---
+title: Tournament
+layout: pagecontent
+permalink: /tournament/
+---
+{% comment %}
+  Coaches' hub. Yearly upkeep: edit the values in the assign block, the dates
+  in the Key dates list, and _data/faq.json. Old URLs (/info/, /payment/,
+  /faq/, /policies/, /details/, /accommodations/) redirect here.
+{% endcomment %}
+{% assign register_url = "https://docs.google.com/forms/d/e/1FAIpQLSe2IUtP09kVvjZldveMyGPlK47jjBVZoB4BI6nKxdIrvvQH4g/viewform" %}
+{% assign info_url = "https://docs.google.com/document/d/1zKzRJE04r20F33Sk5mZOIngrS7gZHf4vaDC_ks8oJ5Y/edit?usp=sharing" %}
+{% assign liability_url = "https://docs.google.com/document/d/1RkGD_5JWw2o-rIgqlwlMtqpTTCX8yyC7/edit?usp=sharing&ouid=106773437487941301965&rtpof=true&sd=true" %}
+{% assign photo_url = "https://docs.google.com/document/d/1kCTzG_jcWRO3kLd9cAV-nbEjLLaUyKA_/edit?usp=sharing&ouid=106773437487941301965&rtpof=true&sd=true" %}
+
+<div class="hub">
+    <nav class="rail" aria-label="On this page">
+        <ol>
+            <li><a href="#dates">Key dates</a></li>
+            <li><a href="#register">Registration and fees</a></li>
+            <li><a href="#forms">Info document and forms</a></li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#travel">Getting here</a></li>
+        </ol>
+    </nav>
+
+    <div class="main-content hub-body">
+        <p class="intro">Everything a coach needs for the <strong>11th Penn Invitational</strong> on <strong>Saturday, February 13, 2027</strong>. Questions? <a href="mailto:pennscienceolympiad@gmail.com">pennscienceolympiad@gmail.com</a></p>
+
+        <section id="dates">
+            <h2>Key dates</h2>
+            <ol class="dates" data-timeline>
+                <li data-date="2026-09-23T09:00:00-04:00"><time>Wed, Sep 23, 9:00 AM ET</time><span>Registration opens for Pennsylvania teams</span></li>
+                <li data-date="2026-09-26T09:00:00-04:00"><time>Sat, Sep 26, 9:00 AM ET</time><span>Registration opens for all teams</span></li>
+                <li data-date="2026-10-09T23:59:00-04:00"><time>Fri, Oct 9, 11:59 PM ET</time><span>Registration closes</span></li>
+                <li data-date="2027-02-13T08:00:00-05:00"><time>Sat, Feb 13, 2027</time><span>Tournament day at Penn</span></li>
+            </ol>
+        </section>
+
+        <section id="register">
+            <h2>Registration and fees</h2>
+            <dl class="facts">
+                <div><dt>Fee</dt><dd>$250 per team</dd></div>
+                <div><dt>Teams per school</dt><dd>Up to 2</dd></div>
+                <div><dt>Division</dt><dd>C (high school)</dd></div>
+            </dl>
+            <p>The fee is waived for Philadelphia school district high schools.</p>
+            <p class="status" data-window-from="2026-09-23T09:00:00-04:00" data-window-until="2026-10-09T23:59:00-04:00">
+                <span data-when="before">Registration opens September 23 at 9:00 AM ET.</span>
+                <span data-when="open"><a class="btn" href="{{ register_url }}" target="_blank" rel="noopener">Open the registration form</a></span>
+                <span data-when="after">Registration for the 2027 Invitational closed on October 9. Email us if you have questions about your spot.</span>
+            </p>
+        </section>
+
+        <section id="forms">
+            <h2>Info document and forms</h2>
+            <p>The information document has the schedule, event details, and day-of logistics. Every competitor also needs a signed liability waiver and photo release, turned in before the tournament starts.</p>
+            <ul class="link-list">
+                <li><a href="{{ info_url }}" target="_blank" rel="noopener"><b>Tournament information document</b><span>Google Doc</span></a></li>
+                <li><a href="{{ liability_url }}" target="_blank" rel="noopener"><b>Liability waiver</b><span>Required for every competitor</span></a></li>
+                <li><a href="{{ photo_url }}" target="_blank" rel="noopener"><b>Photo release</b><span>Required for every competitor</span></a></li>
+            </ul>
+        </section>
+
+        <section id="rules">
+            <h2>Rules</h2>
+            <p>Events follow the official Science Olympiad rules for the season. Anything specific to our tournament goes in the information document and on the <a href="{{ site.baseurl }}/updates/">Updates</a> page. See the <a href="{{ site.baseurl }}/events/">Events</a> page for who writes what.</p>
+            <ul class="link-list">
+                <li><a href="https://www.soinc.org/events/2027-division-c-events" target="_blank" rel="noopener"><b>2027 Division C events</b><span>soinc.org</span></a></li>
+                <li><a href="https://www.soinc.org/rules-2027" target="_blank" rel="noopener"><b>2027 rules manual</b><span>soinc.org</span></a></li>
+                <li><a href="https://www.soinc.org/events/rules-corrections" target="_blank" rel="noopener"><b>Rules corrections and clarifications</b><span>soinc.org</span></a></li>
+                <li><a href="https://www.soinc.org/code-ethics-general-rules" target="_blank" rel="noopener"><b>Code of ethics and general rules</b><span>soinc.org</span></a></li>
+                <li><a href="https://www.soinc.org/building-and-tools-policy" target="_blank" rel="noopener"><b>Building and tools policy</b><span>soinc.org</span></a></li>
+            </ul>
+        </section>
+
+        <section id="faq">
+            <h2>FAQ</h2>
+            <div class="faq">
+                {% for item in site.data.faq.questions %}
+                <details>
+                    <summary>{{ item.q }}</summary>
+                    <p>{{ item.a }}</p>
+                </details>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section id="travel">
+            <h2>Getting here</h2>
+            <p>Events run in buildings across Penn's campus in University City, West Philadelphia. Your team's rooms are in the information document. SEPTA's Market-Frankford Line stops at 34th St and 40th St, and 30th Street Station (Amtrak and regional rail) is a short walk away.</p>
+            <h3>Hotels near campus</h3>
+            <ul class="hotels">
+                {% for hotel in site.data.hotels %}
+                <li>
+                    <b>{% if hotel.URL %}<a href="{{ hotel.URL }}" target="_blank" rel="noopener">{{ hotel.Name }}</a>{% else %}{{ hotel.Name }}{% endif %}</b>
+                    <a href="https://www.google.com/maps/search/{{ hotel.Address | uri_escape }}" target="_blank" rel="noopener">{{ hotel.Address }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <p class="note">Any hotel room block for this year will be listed in the information document.</p>
+            <h3>While you're in Philly</h3>
+            <p>Cross the Schuylkill to the Philadelphia Museum of Art and run up the Rocky Steps, see City Hall and Logan Square, or head to Old City for the Liberty Bell, Elfreth's Alley, and ice cream at Franklin Fountain. University City has plenty of food within a few blocks of campus, from food trucks to sit-down restaurants.</p>
+        </section>
+    </div>
+</div>

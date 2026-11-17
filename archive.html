@@ -3,90 +3,28 @@ title: Past Tournaments
 layout: pagecontent
 permalink: /archive/
 ---
-
-<div class="main-content">
-    <div>
-        <h2><span>2026 Tournament</span></h2>
-        <hr>
-    <p>
-        On February 14, 2026, Science Olympiad at Penn hosted its 10th Division C Tournament. 
-        67 teams attended the tournament. Montgomery High School (NJ) was crowned champion with an overall score of 215. 
-        The tournament was hosted in-person at the University of Pennsylvania.
-    </p>
-    <p>
-        <a href="https://www.duosmium.org/results/2026-02-14_penn_invitational_c/">Click here for the 2026 results.</a>
-        <a href="https://drive.google.com/drive/u/2/folders/1H9BsJ2sCr8GZDDRi7lNQTK_kMy7zy-ZA">And here are tests and keys.</a> 
-        Congratulations to all!
-    </p>
-    </div>
-    <div>
-        <h2><span>2025 Tournament</span></h2>
-        <hr>
-    </div>
-    <p>
-        On February 15, 2025, Science Olympiad at Penn hosted its ninth Division C Tournament. 
-        63 teams attended the tournament. Montgomery High School (NJ) was crowned champion with an overall score of 212. 
-        The tournament was hosted in-person at the University of Pennsylvania.
-    </p>
-    <p>
-        <a href="https://www.duosmium.org/results/2025-02-15_penn_invitational_c/">Click here for the 2025 results.</a>
-        <a href="https://drive.google.com/drive/u/3/folders/1aUVSo-q37Q4r4jIEo7u4dC_SFTNEhtUQ">And here are tests, keys, and distributions.</a> 
-        Congratulations to all!
-    </p>
-    
-    <div>
-        <h2><span>2023 Tournament</span></h2>
-        <hr>
-    </div>
-    <p>
-        On February 18, 2023, Science Olympiad at Penn hosted its seventh Division C Tournament. 57 teams attended the tournament. Adlai E. Stevenson High School (IL) was crowned champion with an overall score of 192. The tournament was hosted in-person at the University of Pennsylvania.
-    </p>
-    <p><a href="https://drive.google.com/file/d/1tukUuh2lcQ11qK0I7mSPD-H0CaNp95mY/view?usp=share_link">Click here for the 2023 results.</a> Congratulations to all!</p>
-    <div>
-    <div>
-        <h2><span>2021 Tournament</span></h2>
-        <hr>
-    </div>
-    <p>
-        On February 27, 2021, Science Olympiad at Penn hosted its fifth Division C Tournament. 100 teams attended the tournament. Carmel High School (IN) was crowned champion with an overall score of 232. The tournament was hosted virtually through Scilympiad.
-    </p>
-    <p><a href="{{ site.baseurl }}/docs/results2021.pdf">Click here for the 2021 results.</a> Congratulations to all of the participants!</p>
-    <div>
-        <h2><span>2020 Tournament</span></h2>
-        <hr>
-    </div>
-    <p>
-        On February 22, 2020, Science Olympiad at Penn hosted its fourth Division C Tournament. 58 teams attended the tournament. Boca Raton Community High School (FL) was crowned champion with an overall score of 187.
-    </p>
-    <p><a href="{{ site.baseurl }}/docs/results2020.pdf">Click here for the 2020 results.</a> Congratulations to all of the participants!</p>
-    <div>
-        <h2><span>2019 Tournament</span></h2>
-        <hr>
-    </div>
-    <p>
-        On February 16, 2019, Science Olympiad at Penn hosted its third Division C Tournament. 47 teams attended the tournament. Troy High School (CA) was crowned champion with an overall score of 120.
-    </p>
-    <p>
-         <a href="https://app.avogadro.ws/invitational/university-of-pennsylvania-c/">Click here for the 2019 results.</a> Congratulations to all of the participants!
-    </p>
-    <div class="">
-        <h2><span>2018 Tournament</span></h2>
-        <hr>
-    </div>
-    <p>
-        On February 17, 2018, Science Olympiad at Penn hosted its second Division C Tournament. 49 teams attended the tournament. Liberal Arts and Science Academy (TX) was crowned champion with an overall score of 162.
-    </p>
-    <p>
-        <a href="https://www.ezratech.us/competition/university-of-pennsylvania-invitational/results" target="_blank">Click here for the 2018 results.</a> Congratulations to all of the participants!
-    </p>
-    <div class="">
-        <h2><span>2017 Tournament</span></h2>
-        <hr>
-    </div>
-    <p>
-        On February 18, 2017, Science Olympiad at Penn hosted its inaugural Division C Tournament. 42 teams attended the tournament. Mason High School (OH) was crowned champion with an overall score of 89.
-    </p>
-    <p>
-        <a href="{{ site.baseurl }}/docs/results2017.pdf">Click here for the 2017 results.</a> Congratulations to all of the participants!
-    </p>
+{% comment %}Add each new tournament to the end of _data/pots.json (oldest first).{% endcomment %}
+{% assign pots = site.data.pots | reverse %}
+<div class="main-content wide">
+    <p class="intro">Penn Invitationals since 2017, with results and, for recent years, the tests and keys to study from.</p>
+    <ol class="archive">
+        {% for t in pots %}
+        <li>
+            <div class="archive-year">
+                <span class="y">{{ t.year }}</span>
+                <span class="ed">{{ t.edition }} Invitational</span>
+            </div>
+            <dl class="archive-facts">
+                <div><dt>Date</dt><dd>{{ t.date }}</dd></div>
+                <div><dt>Teams</dt><dd>{{ t.teams }}{% if t.note %}, {{ t.note }}{% endif %}</dd></div>
+                <div class="champ"><dt>Champion</dt><dd>{{ t.champion }}<small>{{ t.score }} points</small></dd></div>
+            </dl>
+            <div class="archive-links">
+                {% if t.results %}<a href="{% if t.results contains '://' %}{{ t.results }}{% else %}{{ site.baseurl }}{{ t.results }}{% endif %}" target="_blank" rel="noopener">Results</a>{% endif %}
+                {% if t.tests %}<a href="{{ t.tests }}" target="_blank" rel="noopener">Tests and keys</a>{% endif %}
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+    <p class="note">The 2022 and 2024 Invitationals aren't in our archive yet. If you have their results, send them to <a href="mailto:pennscienceolympiad@gmail.com">pennscienceolympiad@gmail.com</a>.</p>
 </div>

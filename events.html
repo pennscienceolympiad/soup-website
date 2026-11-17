@@ -1,0 +1,55 @@
+---
+title: Events
+layout: pagecontent
+permalink: /events/
+---
+{% comment %}
+  Event areas match the director roles in _data/team.json ("board" groups).
+  Directors are pulled in by group name, so this page updates with the board.
+{% endcomment %}
+{% assign areas = "Biology Directors|Chemistry Director|Builds Directors|Earth and Space Science Director|Nature of Science Director" | split: "|" %}
+<div class="main-content wide">
+    <p class="intro">The Penn Invitational runs the Division C events for the 2026–27 season. Each event area has its own directors, all Science Olympiad alumni, who lead the Penn students writing and running every test, lab, and build in that area.</p>
+    <p class="actions-row">
+        <a class="btn" href="https://www.soinc.org/events/2027-division-c-events" target="_blank" rel="noopener">2027 Division C event list</a>
+        <a class="btn secondary" href="https://www.soinc.org/learn/c-event-short-descriptions" target="_blank" rel="noopener">What each event is</a>
+    </p>
+
+    <ol class="areas">
+        {% for area in areas %}
+        {% assign group = site.data.team.board | where: "group", area | first %}
+        <li class="area area-{{ forloop.index }}">
+            <div class="area-name">
+                <h2>
+                    {% case forloop.index %}
+                    {% when 1 %}Biology
+                    {% when 2 %}Chemistry
+                    {% when 3 %}Builds
+                    {% when 4 %}Earth and Space Science
+                    {% when 5 %}Nature of Science
+                    {% endcase %}
+                </h2>
+            </div>
+            <p class="area-desc">
+                {% case forloop.index %}
+                {% when 1 %}Life science events, from written exams to hands-on stations with specimens and data.
+                {% when 2 %}Chemistry knowledge tests and lab events where students run experiments at the tournament.
+                {% when 3 %}Devices that teams design and build ahead of time, then test against the rules on tournament day.
+                {% when 4 %}Geology, weather, climate, and astronomy events built on exams, maps, and real data.
+                {% when 5 %}Events about how science gets done: designing experiments, reading evidence, and problem solving.
+                {% endcase %}
+            </p>
+            <ul class="area-people">
+                {% for m in group.members %}
+                <li>
+                    {% if m.photoName != "" %}<img src="{{ site.baseurl }}/img/team/2026/{{ m.photoName }}.jpg" alt="" width="48" height="60" loading="lazy">{% else %}<span class="avatar" aria-hidden="true">{{ m.Name | slice: 0 }}</span>{% endif %}
+                    <span><b>{{ m.Name }}</b>{{ m.Position }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ol>
+
+    <p class="note">Rules and clarifications for every event are linked on the <a href="{{ site.baseurl }}/tournament/#rules">Tournament</a> page.</p>
+</div>

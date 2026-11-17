@@ -54,6 +54,35 @@
   }
   if (root.classList.contains('shot')) targets.forEach(function (t) { t.classList.add('in'); });
 
+  /* Coaches' guide: date list states, registration window, in-page index */
+  document.querySelectorAll('[data-timeline]').forEach(function (list) {
+    var now = Date.now(), marked = false;
+    list.querySelectorAll('li[data-date]').forEach(function (li) {
+      if (Date.parse(li.dataset.date) < now) li.classList.add('done');
+      else if (!marked) { li.classList.add('next'); marked = true; }
+    });
+  });
+  document.querySelectorAll('[data-window-from]').forEach(function (el) {
+    var now = Date.now(), from = Date.parse(el.dataset.windowFrom), until = Date.parse(el.dataset.windowUntil);
+    el.dataset.state = now < from ? 'before' : now > until ? 'after' : 'open';
+  });
+  var rail = document.querySelector('.rail');
+  if (rail && 'IntersectionObserver' in window) {
+    var links = {};
+    rail.querySelectorAll('a[href^="#"]').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        Object.keys(links).forEach(function (k) { links[k].classList.toggle('active', k === en.target.id); });
+      });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+    Object.keys(links).forEach(function (id) { var sec = document.getElementById(id); if (sec) spy.observe(sec); });
+  }
+  /* Sponsor tabs: keyboard support (click handling lives in main.js) */
+  document.querySelectorAll('.tabs .tab').forEach(function (t) {
+    t.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); t.click(); } });
+  });
+
   /* The broth inside the O: alphabet pasta circling a slanted pill, stirred by pointer */
   var c = document.getElementById('broth');
   if (!c) return;
