@@ -11,6 +11,15 @@
         ],
         "createdAt": "2026-11-17T14:08:51.096Z",
         "reason": "Claude triage: css/soup.css L312 is a 4px bottom underline that grows on team-photo hover, not a side border on a card"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "_layouts/redirect.html"
+        ],
+        "createdAt": "2026-11-17T14:28:11.294Z",
+        "reason": "Claude triage: #F5F0E8 is the established site ground in css/soup.css (Soup Park world the user picked and approved); the redirect stub just matches it for its split-second flash"
       }
     ]
   }
