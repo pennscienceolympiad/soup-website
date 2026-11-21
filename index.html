@@ -46,11 +46,11 @@ layout: front
     </div>
 </section>
 
-<section class="section band" aria-labelledby="recipe-title">
+<section class="section" aria-labelledby="recipe-title">
     <div class="wrap recipe">
-        <div class="reveal">
-            <h2 class="section-title" id="recipe-title">What goes into <em>SOUP</em></h2>
-            <p class="lede">Every February, Penn students who grew up on Science Olympiad write the tests, build the builds, and run the rooms for one of the most competitive college-hosted Division C invitationals in the country. Coaches get to watch their teams instead of running an event.</p>
+        <div>
+            <h2 class="section-title" id="recipe-title">What goes into SOUP</h2>
+            <p class="lede">Every February, Penn students who grew up on Science Olympiad write the tests, build the builds, and run the rooms for a Division C invitational. Coaches get to watch their teams instead of running an event.</p>
             <ol class="method">
                 <li><div><b>Register in the fall</b><span>Pennsylvania teams get a head start, then registration opens to everyone.</span></div></li>
                 <li><div><b>Get the info document and waivers</b><span>Every competitor needs a signed liability waiver and photo release.</span></div></li>
@@ -58,15 +58,15 @@ layout: front
                 <li><div><b>Take the tests home</b><span>Results go up afterward, along with tests and keys to study from.</span></div></li>
             </ol>
         </div>
-        <div class="recipe-card reveal" aria-label="Recipe card">
+        <div class="recipe-card" aria-label="Recipe card">
             <h3>Penn Invitational Soup<small>Serves one Saturday, since 2017</small></h3>
             <ul>
-                <li><span class="qty">67</span><span>Division C teams from across the country (2026)</span></li>
-                <li><span class="qty">1</span><span>full slate of Division C events</span></li>
-                <li><span class="qty">10</span><span>years of invitationals at Penn</span></li>
-                <li><span class="qty">all</span><span>tests and builds written by Science Olympiad alumni</span></li>
-                <li><span class="qty">1</span><span>campus in West Philadelphia</span></li>
-                <li><span class="qty">to taste</span><span>medals, T-shirts, and Chipotle on the floor</span></li>
+                <li><span class="qty">67</span><span>Division C teams (2026)</span></li>
+                <li><span class="qty">15</span><span>students per team, at most</span></li>
+                <li><span class="qty">2</span><span>teams per school, at most</span></li>
+                <li><span class="qty">$250</span><span>per team, waived for Philadelphia school district high schools</span></li>
+                <li><span class="qty">10</span><span>Invitationals so far</span></li>
+            </ul>
             </ul>
         </div>
     </div>
@@ -74,10 +74,10 @@ layout: front
 
 <section class="section" aria-labelledby="pots-title">
     <div class="wrap">
-        <div class="pots-head reveal">
+        <div class="pots-head">
             <div>
-                <h2 class="section-title" id="pots-title">A decade of <em>full pots</em></h2>
-                <p class="lede">Each bowl is filled to the number of teams that came that year.</p>
+                <h2 class="section-title" id="pots-title">A decade of full pots</h2>
+                <p class="lede">Each bowl fills to the number of teams that came that year.</p>
             </div>
             <a class="btn secondary" href="{{ site.baseurl }}/archive/">Past tournaments</a>
         </div>
@@ -90,7 +90,7 @@ layout: front
                         <clipPath id="bowl-{{ pot.year }}"><path d="M8 26 C 10 70, 34 86, 60 86 C 86 86, 110 70, 112 26 Z"/></clipPath>
                         <linearGradient id="broth-{{ pot.year }}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2C47A"/><stop offset="1" stop-color="#C77A2C"/></linearGradient>
                     </defs>
-                    <path d="M8 26 C 10 70, 34 86, 60 86 C 86 86, 110 70, 112 26 Z" fill="#E2D9C9"/>
+                    <path d="M8 26 C 10 70, 34 86, 60 86 C 86 86, 110 70, 112 26 Z" fill="#DFE4EE"/>
                     <g clip-path="url(#bowl-{{ pot.year }})">
                         <g class="fill" style="transform-box: fill-box">
                             <rect x="0" y="26" width="120" height="62" fill="url(#broth-{{ pot.year }})"/>
@@ -109,36 +109,34 @@ layout: front
     </div>
 </section>
 
-<section class="section band" aria-labelledby="ui-title">
-    <div class="wrap feature">
-        <figure class="feature-photo reveal">
-            <img src="{{ site.baseurl }}/img/team/2026/ui-directors.jpg" alt="Urban Initiative leads Jacob Flores Zeranski and Amanda Chen in a Penn hallway" loading="lazy" style="object-position: 50% 35%">
-        </figure>
-        <div class="reveal">
-            <h2 class="section-title" id="ui-title">Soup for the <em>whole city</em></h2>
-            <p>Through Urban Initiative, about twenty Penn undergraduates mentor students at Hamilton and Mitchell Middle Schools in West Philadelphia every week, in partnership with the Moelis Access Science Program.</p>
-            <a class="btn secondary" href="{{ site.baseurl }}/mentoring/">About Urban Initiative</a>
-        </div>
+<section class="section band blue" aria-label="Urban Initiative and the board">
+    <div class="wrap pair">
+        <article>
+            <figure class="feature-photo">
+                <img src="{{ site.baseurl }}/img/team/2026/ui-directors.jpg" alt="Urban Initiative leads Jacob Flores Zeranski and Amanda Chen in a Penn hallway" loading="lazy" style="object-position: 50% 35%">
+            </figure>
+            <h2><a href="{{ site.baseurl }}/mentoring/">Urban Initiative</a></h2>
+            <p>About twenty Penn undergraduates mentor students at Hamilton and Mitchell Middle Schools in West Philadelphia every week, with the Moelis Access Science Program.</p>
+        </article>
+        <article>
+            <figure class="feature-photo">
+                <img src="{{ site.baseurl }}/img/team/2026/board-soup.jpg" alt="The 2026–2027 SOUP board posing in a Penn hallway" loading="lazy" style="object-position: 50% 40%">
+            </figure>
+            <h2><a href="{{ site.baseurl }}/ourTeam/">The 2026–27 board</a></h2>
+            <p>Seventeen Penn students: tournament directors, VPs, and the event directors who write the tests and builds.</p>
+        </article>
     </div>
 </section>
 
-<section class="section" aria-labelledby="board-title">
-    <div class="wrap feature flip">
-        <figure class="feature-photo reveal">
-            <img src="{{ site.baseurl }}/img/team/2026/board-soup.jpg" alt="The 2026–2027 SOUP board posing in a Penn hallway" loading="lazy" style="object-position: 50% 40%">
-        </figure>
-        <div class="reveal">
-            <h2 class="section-title" id="board-title">The cooks for <em>2026–27</em></h2>
-            <p>Seventeen Penn students run SOUP: tournament directors, VPs, and the event directors who write and run every test and build.</p>
-            <a class="btn secondary" href="{{ site.baseurl }}/ourTeam/">Meet the board</a>
+<section class="section" aria-labelledby="partners-title">
+    <div class="wrap">
+        <div class="pots-head">
+            <div>
+                <h2 class="section-title" id="partners-title">Who pays for the soup</h2>
+                <p class="lede">Penn departments, the Student Activities Council, and these sponsors in 2025.</p>
+            </div>
+            <a class="btn secondary" href="{{ site.baseurl }}/sponsors/">Support SOUP</a>
         </div>
-    </div>
-</section>
-
-<section class="section band centered" aria-labelledby="partners-title">
-    <div class="wrap reveal">
-        <h2 class="section-title" id="partners-title">Thanks to our <em>partners</em></h2>
-        <p class="lede">SOUP is funded by Penn departments, the Student Activities Council, and sponsors who believe in science education.</p>
         <ul class="partners">
             <li><img src="{{ site.baseurl }}/sponsors_2023/jane-street.png" alt="Jane Street" loading="lazy"></li>
             <li><img src="{{ site.baseurl }}/sponsors_2023/HRT_logo.png" alt="Hudson River Trading" loading="lazy"></li>
@@ -149,7 +147,6 @@ layout: front
             <li><img src="{{ site.baseurl }}/sponsors_2021/physics.png" alt="Penn Physics and Astronomy" loading="lazy"></li>
             <li><img src="{{ site.baseurl }}/sponsors_2021/sac.png" alt="Penn Student Activities Council" loading="lazy"></li>
         </ul>
-        <p style="margin-top: 40px"><a class="btn" href="{{ site.baseurl }}/sponsors/">Support SOUP</a></p>
     </div>
 </section>
 

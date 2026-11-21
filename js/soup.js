@@ -1,4 +1,4 @@
-/* SOUP site behavior: nav, timeline state, reveals, and the stirrable broth. */
+/* SOUP site behavior: nav, timeline state, bowl fills, and the stirrable broth. */
 (function () {
   var root = document.documentElement;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -42,8 +42,8 @@
     }
   }
 
-  /* Scroll reveals + bowls filling */
-  var targets = document.querySelectorAll('.reveal, .pots');
+  /* Bowls fill as they scroll into view */
+  var targets = document.querySelectorAll('.pots');
   if ('IntersectionObserver' in window && !reduce) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
